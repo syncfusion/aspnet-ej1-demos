@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebSampleBrowser.ListBox
+{
+    public partial class Event : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+        protected void select1_ValueSelect(object sender, Syncfusion.JavaScript.Web.ListBoxEventArgs e)
+        {
+            this.EventLog.InnerHtml = string.Format("{0}{1}{2}", e.Text, " &nbsp;<span class='eventTitle'> was Selected</span>.\r\n<br/>", this.EventLog.InnerHtml);
+        }
+
+    
+        protected void Clear_Click(object Sender, Syncfusion.JavaScript.Web.ButtonEventArgs e)
+        {
+            this.EventLog.InnerHtml = string.Empty;
+        }
+
+    }
+}

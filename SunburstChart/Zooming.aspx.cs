@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebSampleBrowser.Sunburst
+{
+    public partial class Zooming : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            this.container.DataSource = ZoomingData.GetZoomingList();
+			this.container.Palette = new List<string>() { "#002e4d", "#005c99", "#008ae6", "#33adff", "#80ccff" };
+            
+        }
+    }    
+}

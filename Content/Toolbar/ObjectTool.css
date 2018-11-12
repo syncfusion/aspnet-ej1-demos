@@ -1,0 +1,75 @@
+﻿
+        
+        .e-tooltxt .mailtools
+        {
+            display: block;
+            background-image: url('../images/toolbar/maill.png');
+            height: 24px;
+            width: 24px;
+            background-repeat: no-repeat;
+        }
+        .e-tooltxt:hover .mailtools
+        {
+            background-image: url('../images/toolbar/mailh.png');
+        }
+
+            .mailtools.done
+            {
+                background-position: -11px -140px;
+            }
+
+            .mailtools.movetofolder
+            {
+                background-position: -12px -40px;
+            }
+
+            .mailtools.categorize
+            {
+                background-position: -14px -248px;
+            }
+
+            .mailtools.flag
+            {
+                background-position: -13px -282px;
+            }
+
+            .mailtools.forward
+            {
+                background-position: -14px -314px;
+            }
+
+            .mailtools.newmail
+            {
+                background-position: -14px -348px;
+            }
+
+            .mailtools.reply
+            {
+                background-position: -14px -388px;
+            }
+            .frame
+        {
+            width: 60%;
+        }
+
+        .control
+        {
+            color: black;
+            font-family: 'Segoe UI';
+            font-size: medium;
+        }
+
+        .ctrllabel
+        {
+            padding-bottom: 3px;
+        }
+       
+        .toolhor {
+         padding: 30px 80px;
+         }
+         .toolver {
+         padding: 10px 220px;
+         }
+    
+
+            

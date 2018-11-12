@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebSampleBrowser.TagCloud
+{
+    public partial class Events : System.Web.UI.Page
+    {
+        
+        protected void Page_Load(object sender, EventArgs e)
+        {       
+             
+        }
+
+        protected void tagEvents_Click(object sender, Syncfusion.JavaScript.Web.TagCloudEventArgs e)
+        {
+            this.EventLog.InnerHtml = string.Format("{0}{1}{2}{3}", "\n TagCloud Item ", e.Value, " has been <span class='eventTitle'> clicked</span>. \r\n <br> \r\n", this.EventLog.InnerHtml);
+        }
+
+        protected void Clear_Click(object Sender, Syncfusion.JavaScript.Web.ButtonEventArgs e)
+        {
+            this.EventLog.InnerHtml = string.Empty;
+        }
+    }
+    
+}

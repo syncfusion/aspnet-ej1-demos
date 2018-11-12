@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TreeGridXML>
+  <Task Id="1" Name="Planning Schedule" StartDate="02/04/2017" EndDate="02/06/2017" Progress="40" Duration="4"/>
+  <Task Id="2" Name="Planning" StartDate="02/04/2017" EndDate="02/08/2017" Duration="4" Progress="40" ParentId="1"/>
+  <Task Id="3" Name="Plan Timeline" StartDate="02/04/2017" EndDate="02/08/2017" Duration="4" Progress="50" ParentId="2"/>
+  <Task Id="4" Name="Plan Budget" StartDate="02/04/2017" EndDate="02/08/2017" Duration="4" Progress="60" ParentId="2"/>
+  <Task Id="5" Name="Allocate Resources" StartDate="02/04/2017" EndDate="02/08/2017" Duration="4" Progress="30" ParentId="2"/>
+  <Task Id="6" Name="Planning Complete" StartDate="02/04/2017" EndDate="02/08/2017" Duration="4" Progress="70" ParentId="2"/>
+  <Task Id="7" Name="Design" StartDate="02/06/2017" EndDate="02/10/2017" Duration="5" Progress="80" ParentId="1"/>
+  <Task Id="8" Name="Software Specification" StartDate="02/06/2017" EndDate="02/10/2017" Duration="5" Progress="50" ParentId="7"/>
+  <Task Id="9" Name="Develop Prototype" StartDate="02/06/2017" EndDate="02/10/2017" Duration="5" Progress="40" ParentId="7"/>
+  <Task Id="10" Name="Get Approval from Customer" StartDate="02/06/2017" EndDate="02/10/2017" Duration="5" Progress="60" ParentId="7"/>
+  <Task Id="11" Name="Design Complete" StartDate="02/06/2017" EndDate="02/10/2017" Duration="5" Progress="10" ParentId="7"/>
+</TreeGridXML>

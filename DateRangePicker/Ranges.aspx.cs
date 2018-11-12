@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebSampleBrowser.DateRangePicker
+{
+    public partial class Ranges : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            DateTime Today = DateTime.Now;
+                        
+            this.dateRange.Ranges.AddRange(new[] { new Syncfusion.JavaScript.Models.DateRanges() {
+                  Label = "Last 1 Month",
+                 Range = new List<Object>() { Today.AddMonths(-1).ToString(), Today.ToString() }
+            },
+            new Syncfusion.JavaScript.Models.DateRanges
+            {
+                  Label = "Last 2 Months",
+                  Range = new List<Object>() { Today.AddMonths(-2).ToString(), Today.ToString() }
+            },
+            new Syncfusion.JavaScript.Models.DateRanges{
+                  Label = "Last Week",
+                  Range = new List<Object>() { Today.AddDays(-7).ToString(), Today.ToString() }
+          
+            }
+            });          
+        }
+    }
+}

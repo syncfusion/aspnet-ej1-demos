@@ -9,9 +9,8 @@ The following sections will guide you through using the Syncfusion Essential JS1
 * [How to run the samples](#how-to-run-the-samples)
 * [Controls catalog](#controls-catalog)
 * [Demos](#demos)
-* [Support](#support)
 * [Release Notes](#release-notes)
-* [License Information](#license-information)
+* [Support and Feedback](#support-and-feedback)
 
 ## Requirements to run the demos
 
@@ -103,14 +102,12 @@ Take a look at the Syncfusion Essential JS 1 for ASP.NET live demos.
 
 Download our ASP.NET Platform installer from [here](https://www.syncfusion.com/downloads/aspnet/?utm_source=github&utm_medium=listing).
 
-## Support
-
-In case of any questions regarding the use of Syncfusion Essential JS 1 for ASP.NET, please [contact us](https://www.syncfusion.com/support/?utm_source=github&utm_medium=listing) by creating a support ticket.
-
 ## Release Notes
 
 Refer the Syncfusion Essential JS 1 for ASP.NET Product Release Notes in [online Release Notes at Syncfusion](https://help.syncfusion.com/aspnet/release-notes/?utm_source=github&utm_medium=listing).
 
-## License Information
+## Support and Feedback
 
-For licensing information about Syncfusion Essential JS 1 for ASP.NET, Download the Syncfusion License Agreements from [here](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf).
+* For any other queries, reach our [Syncfusion support team](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=github&utm_medium=listing) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing).
+
+* To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.

@@ -6,6 +6,7 @@ The following sections will guide you through using the Syncfusion Essential JS1
 
 * [Requirements to run the demos](#requirements-to-run-the-demos)
 * [License](#license)
+* [Using the samples](#using-the-samples)
 * [How to run the samples](#how-to-run-the-samples)
 * [Controls catalog](#controls-catalog)
 * [Demos](#demos)
@@ -23,9 +24,7 @@ The following sections will guide you through using the Syncfusion Essential JS1
 
 Syncfusion has no liability for any damage or consequence that may arise by the use or viewing of the samples. The samples are for demonstrative purposes and if you choose to use or access the samples you agree to not hold Syncfusion liable, in any form, for any damage that is related to use, accessing or otherwise viewing the samples. By accessing, viewing, or otherwise seeing the samples you acknowledge and agree Syncfusion’s samples will not allow you to seek injunctive relief in any form for any claim related to the sample. If you do not agree to this, do not view, access, utilize or otherwise do anything with Syncfusion’s samples.
 
-## How to run the samples
-
-### Download the samples
+## <a name="using-the-samples"></a>Using the samples ##
 
 The easiest way to use these samples without using Git is to download the zip file containing the current version (using the following link or by clicking the "Download ZIP" button on the repo page). You can then unzip the entire archive and use the samples.
 
@@ -35,19 +34,20 @@ The easiest way to use these samples without using Git is to download the zip fi
    * Before you unzip the archive, right-click it, select **Properties**, and then select **Unblock**.
    * Be sure to unzip the entire archive, and not just individual samples. The samples all depend on the SharedContent folder in the archive.  
 
+**To use the Syncfusion ASP.NET Web Forms samples, Syncfusion license key should be registered in SyncfusionLicense.txt file. Refer [this](https://www.syncfusion.com/kb/9002?utm_source=github&utm_medium=listing) link for more information.**
+
+
+
+**Reminder:** If you unzip individual samples, they will not build due to references to other portions of the ZIP file that were not unzipped. You must unzip the entire archive if you intend to build the samples.
+
+## How to run the samples
+
 If you clone the application, run **git clone <repository-url>** to clone the repository.
 Run the samples
 
 * Open the project in visual studio based on project solution file.
 * Build the project which will automatically restore all packages and scripts.
 * Run the application.
-
-**To use the Syncfusion ASP.NET Web samples, Syncfusion license key should be registered in SyncfusionLicense.txt file. Refer [this](https://www.syncfusion.com/kb/9002?utm_source=github&utm_medium=listing) link for more information.**
-
-
-
-**Reminder:** If you unzip individual samples, they will not build due to references to other portions of the ZIP file that were not unzipped. You must unzip the entire archive if you intend to build the samples.
-
 
 ## Controls Catalog
 

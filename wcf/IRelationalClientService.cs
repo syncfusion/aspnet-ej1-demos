@@ -1,5 +1,5 @@
-#region Copyright Syncfusion Inc. 2001-2018.
-// Copyright Syncfusion Inc. 2001-2018. All rights reserved.
+#region Copyright Syncfusion Inc. 2001-2019.
+// Copyright Syncfusion Inc. 2001-2019. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
 // licensing@syncfusion.com. Any infringement will be prosecuted under
@@ -22,6 +22,8 @@ namespace WebSampleBrowser
         Dictionary<string, object> InitializeClient(string action, string clientParams);
         [OperationContract]
         Dictionary<string, object> FetchMembers(string action, string currentReport, string customObject, string headerTag);
+        [OperationContract]
+        Dictionary<string, object> ChangeSummaryType(string action, string currentReport, string summaryType);
         [OperationContract]
         Dictionary<string, object> DrillChart(string action, string drilledSeries, string currentReport);
         [OperationContract]

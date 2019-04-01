@@ -16,28 +16,29 @@
         }
         $("#sampleProperties").ejPropertiesPanel();
     </script>
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="StyleSection" runat="server">
+	<style>
 
-<style>
+		.frame {
+		padding: 50px;
+		width: 223px;
+	}
 
-    .frame {
-    padding: 50px;
-    width: 223px;
-}
+	.material .frame{
+		width: 265px;
+		}
 
-.material .frame{
-    width: 265px;
-    }
+	@media (max-width: 979px) and (min-width: 312px){
+		.frame {
+			width: 223px !important;
+			padding: 50px !important;
+		}
+		.material .frame{
+		width: 265px !important;
 
-@media (max-width: 979px) and (min-width: 312px){
-    .frame {
-        width: 223px !important;
-        padding: 50px !important;
-    }
-    .material .frame{
-    width: 265px !important;
-
-    }
-}
-</style>
+		}
+	}
+	</style>
 </asp:Content>
 

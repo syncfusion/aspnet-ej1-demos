@@ -1,5 +1,5 @@
-#region Copyright Syncfusion Inc. 2001-2018.
-// Copyright Syncfusion Inc. 2001-2018. All rights reserved.
+#region Copyright Syncfusion Inc. 2001-2019.
+// Copyright Syncfusion Inc. 2001-2019. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
 // licensing@syncfusion.com. Any infringement will be prosecuted under
@@ -86,6 +86,15 @@ namespace WebSampleBrowser
 
         public override bool CreateReport(string reportName, string folderName, byte[] reportdata, out string exception)
         {
+            var rptTemplate = System.Configuration.ConfigurationManager.AppSettings["RptTemplates"];
+            var templates = rptTemplate.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
+
+            if (templates.Contains(reportName))
+            {
+                exception = "Cannot overwrite template report. Please use Save As and provide a new name for this report.";
+                return false;
+            } 
+
             string tmpReportName = reportName;
             exception = null;
             string catagoryName = null;
@@ -95,7 +104,7 @@ namespace WebSampleBrowser
                 catagoryName = folderName.TrimStart('/').TrimEnd('/').Trim();
             }
 
-            if (string.IsNullOrEmpty(catagoryName) && folderName != null && folderName != "/")
+            if (string.IsNullOrEmpty(catagoryName) && folderName != null && folderName != "/" && string.IsNullOrEmpty(tmpReportName))
             {
                 exception = "Please select any category";
                 return false;
@@ -110,7 +119,7 @@ namespace WebSampleBrowser
             string reportPat = targetFolder + catagoryName + @"\" + reportName;
             File.WriteAllBytes(reportPat, reportdata.ToArray());
 
-            return false;
+            return true;
         }
 
         public override System.IO.Stream GetReport()

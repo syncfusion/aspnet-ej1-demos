@@ -57,7 +57,7 @@
                 },
                 primaryXAxis:
                 {
-                    rangePadding: 'Additional',
+                    rangePadding: 'none',
                     labelRotation: 45,
                     title: { text: "City" }
                 },

@@ -2,10 +2,22 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ControlsSection" runat="server">
    <div style = "font-size: 17px;font-weight: 400;">
-			      This sample demonstrates the creation of PDF/A-1b standard document from the scratch to create a self-contained document. It is also possible to create a PDF/X-1a from the scratch.
+			      This sample demonstrates various PDF conformance support in Essential PDF. Essential PDF provides support for PDF/A-1b, PDF/A-2b, PDF/A-3b, and PDF/X-1a 2001 conformance.
 	</div>
 	<br/>
-
+					<div style="border: solid 1px #788DB3; padding: 5px 7px 5px 7px; background-color: #EDF0F7;">
+                    <table width="100%">
+                        <tr>
+                            <td align="left">
+                                <asp:RadioButton GroupName="conformancelevel" Width="165px" ID="radioButton1" Style="margin-left: 10px" runat="server" Checked="true" Text="&nbsp;&nbsp;PDF/A-1b" />
+                                <asp:RadioButton GroupName="conformancelevel" Width="165px" ID="radioButton2" runat="server" Text="&nbsp;&nbsp;PDF/A-2b" />
+                                <asp:RadioButton GroupName="conformancelevel" Width="165px" ID="radioButton3" runat="server" Text="&nbsp;&nbsp;PDF/A-3b" />
+								<asp:RadioButton GroupName="conformancelevel" Width="165px" ID="radioButton4" runat="server" Text="&nbsp;&nbsp;PDF/X-1a 2001" />
+                            </td>
+                        </tr>
+                    </table>
+					</div>
+					<br />
                     <div style="border: solid 1px #788DB3; padding: 5px 7px 5px 7px; background-color: #EDF0F7;">
                         <table>
                             <tr>

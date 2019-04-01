@@ -1,5 +1,5 @@
-#region Copyright Syncfusion Inc. 2001-2018.
-// Copyright Syncfusion Inc. 2001-2018. All rights reserved.
+#region Copyright Syncfusion Inc. 2001-2019.
+// Copyright Syncfusion Inc. 2001-2019. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
 // licensing@syncfusion.com. Any infringement will be prosecuted under
@@ -38,6 +38,15 @@ namespace WebSampleBrowser
         {
             this.BindData();
             return pivotClient.GetJsonData(jsonResult["action"].ToString(), ProductSales.GetSalesData(), jsonResult["clientParams"].ToString());
+        }
+
+        [System.Web.Http.ActionName("ChangeSummaryType")]
+        [System.Web.Http.HttpPost]
+        public Dictionary<string, object> ChangeSummaryType(Dictionary<string, object> jsonResult)
+        {
+            pivotClient.PopulateData(jsonResult["currentReport"].ToString());
+            var dictionary = pivotClient.GetJsonData(jsonResult["action"].ToString(), ProductSales.GetSalesData(), jsonResult["summaryType"].ToString());
+            return dictionary;
         }
 
         [System.Web.Http.ActionName("FetchMembers")]

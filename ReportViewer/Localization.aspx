@@ -23,7 +23,6 @@
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="ScriptSection">
     <style type="text/css">
     #ReportViewer1 {
-        width: 992px;
         height:665px;
 		display: inline-block;
     }

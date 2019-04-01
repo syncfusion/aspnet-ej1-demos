@@ -26,7 +26,7 @@
                             <table width="100%" cellpadding="50" cellspacing="50" border="0">
                                  <tr>
                                     <td align="left">
-                                       <asp:CheckBox runat="server" ID="chkBox1" Checked="True" Text="Enables fast rendering, generates PDF faster." />
+                                       <asp:CheckBox runat="server" ID="chkBox1" Text="Enables fast rendering, generates PDF faster." />
                                     </td>
                                 </tr>
                                  <tr>

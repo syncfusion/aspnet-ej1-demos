@@ -74,98 +74,98 @@
       <HintPath>packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SpellChecker.Base">
-      <HintPath>packages\Syncfusion.SpellChecker.Base.16.4.0.42\lib\net46\Syncfusion.SpellChecker.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.SpellChecker.Base.17.1.0.38\lib\net46\Syncfusion.SpellChecker.Base.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="Syncfusion.Presentation.Base">
-      <HintPath>packages\Syncfusion.Presentation.AspNet.16.4.0.42\lib\net46\Syncfusion.Presentation.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Presentation.AspNet.17.1.0.38\lib\net46\Syncfusion.Presentation.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.OfficeChart.Base">
-      <HintPath>packages\Syncfusion.OfficeChart.Base.16.4.0.42\lib\net46\Syncfusion.OfficeChart.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.OfficeChart.Base.17.1.0.38\lib\net46\Syncfusion.OfficeChart.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.OfficeChartToImageConverter.Wpf">
-      <HintPath>packages\Syncfusion.OfficeChartToImageConverter.AspNet.16.4.0.42\lib\net46\Syncfusion.OfficeChartToImageConverter.Wpf.dll</HintPath>
+      <HintPath>packages\Syncfusion.OfficeChartToImageConverter.AspNet.17.1.0.38\lib\net46\Syncfusion.OfficeChartToImageConverter.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.PresentationToPdfConverter.Base">
-      <HintPath>packages\Syncfusion.PresentationToPdfConverter.AspNet.16.4.0.42\lib\net46\Syncfusion.PresentationToPdfConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.PresentationToPdfConverter.AspNet.17.1.0.38\lib\net46\Syncfusion.PresentationToPdfConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfChart.WPF">
-      <HintPath>packages\Syncfusion.SfChart.WPF.16.4.0.42\lib\net46\Syncfusion.SfChart.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfChart.WPF.17.1.0.38\lib\net46\Syncfusion.SfChart.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ">
-      <HintPath>packages\Syncfusion.Web.Base.16.4.0.42\lib\net46\Syncfusion.EJ.dll</HintPath>
+      <HintPath>packages\Syncfusion.Web.Base.17.1.0.38\lib\net46\Syncfusion.EJ.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.Web">
-      <HintPath>packages\Syncfusion.AspNet.16.4.0.42\lib\net46\Syncfusion.EJ.Web.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.17.1.0.38\lib\net46\Syncfusion.EJ.Web.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.Pivot">
-      <HintPath>packages\Syncfusion.AspNet.Pivot.16.4.0.42\lib\net46\Syncfusion.EJ.Pivot.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.Pivot.17.1.0.38\lib\net46\Syncfusion.EJ.Pivot.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.HtmlConverter.Base">
-      <HintPath>packages\Syncfusion.HtmlToPdfConverter.IE.AspNet.16.4.0.42\lib\net46\Syncfusion.HtmlConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.HtmlToPdfConverter.IE.AspNet.17.1.0.38\lib\net46\Syncfusion.HtmlConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Olap.Base">
-      <HintPath>packages\Syncfusion.Olap.Base.16.4.0.42\lib\net46\Syncfusion.Olap.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Olap.Base.17.1.0.38\lib\net46\Syncfusion.Olap.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Compression.Base">
-      <HintPath>packages\Syncfusion.Compression.Base.16.4.0.42\lib\net46\Syncfusion.Compression.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Compression.Base.17.1.0.38\lib\net46\Syncfusion.Compression.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.DocIO.Base">
-      <HintPath>packages\Syncfusion.DocIO.AspNet.16.4.0.42\lib\net46\Syncfusion.DocIO.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.DocIO.AspNet.17.1.0.38\lib\net46\Syncfusion.DocIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Pdf.Base">
-      <HintPath>packages\Syncfusion.Pdf.AspNet.16.4.0.42\lib\net46\Syncfusion.Pdf.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Pdf.AspNet.17.1.0.38\lib\net46\Syncfusion.Pdf.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.PdfViewer">
-      <HintPath>packages\Syncfusion.AspNet.PdfViewer.16.4.0.42\lib\net46\Syncfusion.EJ.PdfViewer.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.PdfViewer.17.1.0.38\lib\net46\Syncfusion.EJ.PdfViewer.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.PivotAnalysis.Base">
-      <HintPath>packages\Syncfusion.PivotAnalysis.Base.16.4.0.42\lib\net46\Syncfusion.PivotAnalysis.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.PivotAnalysis.Base.17.1.0.38\lib\net46\Syncfusion.PivotAnalysis.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.DocToPDFConverter.Base">
-      <HintPath>packages\Syncfusion.DocToPDFConverter.AspNet.16.4.0.42\lib\net46\Syncfusion.DocToPDFConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.DocToPDFConverter.AspNet.17.1.0.38\lib\net46\Syncfusion.DocToPDFConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.XlsIO.Base">
-      <HintPath>packages\Syncfusion.XlsIO.AspNet.16.4.0.42\lib\net46\Syncfusion.XlsIO.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.XlsIO.AspNet.17.1.0.38\lib\net46\Syncfusion.XlsIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.ExcelChartToImageConverter.WPF">
-      <HintPath>packages\Syncfusion.ExcelChartToImageConverter.AspNet.16.4.0.42\lib\net46\Syncfusion.ExcelChartToImageConverter.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.ExcelChartToImageConverter.AspNet.17.1.0.38\lib\net46\Syncfusion.ExcelChartToImageConverter.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.ExcelToPdfConverter.Base">
-      <HintPath>packages\Syncfusion.ExcelToPdfConverter.AspNet.16.4.0.42\lib\net46\Syncfusion.ExcelToPdfConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.ExcelToPdfConverter.AspNet.17.1.0.38\lib\net46\Syncfusion.ExcelToPdfConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.ReportViewer">
-      <HintPath>packages\Syncfusion.AspNet.ReportViewer.16.4.0.42\lib\net46\Syncfusion.EJ.ReportViewer.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.ReportViewer.17.1.0.38\lib\net46\Syncfusion.EJ.ReportViewer.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.ReportDesigner">
-      <HintPath>packages\Syncfusion.Web.ReportDesigner.16.4.0.42\lib\net46\Syncfusion.EJ.ReportDesigner.dll</HintPath>
+      <HintPath>packages\Syncfusion.Web.ReportDesigner.17.1.0.38\lib\net46\Syncfusion.EJ.ReportDesigner.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Shared.WPF">
-      <HintPath>packages\Syncfusion.Shared.WPF.16.4.0.42\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Shared.WPF.17.1.0.38\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Chart.WPF">
-      <HintPath>packages\Syncfusion.Chart.WPF.16.4.0.42\lib\net46\Syncfusion.Chart.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Chart.WPF.Classic.17.1.0.38\lib\net46\Syncfusion.Chart.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Gauge.WPF">
-      <HintPath>packages\Syncfusion.Gauge.WPF.16.4.0.42\lib\net46\Syncfusion.Gauge.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Gauge.WPF.17.1.0.38\lib\net46\Syncfusion.Gauge.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfMaps.WPF">
-      <HintPath>packages\Syncfusion.SfMaps.WPF.16.4.0.42\lib\net46\Syncfusion.SfMaps.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfMaps.WPF.17.1.0.38\lib\net46\Syncfusion.SfMaps.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.RichtextBoxAdv.WPF">
-      <HintPath>packages\Syncfusion.RichtextBoxAdv.WPF.16.4.0.42\lib\net46\Syncfusion.RichtextBoxAdv.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.RichTextBoxAdv.WPF.Classic.17.1.0.38\lib\net46\Syncfusion.RichtextBoxAdv.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.Export">
-      <HintPath>packages\Syncfusion.Web.Base.16.4.0.42\lib\net46\Syncfusion.EJ.Export.dll</HintPath>
+      <HintPath>packages\Syncfusion.Web.Base.17.1.0.38\lib\net46\Syncfusion.EJ.Export.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.PMML.Base">
-      <HintPath>packages\Syncfusion.PMML.AspNet.16.4.0.42\lib\net46\Syncfusion.PMML.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.PMML.AspNet.17.1.0.38\lib\net46\Syncfusion.PMML.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Linq.Base">
-      <HintPath>packages\Syncfusion.Linq.Base.16.4.0.42\lib\net46\Syncfusion.Linq.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Linq.Base.17.1.0.38\lib\net46\Syncfusion.Linq.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Licensing">
-      <HintPath>packages\Syncfusion.Licensing.16.4.0.42\lib\net46\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.17.1.0.38\lib\net46\Syncfusion.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Runtime.Serialization" />
@@ -4733,6 +4733,7 @@
     <Content Include="Pdf\OverlayDocuments.aspx" />
     <Content Include="Pdf\PDFA.aspx" />
     <Content Include="Pdf\PDFA1bConverter.aspx" />
+    <Content Include="Pdf\Zugferd.aspx" />
     <Content Include="Pdf\PDFCompression.aspx" />
     <Content Include="Pdf\CompressExistingPDF.aspx" />
     <Content Include="Pdf\AutoTag.aspx" />
@@ -4980,6 +4981,7 @@
     <Content Include="UploadBox\Events.aspx" />
     <Content Include="UploadBox\FileInput.aspx" />
     <Content Include="XlsIO\AutoShapes.aspx" />
+    <Content Include="XlsIO\AttendanceTracker.aspx" />
     <Content Include="XlsIO\BudgetPlanner.aspx" />
     <Content Include="XlsIO\CLRObjects.aspx" />
     <Content Include="XlsIO\ExcelToODS.aspx" />
@@ -8522,6 +8524,20 @@
     <Compile Include="Pdf\PDFA1bConverter.aspx.designer.cs">
       <DependentUpon>PDFA1bConverter.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pdf\Zugferd.aspx.cs">
+      <DependentUpon>Zugferd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pdf\Zugferd.aspx.designer.cs">
+      <DependentUpon>Zugferd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pdf\ZugFerd\CountryCodes.cs" />
+    <Compile Include="Pdf\ZugFerd\CurrencyCodes.cs" />
+    <Compile Include="Pdf\ZugFerd\InvoiceType.cs" />
+    <Compile Include="Pdf\ZugFerd\Product.cs" />
+    <Compile Include="Pdf\ZugFerd\UserDetails.cs" />
+    <Compile Include="Pdf\ZugFerd\ZugferdInvoice.cs" />
+    <Compile Include="Pdf\ZugFerd\ZugferdProfile.cs" />
     <Compile Include="Pdf\PDFCompression.aspx.cs">
       <DependentUpon>PDFCompression.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -10127,6 +10143,13 @@
     </Compile>
     <Compile Include="XlsIO\AutoShapes.aspx.designer.cs">
       <DependentUpon>AutoShapes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\AttendanceTracker.aspx.cs">
+      <DependentUpon>AttendanceTracker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XlsIO\AttendanceTracker.aspx.designer.cs">
+      <DependentUpon>AttendanceTracker.aspx</DependentUpon>
     </Compile>
     <Compile Include="XlsIO\BudgetPlanner.aspx.cs">
       <DependentUpon>BudgetPlanner.aspx</DependentUpon>

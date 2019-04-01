@@ -5,9 +5,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Essential JS1 | Showcase Sample | Health Tracker </title>
+    <title>Essential JS 1 | ASP.NET Web Forms | Showcase Sample | Health Tracker</title>
+	<meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-	<meta name="description" content="The Health Tracker application is helpful to track and visualize your health details such as food intake, calories burned, activity history by using Essential JS1 – Grids, Charts, etc">
+	<meta name="description" content="The ASP.NET Web Forms Health Tracker application is used to track and visualize your health details such as food intake and activity history.">
     <link rel="shortcut icon" href='<%= Page.ResolveClientUrl("~/Content/images/favicon.ico")%>' />
     <link rel="stylesheet" href='<%= Page.ResolveClientUrl("~/Content/ejthemes/ej.widgets.core.min.css")%>' />
     <link rel="stylesheet" href='<%= Page.ResolveClientUrl("~/Content/ejthemes/default-theme/ej.theme.min.css")%>' />

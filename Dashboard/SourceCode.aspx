@@ -6,6 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Essential Studio for ASP.NET  : Sourcecode of Dashboard</title>
+	<meta charset="utf-8" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="shortcut icon" href="../Content/images/favicon.ico" />
 

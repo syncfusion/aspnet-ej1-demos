@@ -17,7 +17,6 @@ window.SamplesList = [
         "id": "Chart",
         "childcount": "1",
         "action": "DefaultFunctionalities",
-        "type": "update",
         "ugurl": "//help.syncfusion.com/aspnet/chart/overview",
         "forumurl": "https://www.syncfusion.com/forums/aspnet/chart",
         "kburl": "https://www.syncfusion.com/kb/aspnet/chart",
@@ -31,7 +30,7 @@ window.SamplesList = [
             { "id": "6", "name": "Stacked Area ", "action": "StackingArea", "childcount": "0" },
             { "id": "7", "name": "100% Stacked Area ", "action": "StackingArea100", "childcount": "0" },
 			{ "id": "8", "name": "Range Area ", "action": "RangeArea", "childcount": "0" },
-            { "id": "9", "name": "Spline Range Area ", "action": "SplineRangeArea", "childcount": "0", "type":"new" },
+            { "id": "9", "name": "Spline Range Area ", "action": "SplineRangeArea", "childcount": "0" },
             { "id": "10", "name": "Column ", "action": "Column", "childcount": "0" },
             { "id": "11", "name": "Range Column ", "action": "RangeColumn", "childcount": "0" },
             { "id": "12", "name": "Stacked Column ", "action": "StackingColumn", "childcount": "0" },
@@ -333,7 +332,7 @@ window.SamplesList = [
         ]
     },
 	{
-	    "name": "Gantt", "id": "Gantt", "Group": "DATA VISUALIZATION", "childcount": "1", "action": "Default", "isResponsive": "false",
+	    "name": "Gantt", "id": "Gantt", "Group": "DATA VISUALIZATION", "childcount": "1", "type": "update", "action": "Default", "isResponsive": "false",
 	    "ugurl": "//help.syncfusion.com/aspnet/gantt/overview",
 	    "forumurl": "https://www.syncfusion.com/forums/aspnet/ejgantt",
 	    "kburl": "https://www.syncfusion.com/kb/aspnet/gantt",
@@ -361,7 +360,7 @@ window.SamplesList = [
                   { "id": "5", "name": "Task Schedule Modes", "action": "TaskSchedulingMode", "childcount": "0"  },
                   { "id": "6", "name": "Duration Units", "action": "GanttDurationUnits", "childcount": "0"   },
                   { "id": "7", "name": "Working Time Range", "action": "GanttWorkingTimeRange", "childcount": "0"    },
-                  { "id": "8", "name": "Timescale Modes", "action": "ScheduleModes", "childcount": "0" },
+                  { "id": "8", "name": "Timescale Modes", "action": "ScheduleModes", "childcount": "0", "type": "update" },
                   { "id": "9", "name": "Baseline", "action": "BaseLine", "childcount": "0" },
                   { "id": "10", "name": "Resource Allocation", "action": "Resource", "childcount": "0"   },
                   { "id": "11", "name": "Striplines", "action": "Stripline", "childcount": "0" },
@@ -991,7 +990,7 @@ window.SamplesList = [
         "kburl": "https://www.syncfusion.com/kb/aspnet/reportdesigner",
         "type": "preview",
         "samples": [
-            { "id": "1", "name": "Default Functionalities", "action": "DefaultFunctionalities", "type": "update", "childcount": "0" },
+            { "id": "1", "name": "Default Functionalities", "action": "DefaultFunctionalities", "childcount": "0" },
             { "id": "2", "name": "Customization", "action": "Customization", "childcount": "0" }
         ]
     },
@@ -1016,7 +1015,7 @@ window.SamplesList = [
     },
 
      {
-         "name": "PivotGrid", "id": "PivotGrid", "Group": "BUSINESS INTELLIGENCE", "childcount": "1", "action": "RelationalDefault", "isResponsive": "true", "type":"",
+         "name": "PivotGrid", "id": "PivotGrid", "Group": "BUSINESS INTELLIGENCE", "childcount": "1", "action": "RelationalDefault", "isResponsive": "true", "type":"update",
          "ugurl": "//help.syncfusion.com/aspnet/pivotgrid/overview",
          "forumurl": "https://www.syncfusion.com/forums/aspnet/pivotgrid",
          "kburl": "https://www.syncfusion.com/kb/aspnet/pivotgrid",
@@ -1058,7 +1057,7 @@ window.SamplesList = [
                       { "id": "9", "name": "Save and Load", "action": "SaveAndLoad", "childcount": "0", "type": "" },
                       { "id": "10", "name": "Cell Selection", "action": "CellSelection", "childcount": "0", "type": "" },
                       { "id": "11", "name": "Cell Context", "action": "CellContext", "childcount": "0" },
-                      { "id": "12", "name": "Exporting", "action": "Exporting", "childcount": "0", "type": "" },
+                      { "id": "12", "name": "Exporting", "action": "Exporting", "childcount": "0", "type": "update" },
                       { "id": "13", "name": "Advanced Filtering", "action": "AdvancedFiltering", "childcount": "0", "type": "" },
                       { "id": "14", "name": "Localization", "action": "Localization", "childcount": "0" },
                       { "id": "15", "name": "RTL", "action": "RTL", "childcount": "0", "type": "" },
@@ -1117,14 +1116,14 @@ window.SamplesList = [
      },
 
      {
-         "name": "PivotClient", "Group": "BUSINESS INTELLIGENCE", "id": "PivotClient", "childcount": "1", "action": "RelationalDefault", "isResponsive": "true", "type":"",
+         "name": "PivotClient", "Group": "BUSINESS INTELLIGENCE", "id": "PivotClient", "childcount": "1", "action": "RelationalDefault", "isResponsive": "true", "type":"update",
          "ugurl": "https://help.syncfusion.com/aspnet/overview",
          "forumurl": "https://www.syncfusion.com/forums/aspnet",
          "kburl": "https://www.syncfusion.com/kb/aspnet",
          "samples": [
              {
                  "id": "1", "name": "Relational", "action": "PivotClient", "childcount": "1", "samples": [
-                         { "id": "1", "name": "Default Functionalities", "action": "RelationalDefault", "childcount": "0", "type": "" },
+                         { "id": "1", "name": "Default Functionalities", "action": "RelationalDefault", "childcount": "0", "type": "update" },
                          { "id": "2", "name": "WebAPI", "action": "RelationalWebAPI", "childcount": "0", "type": "" },
                          { "id": "3", "name": "WCF", "action": "RelationalWCF", "childcount": "0", "type": "" }
                  ]
@@ -1187,7 +1186,6 @@ window.SamplesList = [
 	        "id": "Presentation",
 	        "childcount": "1",
 	        "Group": "FILE FORMATS",
-			"type": "update",
 	        "action": "DefaultFunctionality",
 	        "samples": [
                  { "id": "1", "name": "Default", "action": "DefaultFunctionality", "childcount": "0" },
@@ -1210,7 +1208,7 @@ window.SamplesList = [
                            { "id": "44", "name": "Notes", "action": "Notes", "childcount": "0" },
 						   { "id": "45", "name": "OLE Object", "action": "InsertOLEObject", "childcount": "0" },
 						   { "id": "46", "name": "Comments", "action": "Comments", "childcount": "0"},
-						   { "id": "47", "name": "Connectors", "action": "Connectors", "type": "new", "childcount": "0"}]
+						   { "id": "47", "name": "Connectors", "action": "Connectors", "childcount": "0"}]
                   },
 				  {
 				       "id":"5", "name": "Animation", "action": "Animation", "childcount": "1", samples: [
@@ -1264,13 +1262,15 @@ window.SamplesList = [
           "id": "XlsIO",
           "childcount": "1",
           "Group": "FILE FORMATS",
+          "type": "update",
           "action": "DefaultFunctionalities",
           "samples": [
           { "id": "1", "name": "Default", "action": "DefaultFunctionalities", "childcount": "0" },
                       {
                           "id": "2", "name": "Product Showcase", "action": "BudgetPlanner", "childcount": "1", "samples": [
                               { "id": "1", "name": "Budget Planner", "action": "BudgetPlanner", "childcount": "0" },
-                               { "id": "2", "name": "Stock Portfolio", "action": "StockPortFolio", "childcount": "0" }
+                               { "id": "2", "name": "Stock Portfolio", "action": "StockPortFolio", "childcount": "0" },
+							   { "id": "3", "name": "Attendance Tracker", "action": "AttendanceTracker","type": "new", "childcount": "0", "type":"new" }
                           ]
                       },
                       {
@@ -1284,7 +1284,7 @@ window.SamplesList = [
                           "id": "4", "name": "Formatting", "action": "FormatCells", "childcount": "1", "samples": [
                               { "id": "1", "name": "Format Cells", "action": "FormatCells", "childcount": "0" },
                               { "id": "2", "name": "Styles And Formatting", "action": "StylesAndFormatting", "childcount": "0" },
-                              { "id": "3", "name": "Conditional Formatting", "action": "ConditionalFormatting", "childcount": "0" }
+                              { "id": "3", "name": "Conditional Formatting", "action": "ConditionalFormatting", "type": "update", "childcount": "0" }
                           ]
                       },
                       {
@@ -1353,7 +1353,7 @@ window.SamplesList = [
                       },
                       {
                           "id": "12", "name": "Business Intelligence", "action": "Tables", "childcount": "1", "samples": [
-                              { "id": "1", "name": "Tables", "action": "Tables", "childcount": "0" },
+                              { "id": "1", "name": "Tables", "action": "Tables", "type": "update", "childcount": "0" },
                               { "id": "2", "name": "Pivot Table", "action": "PivotTable", "childcount": "0" },
                               { "id": "3", "name": "Pivot Chart", "action": "PivotChart", "childcount": "0" }
                           ]
@@ -1378,10 +1378,12 @@ window.SamplesList = [
 
 
                {
-                   "id": "2", "name": "Product Showcase", "action": "JobApplication", "childcount": "2", samples: [
+                   "id": "2", "name": "Product Showcase", "action": "JobApplication", "childcount": "3", samples: [
                    //second hierarchy
 				   { "id": "21", "name": "Job Application", "action": "JobApplication", "childcount": "0" },
-                         { "id": "22", "name": "Invoice Sample", "action": "Invoice", "childcount": "0" }]
+                         { "id": "22", "name": "Invoice Sample", "action": "Invoice", "childcount": "0" },
+						 { "id": "23", "name": "ZUGFeRD Invoice", "action": "ZugFerd", "childcount": "0", "type":"new" }
+						 ]
                },
                {
                    "id": "3", "name": "Getting Started", "action": "HelloWorld", "childcount": "1", samples: [
@@ -1402,7 +1404,7 @@ window.SamplesList = [
                          { "id": "53", "name": "Bullets and Lists", "action": "BulletsAndLists", "childcount": "0" },
                          { "id": "54", "name": "Multi Column Text", "action": "MultiColumnText", "childcount": "0" },
 						 { "id": "55", "name": "Complex Script", "action": "ComplexScript", "childcount": "0" },
-						 { "id": "56", "name": "OpenType Font", "action": "OpenTypeFont", "childcount": "0", "type": "new" }]
+						 { "id": "56", "name": "OpenType Font", "action": "OpenTypeFont", "childcount": "0"}]
                },
                {
                    "id": "6", "name": "Graphics", "action": "Barcode", "childcount": "1", samples: [
@@ -1441,7 +1443,7 @@ window.SamplesList = [
                          { "id": "101", "name": "Interactive Features", "action": "InteractiveFeatures", "childcount": "0" },
                          { "id": "102", "name": "Form Filling", "action": "FormFilling", "childcount": "0"},
                          { "id": "103", "name": "Portfolio", "action": "Portfolio", "childcount": "0" },
-						 { "id": "104", "name": "Annotation Flatten", "action": "AnnotationFlatten", "childcount": "0" },
+						 { "id": "104", "name": "Annotation Flatten", "action": "AnnotationFlatten", "childcount": "0" , "type": "update"},
 						 { "id": "105", "name": "Named Destination", "action": "NamedDestination", "childcount": "0"},
                          { "id": "106", "name": "Bookmarks", "action": "Bookmarks", "childcount": "0"},
 						 { "id": "107", "name": "File Attachments", "action": "Attachments", "childcount": "0"},
@@ -1463,8 +1465,9 @@ window.SamplesList = [
                },
                {
                    "id": "12", "name": "Conformance", "action": "PDFA", "childcount": "2", samples: [
-                         { "id": "121", "name": "PDF-A Sample", "action": "PDFA", "childcount": "0" },
+                         { "id": "121", "name": "PDF-A Sample", "action": "PDFA", "childcount": "0" , "type":"update" },
                          { "id": "122", "name": "PDF To PDFA1b", "action": "PDFA1bConverter", "childcount": "0" }
+						 
                         ]
                },
                {
@@ -1490,7 +1493,6 @@ window.SamplesList = [
         {
             "name": "DocIO",
             "id": "DocIO",
-			"type": "update",
             "childcount": "1",
             "Group": "FILE FORMATS",
             "action": "DefaultFunctionalities",
@@ -1575,7 +1577,7 @@ window.SamplesList = [
                                          { "id": "2", "name": "Word to ODT", "action": "DocToODT", "childcount": "0" },
                                          { "id": "3", "name": "Word to RTF", "action": "DocToRTF", "childcount": "0" },
                                          { "id": "4", "name": "Word to Image", "action": "WordtoImage", "childcount": "0" },
-                                         { "id": "5", "name": "Word to PDF", "action": "DOCtoPDF", "childcount": "0", "type": "update"},
+                                         { "id": "5", "name": "Word to PDF", "action": "DOCtoPDF", "childcount": "0"},
                                          { "id": "6", "name": "HTML to Word", "action": "HTMLtoDOC", "childcount": "0" },
                                          { "id": "7", "name": "RTF to Word", "action": "RTFToDoc", "childcount": "0" },
                                          { "id": "8", "name": "Word to EPub", "action": "DOCToEPub", "childcount": "0" },

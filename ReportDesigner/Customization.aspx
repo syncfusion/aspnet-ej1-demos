@@ -70,7 +70,7 @@
 
         function saveReport() {
             var designer = $('#ReportDesigner1').data('ejReportDesigner');
-            designer.saveReport();
+            designer.downloadReport();
         }
 
         function updateViewerHiddenList() {

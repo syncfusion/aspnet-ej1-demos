@@ -5,9 +5,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Essential JS1 | Showcase Sample | Expense Analysis </title>
+    <title>ASP.NET Web Forms | Showcase Sample | Expense Analysis</title>
+	<meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="The Expense Analysis application is helpful to categorize and analyze the expenses details against budget using Essential JS1 - Grid, Chart, and Drop-Down components.">		
+    <meta name="description" content="The ASP.NET Web Forms Expense Analysis application is used to categorize and analyze the expenses details against budget.">		
     <link rel="shortcut icon" href='<%= Page.ResolveClientUrl("~/Content/images/favicon.ico")%>' />
     <link rel="stylesheet" href='<%= Page.ResolveClientUrl("~/Content/bootstrap.min.css")%>' />
     <link rel="stylesheet" href='<%= Page.ResolveClientUrl("~/Content/ejthemes/ej.widgets.core.min.css")%>' />

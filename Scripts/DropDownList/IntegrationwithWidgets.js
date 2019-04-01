@@ -55,8 +55,21 @@ function ensureRootCheck(args) {
 
 function addOrRemoveItem(currentValue, isAdd) {
     drpdwnobj._hiddenValue = currentValue;
-    isAdd ? drpdwnobj._addText(currentValue) : drpdwnobj._removeText(currentValue);
+    isAdd ? drpdwnobj._addText(currentValue) : removeText(currentValue);
     drpdwnobj.model.value = drpdwnobj.model.text = drpdwnobj.element.val();
+}
+
+function removeText(currentValue) {
+    var eleVal = drpdwnobj.element[0].value.split(drpdwnobj.model.delimiterChar), hidVal = drpdwnobj._visibleInput[0].value.split(drpdwnobj.model.delimiterChar),
+        index = $.inArray(currentValue, eleVal);
+    if (index >= 0) {
+        eleVal.splice(index, 1);
+        hidVal.splice(index, 1);
+        drpdwnobj._valueContainer.splice(index, 1);
+        drpdwnobj._textContainer.splice(index, 1);
+    }
+    drpdwnobj.element[0].value = eleVal.join(drpdwnobj.model.delimiterChar);
+    drpdwnobj._visibleInput[0].value = hidVal.join(drpdwnobj.model.delimiterChar);
 }
 function isContains(val) {
     var data = drpdwnobj.getValue().split(","), matched;

@@ -36,6 +36,8 @@
                                 <li>Week</li>
                                 <li>Month</li>
                                 <li>Year</li>
+                                <li>Quarter Year</li>
+                                <li>Half Year</li>
                             </ul>
                         </div>
                     </div>
@@ -150,6 +152,34 @@
                 ganttObject.model.scheduleHeaderSettings.scheduleHeaderType = ej.Gantt.ScheduleHeaderType.Year;
                 ganttObject.model.dataSource = monthData;
                 ganttObject.reRenderChart(ej.Gantt.ScheduleHeaderType.Year);
+                $("#interval").ejDropDownList({ enabled: false });
+                $("#StartDay").ejDropDownList({ enabled: false });
+            }
+            else if (args.itemId == 5) {
+                ganttObject.model.scheduleEndDate = "10/14/2018",
+                ganttObject.model.scheduleStartDate = "02/20/2017",
+                ganttObject.model.endDateMapping = "EndDate";
+                ganttObject.model.dateFormat = "M/d/yyyy";
+                ganttObject.model.scheduleHeaderSettings.yearHeaderFormat = "yyyy";
+                ganttObject.model.durationMapping = "";
+                ganttObject.model.durationUnit = ej.Gantt.DurationUnit.Day;
+                ganttObject.model.scheduleHeaderSettings.scheduleHeaderType = ej.Gantt.ScheduleHeaderType.QuarterYear;
+                ganttObject.model.dataSource = quarterYearData;
+                ganttObject.reRenderChart(ej.Gantt.ScheduleHeaderType.QuarterYear);
+                $("#interval").ejDropDownList({ enabled: false });
+                $("#StartDay").ejDropDownList({ enabled: false });
+            }
+            else if (args.itemId == 6) {
+                ganttObject.model.scheduleEndDate = "10/20/2020",
+                ganttObject.model.scheduleStartDate = "02/20/2017",
+                ganttObject.model.endDateMapping = "EndDate";
+                ganttObject.model.dateFormat = "M/d/yyyy";
+                ganttObject.model.scheduleHeaderSettings.yearHeaderFormat = "yyyy";
+                ganttObject.model.durationMapping = "";
+                ganttObject.model.durationUnit = ej.Gantt.DurationUnit.Day;
+                ganttObject.model.scheduleHeaderSettings.scheduleHeaderType = ej.Gantt.ScheduleHeaderType.HalfYear;
+                ganttObject.model.dataSource = halfYearData;
+                ganttObject.reRenderChart(ej.Gantt.ScheduleHeaderType.HalfYear);
                 $("#interval").ejDropDownList({ enabled: false });
                 $("#StartDay").ejDropDownList({ enabled: false });
             }

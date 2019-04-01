@@ -1,5 +1,5 @@
-#region Copyright Syncfusion Inc. 2001 - 2018
-// Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+#region Copyright Syncfusion Inc. 2001 - 2019
+// Copyright Syncfusion Inc. 2001 - 2019. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
 // licensing@syncfusion.com. Any infringement will be prosecuted under
@@ -148,26 +148,12 @@ namespace WebSampleBrowser.XlsIO
                 dataBar1.ShowValue = false;
                 #endregion
 
-                #region Color Scale
+                #region Duplicate
                 formats = sheet.Range["D7:D46"].ConditionalFormats;
                 format = formats.AddCondition();
-                format.FormatType = ExcelCFType.ColorScale;
-                IColorScale colorScale = format.ColorScale;
+                format.FormatType = ExcelCFType.Duplicate;
 
-                //Sets 3 - color scale.
-                colorScale.SetConditionCount(3);
-
-                colorScale.Criteria[0].FormatColorRGB = Color.FromArgb(230, 197, 218);
-                colorScale.Criteria[0].Type = ConditionValueType.LowestValue;
-                colorScale.Criteria[0].Value = "0";
-
-                colorScale.Criteria[1].FormatColorRGB = Color.FromArgb(244, 210, 178);
-                colorScale.Criteria[1].Type = ConditionValueType.Percentile;
-                colorScale.Criteria[1].Value = "50";
-
-                colorScale.Criteria[2].FormatColorRGB = Color.FromArgb(245, 247, 171);
-                colorScale.Criteria[2].Type = ConditionValueType.HighestValue;
-                colorScale.Criteria[2].Value = "0";
+                format.BackColorRGB = Color.FromArgb(255, 199, 206);
                 #endregion
             }
             else

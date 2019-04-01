@@ -1,5 +1,5 @@
-#region Copyright Syncfusion Inc. 2001-2018.
-// Copyright Syncfusion Inc. 2001-2018. All rights reserved.
+#region Copyright Syncfusion Inc. 2001-2019.
+// Copyright Syncfusion Inc. 2001-2019. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
 // licensing@syncfusion.com. Any infringement will be prosecuted under
@@ -127,7 +127,7 @@ namespace WebSampleBrowser.Pdf
             freeText.AnnotationFlags = PdfAnnotationFlags.Default;
             freeText.Text = "Free Text";
             freeText.Color = new PdfColor(Color.Yellow);
-            PointF[] Freetextpoints = { new PointF(365, 605), new PointF(379, 534), new PointF(401, 534), new PointF(401, 534) };
+            PointF[] Freetextpoints = { new PointF(365, 580), new PointF(379, 534), new PointF(405, 534) };
             freeText.CalloutLines = Freetextpoints;
             page.Graphics.DrawString("FreeText Annotation", font, brush, new PointF(400, 510));
             page.Annotations.Add(freeText);
@@ -210,6 +210,27 @@ namespace WebSampleBrowser.Pdf
             page.Graphics.DrawString("Line Measurement Annotation", font, brush, new PointF(320, 10));
             page.Annotations.Add(lineMeasureAnnot);
 
+			//Creates a new Freetext annotation.
+            RectangleF freetextrect0 = new RectangleF(80, 130, 100, 50);
+            PdfFreeTextAnnotation freeText0 = new PdfFreeTextAnnotation(freetextrect0);
+            freeText0.MarkupText = "Free Text with Callouts";
+            freeText0.TextMarkupColor = new PdfColor(Color.Green);
+            freeText0.Font = new PdfStandardFont(PdfFontFamily.Helvetica, 7f);
+            freeText0.BorderColor = new PdfColor(Color.Blue);
+            freeText0.Border = new PdfAnnotationBorder(.5f);
+            freeText0.AnnotationFlags = PdfAnnotationFlags.Default;
+            freeText0.Text = "Free Text";
+            freeText0.Rotate = PdfAnnotationRotateAngle.RotateAngle90;
+            freeText0.Color = new PdfColor(Color.Yellow);
+            PointF[] Freetextpoints0 = { new PointF(45, 190), new PointF(60, 145), new PointF(80, 145) };
+            freeText0.CalloutLines = Freetextpoints0;
+            page.Graphics.DrawString("Rotated FreeText Annotation", font, brush, new PointF(40, 110));
+            if (this.CheckBox2.Checked)
+            {
+                freeText0.Flatten = true;
+            }
+            page.Annotations.Add(freeText0);
+			 
             MemoryStream SourceStream = new MemoryStream();
             document.Save(SourceStream);
             document.Close(true);

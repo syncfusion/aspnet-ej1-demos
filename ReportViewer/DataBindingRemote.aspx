@@ -14,7 +14,6 @@
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="ScriptSection">
     <style type="text/css">
         #ReportViewer1 {
-            width: 980px;
             height: 650px;
         }
     </style>

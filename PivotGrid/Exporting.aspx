@@ -3,14 +3,14 @@
 <%@ Register Assembly="Syncfusion.EJ.Pivot" Namespace="Syncfusion.JavaScript.Web" TagPrefix="ej" %>
 
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="ControlsSection">
-    <ej:PivotGrid ID="PivotGrid1" runat="server" OnServerExcelExporting="PivotGrid_ServerExcelExporting" OnServerPDFExporting="PivotGrid_ServerPDFExporting" OnServerWordExporting="PivotGrid_ServerWordExporting" OnServerCSVExporting="PivotGrid_ServerCSVExporting" ClientIDMode="Static">
+    <ej:PivotGrid ID="PivotGrid1" runat="server" OnServerExcelExporting="PivotGrid_ServerExcelExporting" OnServerPDFExporting="PivotGrid_ServerPDFExporting" OnServerWordExporting="PivotGrid_ServerWordExporting" OnServerCSVExporting="PivotGrid_ServerCSVExporting" ClientIDMode="Static" EnableRowGrandTotal="false">
         <DataSource>
             <Rows>
-                <ej:Field FieldName="Country" FieldCaption="Country"></ej:Field>
-                <ej:Field FieldName="State" FieldCaption="State"></ej:Field>
+                <ej:Field FieldName="Country" FieldCaption="Country" ShowSubTotal="False"></ej:Field>
+                <ej:Field FieldName="State" FieldCaption="State" ShowSubTotal="False"></ej:Field>
             </Rows>
             <Columns>
-                <ej:Field FieldName="Product" FieldCaption="Product"></ej:Field>
+                <ej:Field FieldName="Product" FieldCaption="Product" ShowSubTotal="False"></ej:Field>
             </Columns>
             <Values>
                 <ej:Field FieldName="Amount" FieldCaption="Amount"></ej:Field>
@@ -108,9 +108,10 @@
               function renderPivotGrid(args) {
                   $(pGridObj.element).html("");
                   if (rdbClient.model.checked) {
-                      var pivotdataSource = { data: pivot_dataset, cube: "", rows: [{ fieldName: "Country", fieldCaption: "Country" }, { fieldName: "State", fieldCaption: "State" }], columns: [{ fieldName: "Product", fieldCaption: "Product" }], values: [{ fieldName: "Amount", fieldCaption: "Amount" }, { fieldName: "Quantity", fieldCaption: "Quantity" }], filters: [] };
+                      var pivotdataSource = { data: pivot_dataset, cube: "", rows: [{ fieldName: "Country", fieldCaption: "Country", showSubTotal: false, }, { fieldName: "State", fieldCaption: "State", showSubTotal: false, }], columns: [{ fieldName: "Product", fieldCaption: "Product", showSubTotal: false, showSubTotal: false, }], values: [{ fieldName: "Amount", fieldCaption: "Amount" }, { fieldName: "Quantity", fieldCaption: "Quantity" }], filters: []};
                       var olapDataSource = { data: "//bi.syncfusion.com/olap/msmdpump.dll", catalog: "Adventure Works DW 2008 SE", cube: "Adventure Works", rows: [{ fieldName: "[Date].[Fiscal]" }], columns: [{ fieldName: "[Customer].[Customer Geography]" }], values: [{ measures: [{ fieldName: "[Measures].[Internet Sales Amount]" }], axis: "columns" }], filters: [] };
                       pGridObj.model.dataSource = rdbRelational.model.checked ? pivotdataSource : rdbOlap.model.checked ? olapDataSource : pivotdataSource;
+                      pGridObj.model.enableRowGrandTotal = false;
                       pGridObj.model.url = "";
                       pGridObj.model.operationalMode = "clientmode";
                   }
@@ -118,6 +119,7 @@
                       pGridObj.model.dataSource = { data: null, cube: "" };
                       pGridObj.model.operationalMode = "servermode";
                       pGridObj.model.url = rdbRelational.model.checked ? "../api/RelationalGrid" : "../api/OlapGrid";
+                      pGridObj.model.enableRowGrandTotal = false;
                   }
                   pGridObj._load();
               }

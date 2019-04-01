@@ -1,5 +1,5 @@
-#region Copyright Syncfusion Inc. 2001-2018.
-// Copyright Syncfusion Inc. 2001-2018. All rights reserved.
+#region Copyright Syncfusion Inc. 2001-2019.
+// Copyright Syncfusion Inc. 2001-2019. All rights reserved.
 // Use of this code is subject to the terms of our license.
 // A copy of the current license can be obtained at any time by e-mailing
 // licensing@syncfusion.com. Any infringement will be prosecuted under
@@ -37,6 +37,42 @@ namespace WebSampleBrowser.Pdf {
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
         
+		/// <summary>
+        /// radioButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radioButton1;
+        
+        /// <summary>
+        /// radioButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radioButton2;
+		
+		/// <summary>
+        /// radioButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radioButton3;
+		
+		/// <summary>
+        /// radioButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radioButton4;
+		
         /// <summary>
         /// Button1 control.
         /// </summary>

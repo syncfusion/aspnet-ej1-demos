@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -79,98 +79,98 @@
       <HintPath>packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SpellChecker.Base">
-      <HintPath>packages\Syncfusion.SpellChecker.Base.16.4.0.42\lib\net40\Syncfusion.SpellChecker.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.SpellChecker.Base.17.1.0.38\lib\net40\Syncfusion.SpellChecker.Base.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="Syncfusion.Presentation.Base">
-      <HintPath>packages\Syncfusion.Presentation.AspNet.16.4.0.42\lib\net40\Syncfusion.Presentation.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Presentation.AspNet.17.1.0.38\lib\net40\Syncfusion.Presentation.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.OfficeChart.Base">
-      <HintPath>packages\Syncfusion.OfficeChart.Base.16.4.0.42\lib\net40\Syncfusion.OfficeChart.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.OfficeChart.Base.17.1.0.38\lib\net40\Syncfusion.OfficeChart.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.OfficeChartToImageConverter.Wpf">
-      <HintPath>packages\Syncfusion.OfficeChartToImageConverter.AspNet.16.4.0.42\lib\net40\Syncfusion.OfficeChartToImageConverter.Wpf.dll</HintPath>
+      <HintPath>packages\Syncfusion.OfficeChartToImageConverter.AspNet.17.1.0.38\lib\net40\Syncfusion.OfficeChartToImageConverter.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.PresentationToPdfConverter.Base">
-      <HintPath>packages\Syncfusion.PresentationToPdfConverter.AspNet.16.4.0.42\lib\net40\Syncfusion.PresentationToPdfConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.PresentationToPdfConverter.AspNet.17.1.0.38\lib\net40\Syncfusion.PresentationToPdfConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfChart.WPF">
-      <HintPath>packages\Syncfusion.SfChart.WPF.16.4.0.42\lib\net40\Syncfusion.SfChart.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfChart.WPF.17.1.0.38\lib\net40\Syncfusion.SfChart.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ">
-      <HintPath>packages\Syncfusion.Web.Base.16.4.0.42\lib\net40\Syncfusion.EJ.dll</HintPath>
+      <HintPath>packages\Syncfusion.Web.Base.17.1.0.38\lib\net40\Syncfusion.EJ.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.Web">
-      <HintPath>packages\Syncfusion.AspNet.16.4.0.42\lib\net40\Syncfusion.EJ.Web.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.17.1.0.38\lib\net40\Syncfusion.EJ.Web.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.Pivot">
-      <HintPath>packages\Syncfusion.AspNet.Pivot.16.4.0.42\lib\net40\Syncfusion.EJ.Pivot.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.Pivot.17.1.0.38\lib\net40\Syncfusion.EJ.Pivot.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.HtmlConverter.Base">
-      <HintPath>packages\Syncfusion.HtmlToPdfConverter.IE.AspNet.16.4.0.42\lib\net40\Syncfusion.HtmlConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.HtmlToPdfConverter.IE.AspNet.17.1.0.38\lib\net40\Syncfusion.HtmlConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Olap.Base">
-      <HintPath>packages\Syncfusion.Olap.Base.16.4.0.42\lib\net40\Syncfusion.Olap.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Olap.Base.17.1.0.38\lib\net40\Syncfusion.Olap.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Compression.Base">
-      <HintPath>packages\Syncfusion.Compression.Base.16.4.0.42\lib\net40\Syncfusion.Compression.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Compression.Base.17.1.0.38\lib\net40\Syncfusion.Compression.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.DocIO.Base">
-      <HintPath>packages\Syncfusion.DocIO.AspNet.16.4.0.42\lib\net40\Syncfusion.DocIO.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.DocIO.AspNet.17.1.0.38\lib\net40\Syncfusion.DocIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Pdf.Base">
-      <HintPath>packages\Syncfusion.Pdf.AspNet.16.4.0.42\lib\net40\Syncfusion.Pdf.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Pdf.AspNet.17.1.0.38\lib\net40\Syncfusion.Pdf.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.PdfViewer">
-      <HintPath>packages\Syncfusion.AspNet.PdfViewer.16.4.0.42\lib\net40\Syncfusion.EJ.PdfViewer.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.PdfViewer.17.1.0.38\lib\net40\Syncfusion.EJ.PdfViewer.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.PivotAnalysis.Base">
-      <HintPath>packages\Syncfusion.PivotAnalysis.Base.16.4.0.42\lib\net40\Syncfusion.PivotAnalysis.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.PivotAnalysis.Base.17.1.0.38\lib\net40\Syncfusion.PivotAnalysis.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.DocToPDFConverter.Base">
-      <HintPath>packages\Syncfusion.DocToPDFConverter.AspNet.16.4.0.42\lib\net40\Syncfusion.DocToPDFConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.DocToPDFConverter.AspNet.17.1.0.38\lib\net40\Syncfusion.DocToPDFConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.XlsIO.Base">
-      <HintPath>packages\Syncfusion.XlsIO.AspNet.16.4.0.42\lib\net40\Syncfusion.XlsIO.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.XlsIO.AspNet.17.1.0.38\lib\net40\Syncfusion.XlsIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.ExcelChartToImageConverter.WPF">
-      <HintPath>packages\Syncfusion.ExcelChartToImageConverter.AspNet.16.4.0.42\lib\net40\Syncfusion.ExcelChartToImageConverter.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.ExcelChartToImageConverter.AspNet.17.1.0.38\lib\net40\Syncfusion.ExcelChartToImageConverter.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.ExcelToPdfConverter.Base">
-      <HintPath>packages\Syncfusion.ExcelToPdfConverter.AspNet.16.4.0.42\lib\net40\Syncfusion.ExcelToPdfConverter.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.ExcelToPdfConverter.AspNet.17.1.0.38\lib\net40\Syncfusion.ExcelToPdfConverter.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Shared.WPF">
-      <HintPath>packages\Syncfusion.Shared.WPF.16.4.0.42\lib\net40\Syncfusion.Shared.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Shared.WPF.17.1.0.38\lib\net40\Syncfusion.Shared.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Chart.WPF">
-      <HintPath>packages\Syncfusion.Chart.WPF.16.4.0.42\lib\net40\Syncfusion.Chart.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Chart.WPF.Classic.17.1.0.38\lib\net40\Syncfusion.Chart.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Gauge.WPF">
-      <HintPath>packages\Syncfusion.Gauge.WPF.16.4.0.42\lib\net40\Syncfusion.Gauge.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Gauge.WPF.17.1.0.38\lib\net40\Syncfusion.Gauge.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfMaps.WPF">
-      <HintPath>packages\Syncfusion.SfMaps.WPF.16.4.0.42\lib\net40\Syncfusion.SfMaps.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfMaps.WPF.17.1.0.38\lib\net40\Syncfusion.SfMaps.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.RichtextBoxAdv.WPF">
-      <HintPath>packages\Syncfusion.RichtextBoxAdv.WPF.16.4.0.42\lib\net40\Syncfusion.RichtextBoxAdv.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.RichTextBoxAdv.WPF.Classic.17.1.0.38\lib\net40\Syncfusion.RichtextBoxAdv.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Linq.Base">
-      <HintPath>packages\Syncfusion.Linq.Base.16.4.0.42\lib\net40\Syncfusion.Linq.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Linq.Base.17.1.0.38\lib\net40\Syncfusion.Linq.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.ReportViewer">
-      <HintPath>packages\Syncfusion.AspNet.ReportViewer.16.4.0.42\lib\net40\Syncfusion.EJ.ReportViewer.dll</HintPath>
+      <HintPath>packages\Syncfusion.AspNet.ReportViewer.17.1.0.38\lib\net40\Syncfusion.EJ.ReportViewer.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.ReportDesigner">
-      <HintPath>packages\Syncfusion.Web.ReportDesigner.16.4.0.42\lib\net40\Syncfusion.EJ.ReportDesigner.dll</HintPath>
+      <HintPath>packages\Syncfusion.Web.ReportDesigner.17.1.0.38\lib\net40\Syncfusion.EJ.ReportDesigner.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.PMML.Base">
-      <HintPath>packages\Syncfusion.PMML.AspNet.16.4.0.42\lib\net40\Syncfusion.PMML.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.PMML.AspNet.17.1.0.38\lib\net40\Syncfusion.PMML.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ.Export">
-      <HintPath>packages\Syncfusion.Web.Base.16.4.0.42\lib\net40\Syncfusion.EJ.Export.dll</HintPath>
+      <HintPath>packages\Syncfusion.Web.Base.17.1.0.38\lib\net40\Syncfusion.EJ.Export.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Licensing">
-      <HintPath>packages\Syncfusion.Licensing.16.4.0.42\lib\net40\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.17.1.0.38\lib\net40\Syncfusion.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -252,7 +252,6 @@
     </Compile>
     <Compile Include="Chart\Animation.aspx.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Animation.aspx.designer.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
@@ -279,14 +278,12 @@
     </Compile>
     <Compile Include="Chart\PieOfPie.aspx.cs">
       <DependentUpon>PieOfPie.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\PieOfPie.aspx.designer.cs">
       <DependentUpon>PieOfPie.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\SplineRangeArea.aspx.cs">
       <DependentUpon>SplineRangeArea.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\SplineRangeArea.aspx.designer.cs">
       <DependentUpon>SplineRangeArea.aspx</DependentUpon>
@@ -296,7 +293,6 @@
     </Compile>
     <Compile Include="Chart\StockZoom.aspx.cs">
       <DependentUpon>StockZoom.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\StockZoom.aspx.designer.cs">
       <DependentUpon>StockZoom.aspx</DependentUpon>
@@ -317,42 +313,36 @@
     </Compile>
     <Compile Include="DateRangePicker\APIs.aspx.cs">
       <DependentUpon>APIs.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateRangePicker\APIs.aspx.designer.cs">
       <DependentUpon>APIs.aspx</DependentUpon>
     </Compile>
     <Compile Include="DateRangePicker\DateTimeRange.aspx.cs">
       <DependentUpon>DateTimeRange.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateRangePicker\DateTimeRange.aspx.designer.cs">
       <DependentUpon>DateTimeRange.aspx</DependentUpon>
     </Compile>
     <Compile Include="DateRangePicker\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateRangePicker\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="DateRangePicker\Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateRangePicker\Events.aspx.designer.cs">
       <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="DateRangePicker\Localization.aspx.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateRangePicker\Localization.aspx.designer.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
     </Compile>
     <Compile Include="DateRangePicker\Ranges.aspx.cs">
       <DependentUpon>Ranges.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateRangePicker\Ranges.aspx.designer.cs">
       <DependentUpon>Ranges.aspx</DependentUpon>
@@ -387,21 +377,18 @@
     </Compile>
     <Compile Include="Diagram\Model.aspx.cs">
       <DependentUpon>Model.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\Model.aspx.designer.cs">
       <DependentUpon>Model.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\PageSettings.aspx.cs">
       <DependentUpon>PageSettings.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\PageSettings.aspx.designer.cs">
       <DependentUpon>PageSettings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\PortDiagram.aspx.cs">
       <DependentUpon>PortDiagram.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\PortDiagram.aspx.designer.cs">
       <DependentUpon>PortDiagram.aspx</DependentUpon>
@@ -418,7 +405,6 @@
     </Compile>
     <Compile Include="FileExplorer\ThumbnailCompression.aspx.cs">
       <DependentUpon>ThumbnailCompression.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FileExplorer\ThumbnailCompression.aspx.designer.cs">
       <DependentUpon>ThumbnailCompression.aspx</DependentUpon>
@@ -481,63 +467,54 @@
     </Compile>
     <Compile Include="Gantt\CriticalPath.aspx.cs">
       <DependentUpon>CriticalPath.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\CriticalPath.aspx.designer.cs">
       <DependentUpon>CriticalPath.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttConditionalExporting.aspx.cs">
       <DependentUpon>GanttConditionalExporting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttConditionalExporting.aspx.designer.cs">
       <DependentUpon>GanttConditionalExporting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttDurationUnits.aspx.cs">
       <DependentUpon>GanttDurationUnits.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttDurationUnits.aspx.designer.cs">
       <DependentUpon>GanttDurationUnits.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttExporting.aspx.cs">
       <DependentUpon>GanttExporting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttExporting.aspx.designer.cs">
       <DependentUpon>GanttExporting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttMultipleExporting.aspx.cs">
       <DependentUpon>GanttMultipleExporting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttMultipleExporting.aspx.designer.cs">
       <DependentUpon>GanttMultipleExporting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttSerialNumber.aspx.cs">
       <DependentUpon>GanttSerialNumber.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttSerialNumber.aspx.designer.cs">
       <DependentUpon>GanttSerialNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttToolbarTemplate.aspx.cs">
       <DependentUpon>GanttToolbarTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttToolbarTemplate.aspx.designer.cs">
       <DependentUpon>GanttToolbarTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\GanttWorkingTimeRange.aspx.cs">
       <DependentUpon>GanttWorkingTimeRange.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttWorkingTimeRange.aspx.designer.cs">
       <DependentUpon>GanttWorkingTimeRange.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\HistogramView.aspx.cs">
       <DependentUpon>HistogramView.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\HistogramView.aspx.designer.cs">
       <DependentUpon>HistogramView.aspx</DependentUpon>
@@ -545,21 +522,18 @@
     <Compile Include="Gantt\Model\TaskDetails.cs" />
     <Compile Include="Gantt\ResourceView.aspx.cs">
       <DependentUpon>ResourceView.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\ResourceView.aspx.designer.cs">
       <DependentUpon>ResourceView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\TaskSchedulingMode.aspx.cs">
       <DependentUpon>TaskSchedulingMode.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\TaskSchedulingMode.aspx.designer.cs">
       <DependentUpon>TaskSchedulingMode.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\UnscheduledTasks.aspx.cs">
       <DependentUpon>UnscheduledTasks.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\UnscheduledTasks.aspx.designer.cs">
       <DependentUpon>UnscheduledTasks.aspx</DependentUpon>
@@ -573,14 +547,12 @@
     </Compile>
     <Compile Include="Grid\CheckboxSelection.aspx.cs">
       <DependentUpon>CheckboxSelection.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Grid\CheckboxSelection.aspx.designer.cs">
       <DependentUpon>CheckboxSelection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Grid\ColumnTemplateExporting.aspx.cs">
       <DependentUpon>ColumnTemplateExporting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Grid\ColumnTemplateExporting.aspx.designer.cs">
       <DependentUpon>ColumnTemplateExporting.aspx</DependentUpon>
@@ -594,7 +566,6 @@
     </Compile>
     <Compile Include="Grid\CustomValidation.aspx.cs">
       <DependentUpon>CustomValidation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Grid\CustomValidation.aspx.designer.cs">
       <DependentUpon>CustomValidation.aspx</DependentUpon>
@@ -623,7 +594,6 @@
     <Compile Include="Helpers\PredictiveAnalyticsHelper.cs" />
     <Compile Include="Chart\MultilevelLabels.aspx.cs">
       <DependentUpon>MultilevelLabels.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\MultilevelLabels.aspx.designer.cs">
       <DependentUpon>MultilevelLabels.aspx</DependentUpon>
@@ -649,7 +619,6 @@
     </Compile>
     <Compile Include="Gantt\TasklabelTemplate.aspx.cs">
       <DependentUpon>TasklabelTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\TasklabelTemplate.aspx.designer.cs">
       <DependentUpon>TasklabelTemplate.aspx</DependentUpon>
@@ -796,7 +765,6 @@
     </Compile>
     <Compile Include="KanbanBoard\PrintKanban.aspx.cs">
       <DependentUpon>PrintKanban.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="KanbanBoard\PrintKanban.aspx.designer.cs">
       <DependentUpon>PrintKanban.aspx</DependentUpon>
@@ -873,28 +841,24 @@
     </Compile>
     <Compile Include="Chart\AxisCrossing.aspx.cs">
       <DependentUpon>AxisCrossing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\AxisCrossing.aspx.designer.cs">
       <DependentUpon>AxisCrossing.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Multicolor.aspx.cs">
       <DependentUpon>Multicolor.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Multicolor.aspx.designer.cs">
       <DependentUpon>Multicolor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\VerticalChart.aspx.cs">
       <DependentUpon>VerticalChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\VerticalChart.aspx.designer.cs">
       <DependentUpon>VerticalChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Waterfall.aspx.cs">
       <DependentUpon>Waterfall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Waterfall.aspx.designer.cs">
       <DependentUpon>Waterfall.aspx</DependentUpon>
@@ -915,35 +879,30 @@
     </Compile>
     <Compile Include="KanbanBoard\WorkFlow.aspx.cs">
       <DependentUpon>WorkFlow.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="KanbanBoard\WorkFlow.aspx.designer.cs">
       <DependentUpon>WorkFlow.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pager\APIs.aspx.cs">
       <DependentUpon>APIs.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pager\APIs.aspx.designer.cs">
       <DependentUpon>APIs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pager\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pager\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pager\Localization.aspx.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pager\Localization.aspx.designer.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
     </Compile>
     <Compile Include="PdfViewer\FormFilling.aspx.cs">
       <DependentUpon>FormFilling.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PdfViewer\FormFilling.aspx.designer.cs">
       <DependentUpon>FormFilling.aspx</DependentUpon>
@@ -971,7 +930,6 @@
     </Compile>
     <Compile Include="PivotClient\CalculatedMembers.aspx.cs">
       <DependentUpon>CalculatedMembers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotClient\CalculatedMembers.aspx.designer.cs">
       <DependentUpon>CalculatedMembers.aspx</DependentUpon>
@@ -1045,7 +1003,6 @@
     </Compile>
     <Compile Include="Gantt\GanttWBS.aspx.cs">
       <DependentUpon>GanttWBS.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\GanttWBS.aspx.designer.cs">
       <DependentUpon>GanttWBS.aspx</DependentUpon>
@@ -1125,7 +1082,6 @@
     </Compile>
     <Compile Include="Ribbon\OnDemand.aspx.cs">
       <DependentUpon>OnDemand.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ribbon\OnDemand.aspx.designer.cs">
       <DependentUpon>OnDemand.aspx</DependentUpon>
@@ -1135,14 +1091,12 @@
     </Compile>
     <Compile Include="Chart\Annotations.aspx.cs">
       <DependentUpon>Annotations.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Annotations.aspx.designer.cs">
       <DependentUpon>Annotations.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\ATR.aspx.cs">
       <DependentUpon>ATR.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\ATR.aspx.designer.cs">
       <DependentUpon>ATR.aspx</DependentUpon>
@@ -1156,21 +1110,18 @@
     </Compile>
     <Compile Include="Chart\ErrorBar.aspx.cs">
       <DependentUpon>ErrorBar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\ErrorBar.aspx.designer.cs">
       <DependentUpon>ErrorBar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\DateTimeCategoryAxis.aspx.cs">
       <DependentUpon>DateTimeCategoryAxis.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\DateTimeCategoryAxis.aspx.designer.cs">
       <DependentUpon>DateTimeCategoryAxis.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Ema.aspx.cs">
       <DependentUpon>Ema.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Ema.aspx.designer.cs">
       <DependentUpon>Ema.aspx</DependentUpon>
@@ -1238,7 +1189,6 @@
     <Compile Include="App_Data\RotatorData.cs" />
     <Compile Include="AutoComplete\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AutoComplete\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
@@ -1259,11 +1209,9 @@
     </Compile>
     <Compile Include="Chart\Macd.aspx.cs">
       <DependentUpon>Macd.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Momentum.aspx.cs">
       <DependentUpon>Momentum.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Momentum.aspx.designer.cs">
       <DependentUpon>Momentum.aspx</DependentUpon>
@@ -1277,7 +1225,6 @@
     </Compile>
     <Compile Include="Chart\MultiplePie.aspx.cs">
       <DependentUpon>MultiplePie.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\SmartLabels.aspx.cs">
       <DependentUpon>SmartLabels.aspx</DependentUpon>
@@ -1327,28 +1274,24 @@
     </Compile>
     <Compile Include="Chart\Trendlines.aspx.cs">
       <DependentUpon>Trendlines.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Trendlines.aspx.designer.cs">
       <DependentUpon>Trendlines.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Selection.aspx.cs">
       <DependentUpon>Selection.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Selection.aspx.designer.cs">
       <DependentUpon>Selection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Title.aspx.cs">
       <DependentUpon>Title.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Title.aspx.designer.cs">
       <DependentUpon>Title.aspx</DependentUpon>
     </Compile>
     <Compile Include="CircularGauge\Legend.aspx.cs">
       <DependentUpon>Legend.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CircularGauge\Legend.aspx.designer.cs">
       <DependentUpon>Legend.aspx</DependentUpon>
@@ -1362,42 +1305,36 @@
     </Compile>
     <Compile Include="Chart\LoadPoints.aspx.cs">
       <DependentUpon>LoadPoints.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\LoadPoints.aspx.designer.cs">
       <DependentUpon>LoadPoints.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Rsi.aspx.cs">
       <DependentUpon>Rsi.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Rsi.aspx.designer.cs">
       <DependentUpon>Rsi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Stochastic.aspx.cs">
       <DependentUpon>Stochastic.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Stochastic.aspx.designer.cs">
       <DependentUpon>Stochastic.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chart\Tma.aspx.cs">
       <DependentUpon>Tma.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\Tma.aspx.designer.cs">
       <DependentUpon>Tma.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\BusinessOrgChart.aspx.cs">
       <DependentUpon>BusinessOrgChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\BusinessOrgChart.aspx.designer.cs">
       <DependentUpon>BusinessOrgChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\CircuitDiagram.aspx.cs">
       <DependentUpon>CircuitDiagram.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\CircuitDiagram.aspx.designer.cs">
       <DependentUpon>CircuitDiagram.aspx</DependentUpon>
@@ -1439,28 +1376,24 @@
     </Compile>
     <Compile Include="Diagram\HTMLDataBinding.aspx.cs">
       <DependentUpon>HTMLDataBinding.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\HTMLDataBinding.aspx.designer.cs">
       <DependentUpon>HTMLDataBinding.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\LocalDataBinding.aspx.cs">
       <DependentUpon>LocalDataBinding.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\LocalDataBinding.aspx.designer.cs">
       <DependentUpon>LocalDataBinding.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\ProjectManagementOrgChart.aspx.cs">
       <DependentUpon>ProjectManagementOrgChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\ProjectManagementOrgChart.aspx.designer.cs">
       <DependentUpon>ProjectManagementOrgChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\RemoteDataBinding.aspx.cs">
       <DependentUpon>RemoteDataBinding.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\RemoteDataBinding.aspx.designer.cs">
       <DependentUpon>RemoteDataBinding.aspx</DependentUpon>
@@ -1499,14 +1432,12 @@
     </Compile>
     <Compile Include="Diagram\TeamOrgChart.aspx.cs">
       <DependentUpon>TeamOrgChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\TeamOrgChart.aspx.designer.cs">
       <DependentUpon>TeamOrgChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Diagram\UniversityOrgChart.aspx.cs">
       <DependentUpon>UniversityOrgChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Content Include="App_Data\DiagramData.mdf" />
     <Content Include="App_Data\DiagramData_log.LDF">
@@ -1871,28 +1802,24 @@
     </Compile>
     <Compile Include="PivotGauge\OlapWCF.aspx.cs">
       <DependentUpon>OlapWCF.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGauge\OlapWCF.aspx.designer.cs">
       <DependentUpon>OlapWCF.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGauge\OlapWebAPI.aspx.cs">
       <DependentUpon>OlapWebAPI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGauge\OlapWebAPI.aspx.designer.cs">
       <DependentUpon>OlapWebAPI.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGauge\RelationalWCF.aspx.cs">
       <DependentUpon>RelationalWCF.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGauge\RelationalWCF.aspx.designer.cs">
       <DependentUpon>RelationalWCF.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGauge\RelationalWebAPI.aspx.cs">
       <DependentUpon>RelationalWebAPI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGauge\RelationalWebAPI.aspx.designer.cs">
       <DependentUpon>RelationalWebAPI.aspx</DependentUpon>
@@ -2007,21 +1934,18 @@
     </Compile>
     <Compile Include="Gantt\ScheduleModes.aspx.cs">
       <DependentUpon>ScheduleModes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\ScheduleModes.aspx.designer.cs">
       <DependentUpon>ScheduleModes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\TimelineValidation.aspx.cs">
       <DependentUpon>TimelineValidation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\TimelineValidation.aspx.designer.cs">
       <DependentUpon>TimelineValidation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gantt\TimeOption.aspx.cs">
       <DependentUpon>TimeOption.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Gantt\TimeOption.aspx.designer.cs">
       <DependentUpon>TimeOption.aspx</DependentUpon>
@@ -2056,28 +1980,24 @@
     </Compile>
     <Compile Include="PivotGauge\OlapDefault.aspx.cs">
       <DependentUpon>OlapDefault.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGauge\OlapDefault.aspx.designer.cs">
       <DependentUpon>OlapDefault.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\CalculatedFields.aspx.cs">
       <DependentUpon>CalculatedFields.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\CalculatedFields.aspx.designer.cs">
       <DependentUpon>CalculatedFields.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\CellEditing.aspx.cs">
       <DependentUpon>CellEditing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\CellEditing.aspx.designer.cs">
       <DependentUpon>CellEditing.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\UserInteractions.aspx.cs">
       <DependentUpon>UserInteractions.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\UserInteractions.aspx.designer.cs">
       <DependentUpon>UserInteractions.aspx</DependentUpon>
@@ -2105,49 +2025,42 @@
     </Compile>
     <Compile Include="ListView\CheckList.aspx.cs">
       <DependentUpon>CheckList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\CheckList.aspx.designer.cs">
       <DependentUpon>CheckList.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListView\DataBinding-LinqToSql.aspx.cs">
       <DependentUpon>DataBinding-LinqToSql.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\DataBinding-LinqToSql.aspx.designer.cs">
       <DependentUpon>DataBinding-LinqToSql.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListView\DataBinding-ObjectData.aspx.cs">
       <DependentUpon>DataBinding-ObjectData.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\DataBinding-ObjectData.aspx.designer.cs">
       <DependentUpon>DataBinding-ObjectData.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListView\DataBinding-SqlData.aspx.cs">
       <DependentUpon>DataBinding-SqlData.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\DataBinding-SqlData.aspx.designer.cs">
       <DependentUpon>DataBinding-SqlData.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListView\DataBinding-XMLData.aspx.cs">
       <DependentUpon>DataBinding-XMLData.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\DataBinding-XMLData.aspx.designer.cs">
       <DependentUpon>DataBinding-XMLData.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListView\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListView\Template.aspx.cs">
       <DependentUpon>Template.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListView\Template.aspx.designer.cs">
       <DependentUpon>Template.aspx</DependentUpon>
@@ -2161,77 +2074,66 @@
     </Compile>
     <Compile Include="NavigationDrawer\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="NavigationDrawer\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotChart\3DChart.aspx.cs">
       <DependentUpon>3DChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotChart\3DChart.aspx.designer.cs">
       <DependentUpon>3DChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotChart\MultiLevelLabels.aspx.cs">
       <DependentUpon>MultiLevelLabels.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotChart\MultiLevelLabels.aspx.designer.cs">
       <DependentUpon>MultiLevelLabels.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotChart\Exporting.aspx.cs">
       <DependentUpon>Exporting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotChart\Exporting.aspx.designer.cs">
       <DependentUpon>Exporting.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotClient\RTL.aspx.cs">
       <DependentUpon>RTL.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotClient\RTL.aspx.designer.cs">
       <DependentUpon>RTL.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotClient\Paging.aspx.cs">
       <DependentUpon>Paging.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotClient\Paging.aspx.designer.cs">
       <DependentUpon>Paging.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotClient\ExportingModes.aspx.cs">
       <DependentUpon>ExportingModes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotClient\ExportingModes.aspx.designer.cs">
       <DependentUpon>ExportingModes.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\CellContext.aspx.cs">
       <DependentUpon>CellContext.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\CellContext.aspx.designer.cs">
       <DependentUpon>CellContext.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\CellSelection.aspx.cs">
       <DependentUpon>CellSelection.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\CellSelection.aspx.designer.cs">
       <DependentUpon>CellSelection.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\ConditionalFormatting.aspx.cs">
       <DependentUpon>ConditionalFormatting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\ConditionalFormatting.aspx.designer.cs">
       <DependentUpon>ConditionalFormatting.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\RelationalDefault.aspx.cs">
       <DependentUpon>RelationalDefault.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Content Include="Gantt\HistogramView.aspx" />
     <Content Include="Gantt\UnscheduledTasks.aspx" />
@@ -2242,42 +2144,36 @@
     </Compile>
     <Compile Include="PivotGrid\Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\Events.aspx.designer.cs">
       <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\Exporting.aspx.cs">
       <DependentUpon>Exporting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\Exporting.aspx.designer.cs">
       <DependentUpon>Exporting.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\ExcelLikeLayout.aspx.cs">
       <DependentUpon>ExcelLikeLayout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\ExcelLikeLayout.aspx.designer.cs">
       <DependentUpon>ExcelLikeLayout.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\AdvancedFiltering.aspx.cs">
       <DependentUpon>AdvancedFiltering.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\AdvancedFiltering.aspx.designer.cs">
       <DependentUpon>AdvancedFiltering.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\DrillThrough.aspx.cs">
       <DependentUpon>DrillThrough.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\DrillThrough.aspx.designer.cs">
       <DependentUpon>DrillThrough.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\GroupingBar.aspx.cs">
       <DependentUpon>GroupingBar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\GroupingBar.aspx.designer.cs">
       <DependentUpon>GroupingBar.aspx</DependentUpon>
@@ -2291,98 +2187,84 @@
     </Compile>
     <Compile Include="PivotGrid\Hyperlink.aspx.cs">
       <DependentUpon>Hyperlink.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\Hyperlink.aspx.designer.cs">
       <DependentUpon>Hyperlink.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\KPI.aspx.cs">
       <DependentUpon>KPI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\KPI.aspx.designer.cs">
       <DependentUpon>KPI.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\Localization.aspx.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\Localization.aspx.designer.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\NamedSets.aspx.cs">
       <DependentUpon>NamedSets.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\NamedSets.aspx.designer.cs">
       <DependentUpon>NamedSets.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\NumberFormats.aspx.cs">
       <DependentUpon>NumberFormats.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\NumberFormats.aspx.designer.cs">
       <DependentUpon>NumberFormats.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\OlapDefault.aspx.cs">
       <DependentUpon>OlapDefault.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\OlapDefault.aspx.designer.cs">
       <DependentUpon>OlapDefault.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\FieldList.aspx.cs">
       <DependentUpon>FieldList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\FieldList.aspx.designer.cs">
       <DependentUpon>FieldList.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\Paging.aspx.cs">
       <DependentUpon>Paging.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\Paging.aspx.designer.cs">
       <DependentUpon>Paging.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\RTL.aspx.cs">
       <DependentUpon>RTL.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\RTL.aspx.designer.cs">
       <DependentUpon>RTL.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\OlapWCF.aspx.cs">
       <DependentUpon>OlapWCF.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\OlapWCF.aspx.designer.cs">
       <DependentUpon>OlapWCF.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\OlapWebAPI.aspx.cs">
       <DependentUpon>OlapWebAPI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\OlapWebAPI.aspx.designer.cs">
       <DependentUpon>OlapWebAPI.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\RelationalWCF.aspx.cs">
       <DependentUpon>RelationalWCF.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\RelationalWCF.aspx.designer.cs">
       <DependentUpon>RelationalWCF.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\RelationalWebAPI.aspx.cs">
       <DependentUpon>RelationalWebAPI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\RelationalWebAPI.aspx.designer.cs">
       <DependentUpon>RelationalWebAPI.aspx</DependentUpon>
     </Compile>
     <Compile Include="PivotGrid\SummaryTypes.aspx.cs">
       <DependentUpon>SummaryTypes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PivotGrid\SummaryTypes.aspx.designer.cs">
       <DependentUpon>SummaryTypes.aspx</DependentUpon>
@@ -2396,77 +2278,66 @@
     </Compile>
     <Compile Include="Presentation\Animation.aspx.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\Animation.aspx.designer.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\ModifyingAnimation.aspx.cs">
       <DependentUpon>ModifyingAnimation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\ModifyingAnimation.aspx.designer.cs">
       <DependentUpon>ModifyingAnimation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\CloningSlides.aspx.cs">
       <DependentUpon>CloningSlides.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\CloningSlides.aspx.designer.cs">
       <DependentUpon>CloningSlides.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\CreatingChart.aspx.cs">
       <DependentUpon>CreatingChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\CreatingChart.aspx.designer.cs">
       <DependentUpon>CreatingChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\ExcelDataToChart.aspx.cs">
       <DependentUpon>ExcelDataToChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\ExcelDataToChart.aspx.designer.cs">
       <DependentUpon>ExcelDataToChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\ModifyingChart.aspx.cs">
       <DependentUpon>ModifyingChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\ModifyingChart.aspx.designer.cs">
       <DependentUpon>ModifyingChart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\MergingPresentation.aspx.cs">
       <DependentUpon>MergingPresentation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\MergingPresentation.aspx.designer.cs">
       <DependentUpon>MergingPresentation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\Notes.aspx.cs">
       <DependentUpon>Notes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\Notes.aspx.designer.cs">
       <DependentUpon>Notes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\Comments.aspx.cs">
       <DependentUpon>Comments.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\Comments.aspx.designer.cs">
       <DependentUpon>Comments.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\Connectors.aspx.cs">
       <DependentUpon>Connectors.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\Connectors.aspx.designer.cs">
       <DependentUpon>Connectors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\EncryptAndDecrypt.aspx.cs">
       <DependentUpon>EncryptAndDecrypt.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\EncryptAndDecrypt.aspx.designer.cs">
       <DependentUpon>EncryptAndDecrypt.aspx</DependentUpon>
@@ -2515,7 +2386,6 @@
     </Compile>
     <Compile Include="Presentation\SmartArtCreation.aspx.cs">
       <DependentUpon>SmartArtCreation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentation\SmartArtCreation.aspx.designer.cs">
       <DependentUpon>SmartArtCreation.aspx</DependentUpon>
@@ -2557,28 +2427,24 @@
     </Compile>
     <Compile Include="Ribbon\Adaptive.aspx.cs">
       <DependentUpon>Adaptive.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ribbon\Adaptive.aspx.designer.cs">
       <DependentUpon>Adaptive.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ribbon\AdaptiveRibbon.aspx.cs">
       <DependentUpon>AdaptiveRibbon.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ribbon\AdaptiveRibbon.aspx.designer.cs">
       <DependentUpon>AdaptiveRibbon.aspx</DependentUpon>
     </Compile>
     <Compile Include="Schedule\CustomDates.aspx.cs">
       <DependentUpon>CustomDates.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Schedule\CustomDates.aspx.designer.cs">
       <DependentUpon>CustomDates.aspx</DependentUpon>
     </Compile>
     <Compile Include="Schedule\GroupedAppointments.aspx.cs">
       <DependentUpon>GroupedAppointments.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Schedule\GroupedAppointments.aspx.designer.cs">
       <DependentUpon>GroupedAppointments.aspx</DependentUpon>
@@ -2592,28 +2458,24 @@
     </Compile>
     <Compile Include="RadialMenu\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RadialMenu\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="RadialMenu\NestedRadialMenu.aspx.cs">
       <DependentUpon>NestedRadialMenu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RadialMenu\NestedRadialMenu.aspx.designer.cs">
       <DependentUpon>NestedRadialMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="RadialSlider\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RadialSlider\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="RadialSlider\Event.aspx.cs">
       <DependentUpon>Event.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RadialSlider\Event.aspx.designer.cs">
       <DependentUpon>Event.aspx</DependentUpon>
@@ -2662,7 +2524,6 @@
     </Compile>
     <Compile Include="Ribbon\BackStage.aspx.cs">
       <DependentUpon>BackStage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ribbon\BackStage.aspx.designer.cs">
       <DependentUpon>BackStage.aspx</DependentUpon>
@@ -2683,7 +2544,6 @@
     </Compile>
     <Compile Include="Ribbon\Resize.aspx.cs">
       <DependentUpon>Resize.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ribbon\Resize.aspx.designer.cs">
       <DependentUpon>Resize.aspx</DependentUpon>
@@ -2691,7 +2551,6 @@
     </Compile>
     <Compile Include="Schedule\QueryCellInfo.aspx.cs">
       <DependentUpon>QueryCellInfo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Schedule\QueryCellInfo.aspx.designer.cs">
       <DependentUpon>QueryCellInfo.aspx</DependentUpon>
@@ -2747,7 +2606,6 @@
     </Compile>
     <Compile Include="Schedule\PDFExport.aspx.cs">
       <DependentUpon>PDFExport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Schedule\PDFExport.aspx.designer.cs">
       <DependentUpon>PDFExport.aspx</DependentUpon>
@@ -2915,14 +2773,12 @@
     </Compile>
     <Compile Include="Spreadsheet\Border.aspx.cs">
       <DependentUpon>Border.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Border.aspx.designer.cs">
       <DependentUpon>Border.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\CellFormatting.aspx.cs">
       <DependentUpon>CellFormatting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\CellFormatting.aspx.designer.cs">
       <DependentUpon>CellFormatting.aspx</DependentUpon>
@@ -2953,175 +2809,150 @@
     <Compile Include="Spreadsheet\Model\TableData.cs" />
     <Compile Include="Spreadsheet\Sparkline.aspx.cs">
       <DependentUpon>Sparkline.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Sparkline.aspx.designer.cs">
       <DependentUpon>Sparkline.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Chart.aspx.cs">
       <DependentUpon>Chart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Chart.aspx.designer.cs">
       <DependentUpon>Chart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\ConditionalFormatting.aspx.cs">
       <DependentUpon>ConditionalFormatting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\ConditionalFormatting.aspx.designer.cs">
       <DependentUpon>ConditionalFormatting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\AdaptiveSpreadsheet.aspx.cs">
       <DependentUpon>AdaptiveSpreadsheet.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\AdaptiveSpreadsheet.aspx.designer.cs">
       <DependentUpon>AdaptiveSpreadsheet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Adaptive.aspx.cs">
       <DependentUpon>Adaptive.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Adaptive.aspx.designer.cs">
       <DependentUpon>Adaptive.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\ContextMenu.aspx.cs">
       <DependentUpon>ContextMenu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\ContextMenu.aspx.designer.cs">
       <DependentUpon>ContextMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\DataValidation.aspx.cs">
       <DependentUpon>DataValidation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\DataValidation.aspx.designer.cs">
       <DependentUpon>DataValidation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Event.aspx.cs">
       <DependentUpon>Event.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Event.aspx.designer.cs">
       <DependentUpon>Event.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Formula.aspx.cs">
       <DependentUpon>Formula.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Formula.aspx.designer.cs">
       <DependentUpon>Formula.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\FreezePane.aspx.cs">
       <DependentUpon>FreezePane.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\FreezePane.aspx.designer.cs">
       <DependentUpon>FreezePane.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Hyperlink.aspx.cs">
       <DependentUpon>Hyperlink.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Hyperlink.aspx.designer.cs">
       <DependentUpon>Hyperlink.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\ImportExport.aspx.cs">
       <DependentUpon>ImportExport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\ImportExport.aspx.designer.cs">
       <DependentUpon>ImportExport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\LargeData.aspx.cs">
       <DependentUpon>LargeData.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\LargeData.aspx.designer.cs">
       <DependentUpon>LargeData.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\CellDataBinding.aspx.cs">
       <DependentUpon>CellDataBinding.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\CellDataBinding.aspx.designer.cs">
       <DependentUpon>CellDataBinding.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\DataManager.aspx.cs">
       <DependentUpon>DataManager.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\DataManager.aspx.designer.cs">
       <DependentUpon>DataManager.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Localization.aspx.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Localization.aspx.designer.cs">
       <DependentUpon>Localization.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\MergeCell.aspx.cs">
       <DependentUpon>MergeCell.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\MergeCell.aspx.designer.cs">
       <DependentUpon>MergeCell.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\MLTemplate.aspx.cs">
       <DependentUpon>MLTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\MLTemplate.aspx.designer.cs">
       <DependentUpon>MLTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\NumberFormatting.aspx.cs">
       <DependentUpon>NumberFormatting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\NumberFormatting.aspx.designer.cs">
       <DependentUpon>NumberFormatting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Picture.aspx.cs">
       <DependentUpon>Picture.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Picture.aspx.designer.cs">
       <DependentUpon>Picture.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Pivot.aspx.cs">
       <DependentUpon>Pivot.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Pivot.aspx.designer.cs">
       <DependentUpon>Pivot.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Print.aspx.cs">
       <DependentUpon>Print.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Print.aspx.designer.cs">
       <DependentUpon>Print.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\ProtectSheet.aspx.cs">
       <DependentUpon>ProtectSheet.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\ProtectSheet.aspx.designer.cs">
       <DependentUpon>ProtectSheet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\RealTimeBinding.aspx.cs">
       <DependentUpon>RealTimeBinding.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\RealTimeBinding.aspx.designer.cs">
       <DependentUpon>RealTimeBinding.aspx</DependentUpon>
@@ -3135,14 +2966,12 @@
     </Compile>
     <Compile Include="Spreadsheet\ShowHide.aspx.cs">
       <DependentUpon>ShowHide.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\ShowHide.aspx.designer.cs">
       <DependentUpon>ShowHide.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\SortFilter.aspx.cs">
       <DependentUpon>SortFilter.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\SortFilter.aspx.designer.cs">
       <DependentUpon>SortFilter.aspx</DependentUpon>
@@ -3153,42 +2982,36 @@
     <Compile Include="Spreadsheet\SpreadsheetHub.cs" />
     <Compile Include="Spreadsheet\Table.aspx.cs">
       <DependentUpon>Table.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Table.aspx.designer.cs">
       <DependentUpon>Table.aspx</DependentUpon>
     </Compile>
     <Compile Include="Spreadsheet\Templates.aspx.cs">
       <DependentUpon>Templates.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Spreadsheet\Templates.aspx.designer.cs">
       <DependentUpon>Templates.aspx</DependentUpon>
     </Compile>
     <Compile Include="SunburstChart\Animation.aspx.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SunburstChart\Animation.aspx.designer.cs">
       <DependentUpon>Animation.aspx</DependentUpon>
     </Compile>
     <Compile Include="SunburstChart\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SunburstChart\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="SunburstChart\Selection.aspx.cs">
       <DependentUpon>Selection.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SunburstChart\Selection.aspx.designer.cs">
       <DependentUpon>Selection.aspx</DependentUpon>
     </Compile>
     <Compile Include="SunburstChart\Zooming.aspx.cs">
       <DependentUpon>Zooming.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SunburstChart\Zooming.aspx.designer.cs">
       <DependentUpon>Zooming.aspx</DependentUpon>
@@ -3209,39 +3032,33 @@
     </Compile>
     <Compile Include="Tab\MultiRowTab.aspx.cs">
       <DependentUpon>MultiRowTab.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Tab\TabWizard.aspx.cs">
       <DependentUpon>TabWizard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Tab\TabWizard.aspx.designer.cs">
       <DependentUpon>TabWizard.aspx</DependentUpon>
     </Compile>
     <Compile Include="TileView\DefaultFunctionalities.aspx.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TileView\DefaultFunctionalities.aspx.designer.cs">
       <DependentUpon>DefaultFunctionalities.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\Adaptive.aspx.cs">
       <DependentUpon>Adaptive.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\Adaptive.aspx.designer.cs">
       <DependentUpon>Adaptive.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\AdaptiveTreegrid.aspx.cs">
       <DependentUpon>AdaptiveTreegrid.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\AdaptiveTreegrid.aspx.designer.cs">
       <DependentUpon>AdaptiveTreegrid.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridBatchEditing.aspx.cs">
       <DependentUpon>TreeGridBatchEditing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridBatchEditing.aspx.designer.cs">
       <DependentUpon>TreeGridBatchEditing.aspx</DependentUpon>
@@ -3262,7 +3079,6 @@
     </Compile>
     <Compile Include="TreeGrid\TextWrap.aspx.cs">
       <DependentUpon>TextWrap.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TextWrap.aspx.designer.cs">
       <DependentUpon>TextWrap.aspx</DependentUpon>
@@ -3290,21 +3106,18 @@
     </Compile>
     <Compile Include="TreeGrid\DialogEditing.aspx.cs">
       <DependentUpon>DialogEditing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\DialogEditing.aspx.designer.cs">
       <DependentUpon>DialogEditing.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\Events.aspx.designer.cs">
       <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\KeyboardNavigation.aspx.cs">
       <DependentUpon>KeyboardNavigation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\KeyboardNavigation.aspx.designer.cs">
       <DependentUpon>KeyboardNavigation.aspx</DependentUpon>
@@ -3318,28 +3131,24 @@
     </Compile>
     <Compile Include="TreeGrid\SelfReference.aspx.cs">
       <DependentUpon>SelfReference.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\SelfReference.aspx.designer.cs">
       <DependentUpon>SelfReference.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridCheckboxSelection.aspx.cs">
       <DependentUpon>TreeGridCheckboxSelection.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridCheckboxSelection.aspx.designer.cs">
       <DependentUpon>TreeGridCheckboxSelection.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridColumnChooser.aspx.cs">
       <DependentUpon>TreeGridColumnChooser.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridColumnChooser.aspx.designer.cs">
       <DependentUpon>TreeGridColumnChooser.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridColumnFiltering.aspx.cs">
       <DependentUpon>TreeGridColumnFiltering.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridColumnFiltering.aspx.designer.cs">
       <DependentUpon>TreeGridColumnFiltering.aspx</DependentUpon>
@@ -3353,21 +3162,18 @@
     </Compile>
     <Compile Include="TreeGrid\TreeGridColumnResize.aspx.cs">
       <DependentUpon>TreeGridColumnResize.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridColumnResize.aspx.designer.cs">
       <DependentUpon>TreeGridColumnResize.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridContextMenu.aspx.cs">
       <DependentUpon>TreeGridContextMenu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridContextMenu.aspx.designer.cs">
       <DependentUpon>TreeGridContextMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridCustomContextMenu.aspx.cs">
       <DependentUpon>TreeGridCustomContextMenu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridCustomContextMenu.aspx.designer.cs">
       <DependentUpon>TreeGridCustomContextMenu.aspx</DependentUpon>
@@ -3388,14 +3194,12 @@
     </Compile>
     <Compile Include="TreeGrid\TreeGridFrozenColumns.aspx.cs">
       <DependentUpon>TreeGridFrozenColumns.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridFrozenColumns.aspx.designer.cs">
       <DependentUpon>TreeGridFrozenColumns.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridHeaderTemplate.aspx.cs">
       <DependentUpon>TreeGridHeaderTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridHeaderTemplate.aspx.designer.cs">
       <DependentUpon>TreeGridHeaderTemplate.aspx</DependentUpon>
@@ -3409,14 +3213,12 @@
     </Compile>
     <Compile Include="TreeGrid\TreeGridPagerTemplate.aspx.cs">
       <DependentUpon>TreeGridPagerTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridPagerTemplate.aspx.designer.cs">
       <DependentUpon>TreeGridPagerTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\TreeGridPagingAPI.aspx.cs">
       <DependentUpon>TreeGridPagingAPI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridPagingAPI.aspx.designer.cs">
       <DependentUpon>TreeGridPagingAPI.aspx</DependentUpon>
@@ -3437,7 +3239,6 @@
     </Compile>
     <Compile Include="TreeGrid\TreeGridRowTemplate.aspx.cs">
       <DependentUpon>TreeGridRowTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridRowTemplate.aspx.designer.cs">
       <DependentUpon>TreeGridRowTemplate.aspx</DependentUpon>
@@ -3458,14 +3259,12 @@
     </Compile>
     <Compile Include="TreeGrid\TreeGridToolbarTemplate.aspx.cs">
       <DependentUpon>TreeGridToolbarTemplate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\TreeGridToolbarTemplate.aspx.designer.cs">
       <DependentUpon>TreeGridToolbarTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="TreeGrid\Virtualization.aspx.cs">
       <DependentUpon>Virtualization.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeGrid\Virtualization.aspx.designer.cs">
       <DependentUpon>Virtualization.aspx</DependentUpon>
@@ -3479,7 +3278,6 @@
     </Compile>
     <Compile Include="TreeMap\DrillDown.aspx.cs">
       <DependentUpon>DrillDown.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TreeMap\DrillDown.aspx.designer.cs">
       <DependentUpon>DrillDown.aspx</DependentUpon>
@@ -3564,7 +3362,6 @@
     </Compile>
     <Compile Include="UploadBox\DragAndDrop.aspx.cs">
       <DependentUpon>DragAndDrop.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UploadBox\DragAndDrop.aspx.designer.cs">
       <DependentUpon>DragAndDrop.aspx</DependentUpon>
@@ -3578,7 +3375,6 @@
     </Compile>
     <Compile Include="UploadBox\WebAPIService.aspx.cs">
       <DependentUpon>WebAPIService.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UploadBox\WebAPIService.aspx.designer.cs">
       <DependentUpon>WebAPIService.aspx</DependentUpon>
@@ -3614,7 +3410,6 @@
     </Compile>
     <Compile Include="Buttons\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Buttons\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
@@ -3691,7 +3486,6 @@
     </Compile>
     <Compile Include="Chart\SemiPie.aspx.cs">
       <DependentUpon>SemiPie.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\SemiPie.aspx.designer.cs">
       <DependentUpon>SemiPie.aspx</DependentUpon>
@@ -3705,7 +3499,6 @@
     </Compile>
     <Compile Include="Chart\SubTitle.aspx.cs">
       <DependentUpon>SubTitle.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Chart\SubTitle.aspx.designer.cs">
       <DependentUpon>SubTitle.aspx</DependentUpon>
@@ -3783,28 +3576,24 @@
     <Compile Include="database\Linq-Common-Data.designer.cs" />
     <Compile Include="DatePicker\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DatePicker\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="DateTimePicker\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DateTimePicker\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dialog\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Dialog\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="DropDownList\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DropDownList\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
@@ -4063,7 +3852,6 @@
     </Compile>
     <Compile Include="ListBox\ToolTip.aspx.cs">
       <DependentUpon>ToolTip.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListBox\ToolTip.aspx.designer.cs">
       <DependentUpon>ToolTip.aspx</DependentUpon>
@@ -4371,7 +4159,6 @@
     </Compile>
     <Compile Include="Pdf\AnnotationFlatten.aspx.cs">
       <DependentUpon>AnnotationFlatten.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\AnnotationFlatten.aspx.designer.cs">
       <DependentUpon>AnnotationFlatten.aspx</DependentUpon>
@@ -4572,6 +4359,20 @@
     <Compile Include="Pdf\PDFA1bConverter.aspx.designer.cs">
       <DependentUpon>PDFA1bConverter.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pdf\Zugferd.aspx.cs">
+      <DependentUpon>Zugferd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pdf\Zugferd.aspx.designer.cs">
+      <DependentUpon>Zugferd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pdf\ZugFerd\CountryCodes.cs" />
+    <Compile Include="Pdf\ZugFerd\CurrencyCodes.cs" />
+    <Compile Include="Pdf\ZugFerd\InvoiceType.cs" />
+    <Compile Include="Pdf\ZugFerd\Product.cs" />
+    <Compile Include="Pdf\ZugFerd\UserDetails.cs" />
+    <Compile Include="Pdf\ZugFerd\ZugferdInvoice.cs" />
+    <Compile Include="Pdf\ZugFerd\ZugferdProfile.cs" />
     <Compile Include="Pdf\PDFCompression.aspx.cs">
       <DependentUpon>PDFCompression.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -4686,70 +4487,60 @@
     </Compile>
     <Compile Include="Pdf\Attachments.aspx.cs">
       <DependentUpon>Attachments.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\Attachments.aspx.designer.cs">
       <DependentUpon>Attachments.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\Bookmarks.aspx.cs">
       <DependentUpon>Bookmarks.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\Bookmarks.aspx.designer.cs">
       <DependentUpon>Bookmarks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\ExportasImage.aspx.cs">
       <DependentUpon>ExportasImage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\ExportasImage.aspx.designer.cs">
       <DependentUpon>ExportasImage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\ImageExtraction.aspx.cs">
       <DependentUpon>ImageExtraction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\ImageExtraction.aspx.designer.cs">
       <DependentUpon>ImageExtraction.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\RearrangePages.aspx.cs">
       <DependentUpon>RearrangePages.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\RearrangePages.aspx.designer.cs">
       <DependentUpon>RearrangePages.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\ReplaceFont.aspx.cs">
       <DependentUpon>ReplaceFont.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\ReplaceFont.aspx.designer.cs">
       <DependentUpon>ReplaceFont.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\ReplaceImages.aspx.cs">
       <DependentUpon>ReplaceImages.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\ReplaceImages.aspx.designer.cs">
       <DependentUpon>ReplaceImages.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pdf\TIFFtoPDF.aspx.cs">
       <DependentUpon>TIFFtoPDF.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pdf\TIFFtoPDF.aspx.designer.cs">
       <DependentUpon>TIFFtoPDF.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProgressBar\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ProgressBar\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="Rating\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Rating\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
@@ -4879,7 +4670,6 @@
     </Compile>
     <Compile Include="Schedule\ScheduleICSExport.aspx.cs">
       <DependentUpon>ScheduleICSExport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Schedule\ScheduleICSExport.aspx.designer.cs">
       <DependentUpon>ScheduleICSExport.aspx</DependentUpon>
@@ -4892,14 +4682,12 @@
     </Compile>
     <Compile Include="Schedule\Reminder.aspx.cs">
       <DependentUpon>Reminder.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Schedule\Reminder.aspx.designer.cs">
       <DependentUpon>Reminder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Slider\ClientSideEvents.aspx.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Slider\ClientSideEvents.aspx.designer.cs">
       <DependentUpon>ClientSideEvents.aspx</DependentUpon>
@@ -5143,6 +4931,13 @@
     </Compile>
     <Compile Include="XlsIO\AutoShapes.aspx.designer.cs">
       <DependentUpon>AutoShapes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XlsIO\AttendanceTracker.aspx.cs">
+      <DependentUpon>AttendanceTracker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XlsIO\AttendanceTracker.aspx.designer.cs">
+      <DependentUpon>AttendanceTracker.aspx</DependentUpon>
     </Compile>
     <Compile Include="XlsIO\BudgetPlanner.aspx.cs">
       <DependentUpon>BudgetPlanner.aspx</DependentUpon>
@@ -6734,6 +6529,7 @@
     <Content Include="Pdf\OverlayDocuments.aspx" />
     <Content Include="Pdf\PDFA.aspx" />
     <Content Include="Pdf\PDFA1bConverter.aspx" />
+    <Content Include="Pdf\Zugferd.aspx" />
     <Content Include="Pdf\PDFCompression.aspx" />
     <Content Include="Pdf\CompressExistingPDF.aspx" />
     <Content Include="Pdf\AutoTag.aspx" />
@@ -6953,6 +6749,7 @@
     <Content Include="TreeView\ClientSideEvents.aspx" />
     <Content Include="UploadBox\ClientSideEvents.aspx" />
     <Content Include="XlsIO\AutoShapes.aspx" />
+    <Content Include="XlsIO\AttendanceTracker.aspx" />
     <Content Include="XlsIO\BudgetPlanner.aspx" />
     <Content Include="XlsIO\CLRObjects.aspx" />
     <Content Include="XlsIO\ExcelToODS.aspx" />
@@ -8022,14 +7819,12 @@
     </Compile>
     <Compile Include="CircularGauge\Customlabel.aspx.cs">
       <DependentUpon>Customlabel.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CircularGauge\Customlabel.aspx.designer.cs">
       <DependentUpon>Customlabel.aspx</DependentUpon>
     </Compile>
     <Compile Include="CircularGauge\Tooltip.aspx.cs">
       <DependentUpon>Tooltip.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CircularGauge\Tooltip.aspx.designer.cs">
       <DependentUpon>Tooltip.aspx</DependentUpon>
@@ -8050,14 +7845,12 @@
     </Compile>
     <Compile Include="CircularGauge\Frames.aspx.cs">
       <DependentUpon>Frames.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CircularGauge\Frames.aspx.designer.cs">
       <DependentUpon>Frames.aspx</DependentUpon>
     </Compile>
     <Compile Include="CircularGauge\PointerImage.aspx.cs">
       <DependentUpon>PointerImage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CircularGauge\PointerImage.aspx.designer.cs">
       <DependentUpon>PointerImage.aspx</DependentUpon>
@@ -8379,7 +8172,6 @@
     </Compile>
     <Compile Include="DropDownList\IntegrationwithWidgets.aspx.cs">
       <DependentUpon>IntegrationwithWidgets.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DropDownList\IntegrationwithWidgets.aspx.designer.cs">
       <DependentUpon>IntegrationwithWidgets.aspx</DependentUpon>
@@ -9322,7 +9114,6 @@
     </Compile>
     <Compile Include="Diagram\HistoryManager.aspx.cs">
       <DependentUpon>HistoryManager.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Diagram\HistoryManager.aspx.designer.cs">
       <DependentUpon>HistoryManager.aspx</DependentUpon>
@@ -9350,7 +9141,6 @@
     </Compile>
     <Compile Include="LinearGauge\CustomLabel.aspx.cs">
       <DependentUpon>CustomLabel.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="LinearGauge\CustomLabel.aspx.designer.cs">
       <DependentUpon>CustomLabel.aspx</DependentUpon>

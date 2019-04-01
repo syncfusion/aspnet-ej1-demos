@@ -30,7 +30,7 @@
                     Disable Row
                 </div>
                 <div class="col-md-3">
-                    <ej:DropDownList ID="autoDefault" runat="server" Width="120px"
+                    <ej:DropDownList ID="autoDefault" runat="server" DataTextField="OrderID" Width="120px"
                         ShowCheckbox="True">
                     </ej:DropDownList>
                 </div>

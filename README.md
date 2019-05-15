@@ -5,7 +5,7 @@ This repository contains demos of [Syncfusion Essential JS 1 for ASP.NET compone
 The following sections will guide you through using the Syncfusion Essential JS1 for ASP.NET samples.
 
 * [Requirements to run the demos](#requirements-to-run-the-demos)
-* [Repository structure](#repository-structure)
+* [Repository structure](#repository-structure) 
 * [License](#license)
 * [How to run the samples](#how-to-run-the-samples)
 * [Controls catalog](#controls-catalog)

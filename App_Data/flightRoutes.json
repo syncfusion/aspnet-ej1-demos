@@ -1,0 +1,49 @@
+﻿{
+     "type": "FeatureCollection",
+
+     "features": [
+
+        {
+            "properties":{"name": "Route4", "abbrev": "RDU", "from": "Raleigh", "to": "Chennai", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "ATL", "Route1_Stop2": "DXB"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[80.163775973154515, 12.982530166915435], [55.35407691722429, 25.252565593818161]] }
+
+        },
+
+        {
+            "properties":{"name": "Route5", "abbrev": "RDU", "from": "Raleigh", "to": "Chennai", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "ATL", "Route1_Stop2": "DXB"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[55.35407691722429, 25.252565593818161], [-84.425397433604729, 33.640529080735213]] }
+
+        },
+        {
+            "properties":{"name": "Route6", "abbrev": "RDU", "from": "Raleigh", "to": "Chennai", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "ATL", "Route1_Stop2": "DXB"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[-84.425397433604729, 33.640529080735213], [-78.791381400675078, 35.875232345225498]] }
+
+        },
+
+        {
+            "properties":{"name": "Route7", "abbrev": "RDU", "from": "Raleigh", "to": "Chennai", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "JFK", "Route1_Stop2": "DXB"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[80.163775973154515, 12.982530166915435], [55.35407691722429, 25.252565593818161]] }
+
+        },
+
+        {
+            "properties":{"name": "Route8", "abbrev": "RDU", "from": "Raleigh", "to": "Chennai", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "JFK", "Route1_Stop2": "DXB"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[55.35407691722429, 25.252565593818161], [-73.786326860929549, 40.645959558408144]] }
+
+        },
+
+        {
+            "properties":{"name": "Route9", "abbrev": "RDU", "from": "Raleigh", "to": "Chennai", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "JFK", "Route1_Stop2": "DXB"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[-73.786326860929549, 40.645959558408144], [-78.791381400675078, 35.875232345225498]] }
+
+        },
+
+        {
+            "properties":{"name": "Route10", "abbrev": "MAA", "from": "Chennai", "to": "Raleigh", "departure": "MAA", "arrival": "RDU", "Route1_Stop1": "FRA", "Route1_Stop2": "IAD"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[80.163775973154515, 12.982530166915435], [8.571822869076076, 50.05067708952074]] }
+
+        },
+        {
+            "properties":{"name": "Route11", "abbrev": "MAA", "from": "Chennai", "to": "Raleigh", "departure": "MAA", "arrival": "RDU", "Route1_Stop1": "FRA", "Route1_Stop2": "IAD"}, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [[8.571822869076076, 50.05067708952074], [-77.447792576920619, 38.95277403795302]] }
+
+        },
+        {
+            "properties": { "name": "Route12", "abbrev": "MAA", "from": "Chennai", "to": "Raleigh", "departure": "MAA", "arrival": "RDU", "Route1_Stop1": "FRA", "Route1_Stop2": "IAD" }, "type": "Feature", "geometry": { "type": "LineString", "coordinates": [ [-77.447792576920619, 38.95277403795302], [-78.791381400675078, 35.875232345225498]] }
+
+        }
+
+     ]
+ }

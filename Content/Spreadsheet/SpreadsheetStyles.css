@@ -1,0 +1,8 @@
+﻿html, body, #Form1 {
+    height: 99.8%;
+}
+
+html, body {
+    overflow: hidden;
+    margin: 1px;
+}

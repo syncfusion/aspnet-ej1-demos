@@ -5,7 +5,7 @@ This repository contains demos of [Syncfusion Essential JS 1 for ASP.NET compone
 The following sections will guide you through using the Syncfusion Essential JS1 for ASP.NET samples.
 
 * [Requirements to run the demos](#requirements-to-run-the-demos)
-* [Repository structure](#repository-structure) 
+* [Repository structure](#repository-structure)
 * [License](#license)
 * [How to run the samples](#how-to-run-the-samples)
 * [Controls catalog](#controls-catalog)
@@ -78,7 +78,7 @@ Run the samples
 |<b>File Viewer</b>|<b>Reporting</b>|<b>Reporting</b> |
 |[DocIO](https://asp.syncfusion.com/demos/web/docio/defaultfunctionalities.aspx?utm_source=github&utm_medium=listing)|[ReportViewer](https://asp.syncfusion.com/demos/web/reportviewer/salesdashboard.aspx?utm_source=github&utm_medium=listing) |[ReportDesigner](https://asp.syncfusion.com/demos/web/reportdesigner/defaultfunctionalities.aspx?utm_source=github&utm_medium=listing)|
 
-## Documentation 
+## Documentation
 
 For complete Syncfusion Essential JS 1 for ASP.NET documentation, please visit [https://help.syncfusion.com/aspnet/overview/](https://help.syncfusion.com/aspnet/overview/?utm_source=github&utm_medium=listing)
 
@@ -105,5 +105,3 @@ Refer the Syncfusion Essential JS 1 for ASP.NET Product Release Notes in [online
 ## License Information
 
 For licensing information about Syncfusion Essential JS 1 for ASP.NET, Download the Syncfusion License Agreements from [here](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf).
-
-<p>Copyright © 2001-19 Syncfusion, Inc. Updated on 2019-06-25 at precisely 20:23:20 EST.</p>

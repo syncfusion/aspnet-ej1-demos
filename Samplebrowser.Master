@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true"
+    CodeBehind="Samplebrowser.Master.cs" Inherits="WebSampleBrowser.Samplebrowser" %>
+
+<%@ Register Src="~/SourceCodeTab/Sourcecodetab.ascx" TagName="Sourcetab" TagPrefix="Sync" %>
+<asp:Content ID="Content2" ContentPlaceHolderID="HeadContent" runat="server">
+    <asp:ContentPlaceHolder ID="HeadSection" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ScriptSection" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="StyleSection" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="LayoutSection" runat="server">
+     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <div class="cols-iframe">
+                <div  style="display:none">
+                    <ej:Button ID="slidepanel1" ClientIDMode="Static" runat="server" Type="Button" ContentType="ImageOnly" PrefixIcon="slidepanel-nav" Size="Mini" ClientSideOnClick="ShowPanelClick" ShowRoundedCorner="true" Height="45px" Width="45px" />
+                    <div class="sampleheadingtext">
+                        <asp:ContentPlaceHolder ID="SampleHeading" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+               
+                    <div class="content-container-fluid">
+                        <div class="row">
+                            <div id="maincontrolarea" class="cols-sample-area" runat="server">
+                                
+                                     <ej:Button CssClass="prev metroblue" ID="Prev" ClientIDMode="Static" runat="server" Type="Button" ContentType="ImageOnly" PrefixIcon="e-icon e-rarrowleft-2x" Size="Mini" ClientSideOnClick="onleftnavigationclick" ClientSideOnCreate="navbtnoncreate"/>
+                                     <ej:Button CssClass="next metroblue" ID="Next" ClientIDMode="Static" runat="server" Type="Button" PrefixIcon="e-icon e-rarrowright-2x" ContentType="ImageOnly" Size="Mini" ClientSideOnClick="onrightnavigationclick" ClientSideOnCreate="navbtnoncreate"/>
+                                    <asp:ContentPlaceHolder ID="ControlsSection" runat="server">
+                                    </asp:ContentPlaceHolder>
+                              
+                            </div>
+                            <asp:ContentPlaceHolder ID="PropertySection" runat="server">
+                            </asp:ContentPlaceHolder>
+                            <asp:ContentPlaceHolder ID="EventSection" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+              
+            </div>
+     <div class="cols-source sourcecodeTab">
+                <Sync:Sourcetab ID="codeviewtab" runat="server" />
+        </div>
+            
+            <div class="control_ref">
+                            <span class="ref_header">OTHER RESOURCES</span>
+                            <div class="ref_options">
+                                <a id="ref_document">Documentation</a>
+                                <a id="ref_forums">Forums</a>
+                                <a id="ref_kb">Knowledge base</a>
+                                <a id="ref_support" href="https://www.syncfusion.com/support/directtrac">Support</a>
+                            </div>
+        </div>
+             
+    <script type="text/javascript">
+        function navbtnoncreate(sender, args) {
+            $("#Prev, #Next").css("display", "none");
+        }
+
+    </script>
+</asp:Content>

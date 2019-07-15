@@ -1,0 +1,83 @@
+﻿{  
+   "root":{  
+      "data":[  
+         {  
+            "Id":"parent",
+            "Role":"Marketing Director",
+            "Color":"#f79663"
+         },
+         {  
+            "Id":"1",
+            "Role":"Manager",
+            "TeamLead":"parent",
+            "Color":"#f79663"
+         },
+         {  
+            "Id":3,
+            "Role":"Fundraiser",
+            "TeamLead":"1",
+            "Color":"#5cc3b5"
+         },
+         {  
+            "Id":4,
+            "Role":"Programme",
+            "TeamLead":"1",
+            "Color":"#5cc3b5"
+         },
+         {  
+            "Id":6,
+            "Role":"Communicator",
+            "TeamLead":3,
+            "Color":"#67a961"
+         },
+         {  
+            "Id":7,
+            "Role":"Advertisor",
+            "TeamLead":3,
+            "Color":"#67a961"
+         },
+         {  
+            "Id":8,
+            "Role":"Funding Officer",
+            "TeamLead":3,
+            "Color":"#67a961"
+         },
+         {  
+            "Id":9,
+            "Role":"Inter",
+            "TeamLead":6,
+            "Color":"#67a961"
+         },
+         {  
+            "Id":10,
+            "Role":" Officer",
+            "TeamLead":7,
+            "Color":"#67a961"
+         },
+         {  
+            "Id":11,
+            "Role":" Officer",
+            "TeamLead":7,
+            "Color":"#67a961"
+         },
+         {  
+            "Id":12,
+            "Role":" Asst.Director",
+            "TeamLead":4,
+            "Color":"#e9b833"
+         },
+         {  
+            "Id":13,
+            "Role":" Asst.Director",
+            "TeamLead":4,
+            "Color":"#e9b833"
+         },
+         {  
+            "Id":14,
+            "Role":" Asst.Director",
+            "TeamLead":4,
+            "Color":"#e9b833"
+         }
+      ]
+   }
+}

@@ -1,0 +1,26 @@
+﻿{
+     "type": "FeatureCollection",
+
+     "features": [
+         
+        {
+            "properties": { "name": "Dulles Int'l Airport", "from": "Raleigh", "to": "Chennai", "Intermediate": "Washington", "abbrev": "IAD", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "IAD", "Route1_Stop2": "FRA" }, "type": "Feature", "geometry": { "type": "Point", "coordinates": [-77.447792576920619, 38.95277403795302] }
+
+        },
+        {
+            "properties": { "name": "Frankfurt Int'l Airport", "from": "Chennai", "to": "Raleigh", "Intermediate": "Frankfurt", "abbrev": "FRA", "departure": "MAA", "arrival": "RDU", "Route1_Stop1": "FRA", "Route1_Stop2": "IAD" }, "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.571822869076076, 50.05067708952074] }
+
+        },
+
+        {
+            "properties": { "name": "Atlanta Int'l Airport", "from": "Raleigh", "to": "Chennai", "Intermediate": "Atlanta", "abbrev": "ATL", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "ATL", "Route1_Stop2": "DXB" }, "type": "Feature", "geometry": { "type": "Point", "coordinates": [-84.425397433604729, 33.640529080735213] }
+
+        },
+
+        {
+            "properties": { "name": "John F Kennedy Int'l Airport", "from": "Raleigh", "to": "Chennai", "Intermediate": "Newyork", "abbrev": "JFK", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "JFK", "Route1_Stop2": "DXB" }, "type": "Feature", "geometry": { "type": "Point", "coordinates": [-73.786326860929549, 40.645959558408144] }
+
+        }
+
+     ]
+ }

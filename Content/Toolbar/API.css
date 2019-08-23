@@ -1,0 +1,54 @@
+﻿  .darktheme .cols-sample-area .e-tooltxt .ToolbarItems {
+            background-image: url('../images/toolbar/ui-icons-metro.png');
+        }
+
+        .cols-sample-area .e-tooltxt .ToolbarItems, .disabletoolli.e-tooltxt:hover .ToolbarItems {
+            display: block;
+            background-image: url('../images/toolbar/ui-icons-dark.png');
+            height: 22px;
+            width: 22px;
+        }
+
+        .e-tooltxt:hover:not(.e-disable) .ToolbarItems, .darktheme .cols-sample-area .e-tooltxt:hover:not(.e-disable) .ToolbarItems {
+            background-image: url('../images/toolbar/ui-icons-light.png');
+        }
+
+        .ToolbarItems.LeftAlign_tool {
+            background-position: -26px -39px;
+        }
+
+        .ToolbarItems.CenterAlign_tool {
+            background-position: -55px -39px;
+        }
+
+        .ToolbarItems.RightAlign_tool {
+            background-position: -89px -39px;
+        }
+
+        .ToolbarItems.Justify_tool {
+            background-position: -123px -39px;
+        }
+
+        .ToolbarItems.Bold_tool {
+            background-position: -159px -39px;
+        }
+
+        .ToolbarItems.Italic_tool {
+            background-position: -196px -39px;
+        }
+
+        .ToolbarItems.StrikeThrough_tool {
+            background-position: -55px -70px;
+        }
+
+        .ToolbarItems.Underline_tool {
+            background-position: -23px -68px;
+        }
+
+        ._button {
+            width: 90px;
+        }
+
+        .frame {
+            width: 35%;
+        }

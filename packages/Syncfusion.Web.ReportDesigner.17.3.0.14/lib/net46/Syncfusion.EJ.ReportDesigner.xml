@@ -1,0 +1,1424 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.EJ.ReportDesigner</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.DesignerApiControllerHelper">
+            <summary>Class for Designer API Controller Helper</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.IReportDesignerController">
+            <summary>
+            Interface for Designer Controller
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.PostDesignerAction(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>PostDesignerAction Actions</summary>
+            <param name="jsonResult">The Data from the client-server call</param>
+            <returns>Returns the object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.UploadReportAction">
+            <summary>Upload the Report</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.GetImage(System.String,System.String)">
+            <summary>Download the Image</summary>
+            <param name="key">key used to download the image</param>
+            <param name="image">file path of the image to download</param>
+            <returns>Returns the object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.UploadFile(System.Web.HttpPostedFile)">
+            <summary>Save the file</summary>
+            <param name="httpPostedFile">information about the file to be upload</param>
+            <returns>Returns the file upload status</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.GetFile(System.String,System.Boolean)">
+            <summary>Get the Specific file information</summary>
+            <param name="filename">name of the file to download</param>
+            <param name="isOverride">boolean state to override the file</param>
+            <returns>Returns the information about the file</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.GetFiles(Syncfusion.EJ.ReportDesigner.FileType)">
+            <summary>Get the files list</summary>
+            <param name="fileType">collections of supported file extensions</param>
+            <returns>Returns the list of information about the files</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.IReportDesignerController.GetFilePath(System.String)">
+            <summary>Get the path of specific file</summary>
+            <param name="key">Name of the file to get the full path</param>
+            <returns>Returns the full path of file</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.FileType">
+            <summary>Types of files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Xml">
+            <summary>Extension of Xml files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Sdf">
+            <summary>Extension of SDF Database files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Image">
+            <summary>Extension of Image files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.RDL">
+            <summary>Extension of RDL Report files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.RDLC">
+            <summary>Extension of RDLC Report files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Mdb">
+            <summary>Extension of Access files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Accdb">
+            <summary>Extension of Access Database files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Xls">
+            <summary>Extension of Excel files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Xlsx">
+            <summary>Extension of Excel Advanced files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Xlsm">
+            <summary>Extension of Excel files</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.FileType.Xlsb">
+            <summary>Extension of Excel files</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.SaveAction">
+            <summary>Types of save action</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.SaveAction.Download">
+            <summary>SaveAction to Download/Save the Report</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.SaveAction.Preview">
+            <summary>SaveAction to Preview the Report</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.SaveAction.ServerRpt">
+            <summary>SaveAction to Save/Create Server Report</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.DesignerAction">
+            <summary>Types of designer action</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ReportLoad">
+            <summary>DesignerAction to Load the Report</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.CreateServerReport">
+            <summary>DesignerAction to Create the Report in Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SaveReport">
+            <summary>DesignerAction to Save the Report</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SaveServerReport">
+            <summary>DesignerAction to Save the Report in Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.OpenReport">
+            <summary>DesignerAction to Open the Report</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.OpenXMLReport">
+            <summary>DesignerAction to Open the Report form XML Data</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SaveXMLReport">
+            <summary>DesignerAction to Save the Report in XML format</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.OpenJSONReport">
+            <summary>DesignerAction to Open the Report form JSON Data</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SaveJSONReport">
+            <summary>DesignerAction to Save the Report in JSON format</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.OpenServerReport">
+            <summary>DesignerAction to Open the Report from Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.PreviewReport">
+            <summary>DesignerAction to Preview the Report in Viewer</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ImageLoad">
+            <summary>DesignerAction to Load the Embedded Images</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DataBases">
+            <summary>DesignerAction to Get the List of Databases from Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ServerInstance">
+            <summary>DesignerAction to Get the List of Server Instances</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.TestConnection">
+            <summary>DesignerAction to Test the Database Connection</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DatabaseSchema">
+            <summary>DesignerAction to Get the List of Schemas from the Database</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.QuerySchema">
+            <summary>DesignerAction to Get the QuerySchema from the Database</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SQLQuery">
+            <summary>DesignerAction to Execute the Query</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DBUpload">
+            <summary>DesignerAction to Upload the Database to the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DataBaseLoad">
+            <summary>DesignerAction to Download the Database from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ExecuteQuery">
+            <summary>DesignerAction to Execute the Dataset Query</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.RSGenerateToken">
+            <summary>DesignerAction to Generate the Server Token for ReportDesigner</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DataSourceCatalog">
+            <summary>DesignerAction to Get the List of Databases from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DataSetCatalog">
+            <summary>DesignerAction to Get the List of Datasets from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ReportCatalog">
+            <summary>DesignerAction to Get the List of Reports from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.CategoryCatalog">
+            <summary>DesignerAction to Get the List of File Categories from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SharedDataSource">
+            <summary>DesignerAction to Get the List of Shared Databases from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SharedDataSet">
+            <summary>DesignerAction to Get the List of Shared Datasets from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SaveSharedDataSet">
+            <summary>DesignerAction to Save the Shared Datasets to the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DownloadSharedDataSet">
+            <summary>DesignerAction to download the Shared Dataset from the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.CreateSharedDataSet">
+            <summary>DesignerAction to Create the Shared Dataset to the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.LoadODBCDrivers">
+            <summary>DesignerAction to Get the List of Supported ODBC Drivers from the Machine</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ReportParameters">
+            <summary>DesignerAction to Get the List of ReportParameters from the Report</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SharedDataInfo">
+            <summary>DesignerAction to Create the Shared DatasetInfo to the Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.CustomReportItem">
+            <summary>DesignerAction to handle custom report item</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DataExtensions">
+            <summary>DesignerAction to Get the List of DataExtensions Configured in WebConfig</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.DataDesignerState">
+            <summary>DesignerAction to Get the QueryDesignerState from Extension in WebConfig</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.SharedDataDetails">
+            <summary>DesignerAction to Get the shared dataset and datasource from Report Server</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ScriptException">
+            <summary>DesignerAction to handle script exception</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.DesignerAction.ControlInitialization">
+            <summary>DesignerAction to check the core service</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper">
+            <summary>Helper to handle the Designer Actions</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.ProcessDesigner(System.Collections.Generic.Dictionary{System.String,System.Object},Syncfusion.EJ.ReportDesigner.IReportDesignerController,System.Web.HttpPostedFile)">
+            <summary>Evaluate the Designer Actions</summary>
+            <param name="jsonArray">The Data from the client-server call</param>
+            <param name="designer">Controller instance</param>
+            <param name="httpPostedFile">Information about the file to be upload</param>
+            <returns>Returns the object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.GetEncodedCode">
+            <summary>Get the Encrypted keyCode from Header</summary>
+            <returns>Returns the Encrypted keyCode String</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.IsReportCompatible(Syncfusion.RDL.DOM.ReportDefinition)">
+            <summary>Validates the Report is Compatible with ReportDesigner</summary>
+            <param name="reportDOM">Deserialized Dom Structure of the Report</param>
+            <returns>Returns the Report Compatible State</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.IsReportCompatible(System.String,System.String)">
+            <summary>Validates the Report is Compatible with ReportDesigner</summary>
+            <param name="serverUrl">Server URL to Check the Report</param>
+            <param name="reportPath">Path of the Report in Server to Validate</param>
+            <returns>Returns the Report Compatible State</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.GetImage(System.String,System.String,Syncfusion.EJ.ReportDesigner.IReportDesignerController)">
+            <summary>Download the image from File</summary>
+            <param name="key">key used to download the image</param>
+            <param name="image">file path of the image to download</param>
+            <param name="controller">Controller instance</param>
+            <returns>Returns the downloaded response of image</returns>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.ReportingServer">
+            <summary>Gets or sets the External ReportServer</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.EJReportDesignerToken">
+            <summary>Gets or sets the Token used for ReportDesigner</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.SaveFileName">
+            <summary>Gets or sets the File name to save the Report</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.ReportServer">
+            <summary>Gets or sets the External ReportServer</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportDesignerHelper.DesignerInstance">
+            <summary>Gets or sets the controller instance</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper">
+            <summary>Helper to handle the Designer Actions</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.cacheHelper">
+            <summary>Creates a helper instance</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.#ctor">
+            <summary>Initializes a new instance of the ReportDesignerInternalHelper class</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.ProcessDesigner">
+            <summary>Evaluates the Designer Actions</summary>
+            <returns>Returns the JSON data object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.Dispose">
+            <summary>Disposes the controller instance and resets to null</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.GetEncodedCode">
+            <summary>Get the Encrypted keyCode from Header</summary>
+            <returns>Returns the Encrypted keyCode String</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.SaveReport(System.String,System.String)">
+            <summary>Downloads the specified report</summary>
+            <param name="reportPath">Gets the path of the report to download</param>
+            <param name="reportData">Gets the report data as string</param>
+            <returns>Http response message</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.GetReport(System.String)">
+            <summary>Opens the Report</summary>
+            <param name="path">Gets the file path to open the report</param>
+            <returns>Returns the deserialized object of Report</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.SaveSharedDataSet(System.String,System.String)">
+            <summary>Save the Shared Dataset to the local machine</summary>
+            <param name="datasetPath">DatasetPath to save the Dataset</param>
+            <param name="datasetData">Data to be serialized in DataSetShared format</param>
+            <returns>Returns the response status of Dataset to be saved</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.GetAvailableDB(System.String,Syncfusion.EJ.ReportDesigner.FileType)">
+            <summary>Download the Databases from the machine</summary>
+            <param name="ejToken">Designer Token to process the Actions</param>
+            <param name="fileExtension">Speciifies the supported file extension</param>
+            <returns>Returns the list of information about the files</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.IsDataBase(System.String)">
+            <summary>Validates whether the file has valid database extension.</summary>
+            <returns>Returns the boolean value.</returns>
+            <param name="fileName">Gets the fully qualified file name on the client </param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.SaveItem(System.String)">
+            <summary>Uploads the file uploaded by a client</summary>
+            <returns>Returns the Http response message .</returns>
+            <param name="ejId">Gets the report designer token</param>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.HttpPostedFileInstance">
+            <summary>Gets or sets the instance of the file uploaded by client</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.JsonArray">
+            <summary>Gets or sets the JSON array</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.DesignerApiController">
+            <summary>Gets or sets the controller instance</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.ReportDesignerInternalHelper.SaveAction">
+            <summary>Gets or sets the save action type</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.TextExtension">
+            <summary>Class for Text Extension implementation</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.DATABASES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.TABLES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.COLUMNS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.VIEWS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.PROCEDURES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.PROCEDUREPARAMETERS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.FOREIGNKEYS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.TextExtension.INDEXCOL">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.TextExtension.IsTestConnection(System.String@)">
+            <summary>Tests the database connection.</summary>
+            <returns>Returns the boolean value.</returns>
+            <param name="error">To handle error message in the test connection. </param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.TextExtension.UpgradeDatabase">
+            <summary>Upgrades the Database.</summary>
+            <returns>Returns the boolean value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.TextExtension.ConstructString">
+            <summary>Constructs the connection string.</summary>
+            <returns>Returns the connection string.</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.JSONExtension">
+            <summary>Class for JSON Extension implementation</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.DATABASES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.TABLES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.COLUMNS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.VIEWS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.PROCEDURES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.PROCEDUREPARAMETERS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.FOREIGNKEYS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.JSONExtension.INDEXCOL">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.JSONExtension.IsTestConnection(System.String@)">
+            <summary>Tests the connection to a database.</summary>
+            <returns>Returns the boolean value.</returns>
+            <param name="error">To handle error message in the test connection. </param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.JSONExtension.UpgradeDatabase">
+            <summary>Upgrades the Database.</summary>
+            <returns>Returns the boolean value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.JSONExtension.ConstructString">
+            <summary>Constructs the connection string.</summary>
+            <returns>Returns the connection string.</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.DataProvider">
+            <summary>
+            Class for DataProvider
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.DataProvider"/> class
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.#ctor(Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.DataProvider"/> class
+            </summary>
+            <param name="datasoucre">The data source of the DataProvider</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.#ctor(Syncfusion.RDL.DOM.DataSource)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.DataProvider"/> class
+            </summary>
+            <param name="datasoucre">The data source of the DataProvider</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.#ctor(Syncfusion.RDL.DOM.DataSource,System.String,System.String,System.Collections.Generic.List{Syncfusion.Reports.EJ.Data.Parameter},Syncfusion.Reports.EJ.Data.QueryBuilderDesignInfo)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.DataProvider"/> class
+            </summary>
+            <param name="datasoucre">The data source of the DataProvider</param>
+            <param name="query">The query string of the data connection</param>
+            <param name="commandType">The command type of the data connection</param>
+            <param name="parameters">The list of parameters</param>
+            <param name="queryInfo">The object of the QueryBuilderDesignInfo and it contains the required query information</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetServerNames">
+            <summary>
+            Gets the server names.
+            </summary>
+            <returns>Returns the server names</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.IsTestConnection">
+            <summary>
+            To check whether the test connection
+            </summary>
+            <returns>Returns true, if connection succeed, else return the error message.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetDataBases">
+            <summary>
+            Gets the DataBases
+            </summary>
+            <returns>Return the data base if data extension is found else return the error message</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetSchema">
+            <summary>
+            Gets the Schema
+            </summary>
+            <returns>Returns the Schema</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetTableData">
+            <summary>
+            Gets the Table data.
+            </summary>
+            <returns>Returns the table data</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetQuerySchema">
+            <summary>
+            Gets the QuerySchema
+            </summary>
+            <returns>Returns the Query Schema</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetCommandText">
+            <summary>
+            Gets the Command text
+            </summary>
+            <returns>Returns the command text</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetDataExtensions">
+            <summary>
+            Gets the Data Extensions List
+            </summary>
+            <returns>Returns the Provider List of Data Extensions </returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetDesignerState(System.String)">
+            <summary>
+            Gets the Query Designer State
+            </summary>
+            <param name="provider">Data Provider</param>
+            <returns>Returns Query Designer State</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetODBCDrivers">
+            <summary>
+            Gets the ODBCDrivers
+            </summary>
+            <returns>Returns the ODBCDrivers</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.UpdateCommandText(Syncfusion.Reports.EJ.Data.IDataExtension)">
+            <summary>
+            Update the command text
+            </summary>
+            <param name="extension">The data extension, which needs to update the command text</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetExtension">
+            <summary>
+            Get the Data Extension
+            </summary>
+            <returns>Returns the Extension</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetExtension(System.String)">
+            <summary>
+            Get the Data Extension
+            </summary>
+            <param name="provider">Data Provider</param>
+            <returns>Returns the Extension</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetSchemaColumns(System.Object)">
+            <summary>
+            Fetches the columns from the provided table information.
+            </summary>
+            <param name="table">The information of the table to fetch columns list</param>
+            <returns>Returns the columns list from the specific table</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetTableJson(System.Object)">
+            <summary>
+            Gets the Table JSON values
+            </summary>
+            <param name="tableData">The table data value</param>
+            <returns>Returns the table JSON string</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.GetColumnJson(System.Object)">
+            <summary>
+            Gets the Column JSON value
+            </summary>
+            <param name="tableData">The table data value</param>
+            <returns>Returns the column JSON string</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.UpdateDataSource(Syncfusion.RDL.DOM.DataSource)">
+            <summary>
+            Update the data source information
+            </summary>
+            <param name="datasoucre">The data source which needs to be updated</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.UpdateExtension(Syncfusion.Reports.EJ.Data.IDataExtension)">
+            <summary>
+            Update the the Data Extension
+            </summary>
+            <param name="extension">The data extension which needs to be updated</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataProvider.ConvertParamValues(System.Collections.Generic.List{Syncfusion.Reports.EJ.Data.Parameter})">
+            <summary>
+            Convert the parameter values.
+            </summary>
+            <param name="parameters">The list of parameters</param>
+            <returns>Returns the parameter list</returns>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.DataProvider.DataSource">
+            <summary>
+            Gets or sets the DataSource
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.DataProvider.CommandText">
+            <summary>
+            Gets or sets the CommandText
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.DataProvider.CommandType">
+            <summary>
+            Gets or sets the CommandType
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.DataProvider.Parameters">
+            <summary>
+            Gets or sets the Parameters
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.DataProvider.QueryInfo">
+            <summary>
+            Gets or sets the QueryInfo
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.DataException">
+            <summary>
+            The DataException class handles the exception
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.DataException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.DataException"/> class
+            </summary>
+            <param name="message">The message that describes the error</param>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.CsvExtension">
+            <summary>Class for Csv Extension implementation</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.DATABASES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.TABLES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.COLUMNS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.VIEWS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.PROCEDURES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.PROCEDUREPARAMETERS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.FOREIGNKEYS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CsvExtension.INDEXCOL">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.CsvExtension.IsTestConnection(System.String@)">
+            <summary>Tests the connection to a database.</summary>
+            <returns>Returns the boolean value.</returns>
+            <param name="error">To handle error message in the test connection. </param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.CsvExtension.UpgradeDatabase">
+            <summary>Upgrades the Database.</summary>
+            <returns>Returns the boolean value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.CsvExtension.ConstructString">
+            <summary>Constructs the connection string.</summary>
+            <returns>Returns the connection string.</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.TableColumns">
+            <summary>
+            Class for TableColumns
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.TableColumns.Name">
+            <summary>
+            Gets or sets the Name
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.TableColumns.DataType">
+            <summary>
+            Gets or sets the Data type
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.ExcelExtension">
+            <summary>Class for Excel Extension implementation</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.DATABASES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.TABLES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.COLUMNS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.VIEWS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.PROCEDURES">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.PROCEDUREPARAMETERS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.FOREIGNKEYS">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ExcelExtension.INDEXCOL">
+            <summary>specified string for the schema name.</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ExcelExtension.IsTestConnection(System.String@)">
+            <summary>Tests the connection to a database.</summary>
+            <returns>Returns the boolean value.</returns>
+            <param name="error">To handle error message in the test connection. </param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ExcelExtension.UpgradeDatabase">
+            <summary>Upgrades the Database.</summary>
+            <returns>Returns the boolean value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ExcelExtension.ConstructString">
+            <summary>Constructs the connection string.</summary>
+            <returns>Returns the connection string.</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.FileModel">
+            <summary>
+            Class for FileModel
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.FileModel.Name">
+            <summary>
+            Gets or sets the Name
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.FileModel.Path">
+            <summary>
+            Gets or sets the Path
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.FileModel.Value">
+            <summary>
+            Gets or sets the Value
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SQLQueryInfo">
+            <summary>
+            Class for SQLQueryInfo
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SQLQueryInfo.QueryText">
+            <summary>
+            Gets or sets the query text
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SQLQueryInfo.QueryModel">
+            <summary>
+            Gets or sets the Query model
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory">
+            <summary>
+            Class for ReportDirectory
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory"/> class
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory.Name">
+            <summary>
+            Gets or sets the Name
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory.ParentName">
+            <summary>
+            Gets or sets the ParentName
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory.Id">
+            <summary>
+            Gets or sets the Id
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory.Type">
+            <summary>
+            Gets or sets the Item Type
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.ReportDirectory.DirectoryItems">
+            <summary>
+            Gets or sets the Directory Items
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSourceMapping">
+            <summary>
+            Class for DataSourceMapping
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSourceMapping.Name">
+            <summary>
+            Gets or sets the data source name
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSourceMapping.DataSourceId">
+            <summary>
+            Gets or sets the data source id
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSetMapping">
+            <summary>
+            Class for DataSetMapping
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSetMapping.Name">
+            <summary>
+            Gets or sets the data source name
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSetMapping.DataSetId">
+            <summary>
+            Gets or sets the data source id
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SharedDataInfo">
+            <summary>
+            Class for SharedDataInfo
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SharedDataInfo.IsRequiredCredential">
+            <summary>
+            Gets or sets a value indicating whether Credential required or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SharedDataInfo.DataProvider">
+            <summary>
+            Gets or sets the data provider
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.SharedDataInfo.SecurityType">
+            <summary>
+            Gets or sets the security type
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource">
+            <summary>
+            Class for DataSource
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.Name">
+            <summary>
+            Gets or sets the Data source name
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.ConnectionString">
+            <summary>
+            Gets or sets the Connection string
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.Provider">
+            <summary>
+            Gets or sets the data provider
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.IsIntegrated">
+            <summary>
+            Gets or sets a value indicating whether integrated mode of the data source.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.Username">
+            <summary>
+            Gets or sets the UserName of the data source.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.Password">
+            <summary>
+            Gets or sets the Password for the data source.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.SecurityType">
+            <summary>
+            Gets or sets the Security Type of the data source.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.JsonModel.DataSource.CustomProperties">
+            <summary>
+            Gets or sets the CustomProperties of the data source.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.ReportProcessor">
+            <summary>Class for ReportProcessor implementation</summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.ReportProcessor.serverReportProcessor">
+            <summary>Class for ReportProcessor implementation</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.#ctor(Syncfusion.Reports.EJ.Server.ReportServer,Syncfusion.EJ.RDL.ServerProcessor.ReportingServer,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>Initializes a new instance of the ReportProcessor class</summary>
+            <param name="reportServer">Gets the report server information</param>
+            <param name="reportingServer">Gets the reporting server information</param>
+            <param name="reportJson">Gets the report JSON</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.#ctor">
+            <summary>Initializes a new instance of the ReportProcessor class</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetReport(Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Opens the server Report</summary>
+            <param name="saveAction">Save action to DeSerialize the server report</param>
+            <returns>Returns the deserialized object of Report</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.SetReport(System.Byte[])">
+            <summary>Saves the Report in to the server</summary>
+            <param name="report">Gets the report JSON as bytes</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.CreateReport(System.String,System.String,System.Byte[])">
+            <summary>Creates the Report in to the server</summary>
+            <param name="reportName">Gets the name to create a report</param>
+            <param name="category">Gets the category type to create a report</param>
+            <param name="report">Gets the report JSON as bytes</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetSharedDataSource(System.Boolean)">
+            <summary>Provides the shared data source information</summary>
+            <param name="isEncrypt">Gets the boolean value</param>
+            <returns>Returns the shared data source information object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetSharedDataInfo">
+            <summary>Provides the shared data information</summary>
+            <returns>Returns the shared data information object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetSecurityType(Syncfusion.RDL.DOM.Server.DataSourceDefinition)">
+            <summary>Provides the shared data source security type</summary>
+            <param name="sharedDataSourceInfo">Gets the DataSource definition value</param>
+            <returns>Returns the security type of DataSource</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetSharedDataSet">
+            <summary>Provides the shared dataset</summary>
+            <returns>Returns the shared dataset</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetSharedDataSetInfo">
+            <summary>Provides the shared dataset definition</summary>
+            <returns>Returns the shared dataset definition</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.CreateSharedDataSet(System.String,System.Byte[])">
+            <summary>Creates the shared dataset</summary>
+            <param name="name">Gets the name to create a shared dataset</param>
+            <param name="data">Gets the shared dataset information as byte</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.SetDataSet(System.String,System.Byte[])">
+            <summary>Saves the shared dataset</summary>
+            <param name="name">Gets the name to save dataset</param>
+            <param name="data">Gets the dataset information as byte data</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GenerateToken">
+            <summary>Generates the server token</summary>
+            <returns>Returns the empty string</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetCatalogItems(Syncfusion.Reports.EJ.Server.ItemTypeEnum)">
+            <summary>Provides the item details based on specified item type.</summary>
+            <param name="itemType">Gets the item type to fetch specific item details.</param>
+            <returns>Returns the catalog of specific item type</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetCatalogItems(Syncfusion.Reports.EJ.Server.ItemTypeEnum,System.String)">
+            <summary>Provides the item details in the specified folder path.</summary>
+            <param name="itemType">Gets the item type to fetch specific item details from folder.</param>
+            <param name="folderPath">Gets the path of the folder.</param>
+            <returns>Returns the items in the folder</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetCatalogItems(System.String)">
+            <summary>Provides the directory details.</summary>
+            <param name="dirPath">Gets the path of the directory.</param>
+            <returns>Returns the items in the directory as directory object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetReportDOM(Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Provided the DOM of the specified report</summary>
+            <param name="saveAction">Save action to DeSerialize the report DOM</param>
+            <returns>Return the report DOM as report definition</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetReportItems(System.Collections.Generic.List{Syncfusion.Reports.EJ.Server.CatalogItem},System.String)">
+            <summary>Provides the report item based on catalog and parent name</summary>
+            <param name="reportCatalog">Gets the catalog item information</param>
+            <param name="parentName">Gets the parent directory name</param>
+            <returns>Returns the report files in specific directory</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.GetItemTypeEnum(System.String)">
+            <summary>Method to get enum for the specified item type </summary>
+            <param name="itemTypeEnum">Gets the item type</param>
+            <returns>Returns the enum value of specified item type</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.UpdateDataSourceMapping(System.String)">
+            <summary>Updates the data source mapping</summary>
+            <param name="mapdata">Gets the data source mapping JSON as string</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.ReportProcessor.UpdateDataSetMapping(System.String)">
+            <summary>Updates the data set mapping</summary>
+            <param name="mapdata">Gets the data set mapping JSON as string</param>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.Username">
+            <summary>Gets or sets the username</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.Password">
+            <summary>Gets or sets the password</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.ShareDataSource">
+            <summary>Gets or sets the shared data source</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.ShareDataSet">
+            <summary>Gets or sets the shared dataset</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.ServerReportProcessor">
+            <summary>Gets the server report processor</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.ReportServer">
+            <summary>Gets or sets the report server</summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.ReportProcessor.ReportingServer">
+            <summary>Gets or sets the reporting server</summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.CryptoMode">
+            <summary>
+            Types of CryptoMode.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CryptoMode.Encrypt">
+            <summary>
+            Represents Encryption.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.EJ.ReportDesigner.CryptoMode.Decrypt">
+            <summary>
+            Represents Decryption.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.CryptoAttribute">
+            <summary>
+            Class for CryptoAttribute
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.CryptoAttribute.#ctor(Syncfusion.EJ.ReportDesigner.CryptoMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.CryptoAttribute"/> class.
+            </summary>
+            <param name="cryptoType">CryptoMode type of cryptoType parameter</param>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.CryptoAttribute.CryptoType">
+            <summary>
+            Gets or sets the CryptoType. 
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil">
+            <summary>Class for ReportUtil</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.DeSerializeReport(System.String,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Deserializes the RDL report.</summary>
+            <returns>Returns the JSON object.</returns>
+            <param name="path">string type path parameter</param>
+            <param name="saveAction">Save action to DeSerialize the report</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.DeSerializeDOM(System.IO.Stream,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Deserializes the report DOM.</summary>
+            <returns>Returns the report definition object.</returns>
+            <param name="report">Pass RDL report as sequence of bytes</param>
+            <param name="saveAction">Save action to DeSerialize the report DOM</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.DeSerializeJSON(System.String,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Deserializes the Json Data.</summary>
+            <returns>Returns the JSON object.</returns>
+            <param name="jsonData">string type json data</param>
+            <param name="saveAction">Save action to DeSerialize the report</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.DeSerializeReport(System.IO.Stream,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Deserializes the report.</summary>
+            <returns>Returns the JSON object.</returns>
+            <param name="report">Pass RDL report as sequence of bytes</param>
+            <param name="saveAction">Save action to DeSerialize the report</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.SerializeReportJSON(System.String,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Serializes the Json Data.</summary>
+            <returns>Returns the JSON object.</returns>
+            <param name="jsonData">string type json data</param>
+            <param name="saveAction">Save action to Serialize the report</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.SerializeReport(System.String,System.String,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Serializes the RDL report.</summary>
+            <param name="reportPath">string type Pass path of the RDL report</param>
+            <param name="jsonData">string type Pass the report json as JSON string</param>
+            <param name="saveAction">Save action to Serialize the report</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.SerializeSharedData(System.String)">
+            <summary>Serializes the shared data.</summary>
+            <returns>Returns the RDL report definition as sequence of bytes.</returns>
+            <param name="jsonData">string type Pass the report json as JSON string</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetReportDefinition(System.String)">
+            <summary>Get report definition.</summary>
+            <returns>Returns the JSON string as report definition.</returns>
+            <param name="jsonData">string type Pass the report json as JSON string  </param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.SerializeReport(System.String,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Serializes the RDL report.</summary>
+            <returns>Returns the RDL report definition as sequence of bytes.</returns>
+            <param name="jsonData">string type Pass the report json as JSON string</param>
+            <param name="saveAction">Save action to Serialize the report</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.EncodeTo64(System.String)">
+            <summary>Encodes the plaintext to 64-bit.</summary>
+            <returns>Returns the String.</returns>
+            <param name="plainText">string type Pass the plain text to encode</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.DecodeFrom64(System.String)">
+            <summary>Decodes the 64-bit to text.</summary>
+            <returns>Returns the encoded string.</returns>
+            <param name="encodedData">string type Pass the text string to encode</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.CovertToByte(System.IO.Stream)">
+            <summary>Converts stream input to byte.</summary>
+            <returns>Returns the byte array.</returns>
+            <param name="input">Pass the sequence of bytes</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetCurrentFolder">
+            <summary>Gets current folder path.</summary>
+            <returns>Returns the folder path as string.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.WriteImg(System.String,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>Saves the image to the specified format.</summary>
+            <param name="baseStr">String type baseString parameter</param>
+            <param name="filePath">String type filePath parameter</param>
+            <param name="format">Image format type format parameter</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.ReadImg(System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>Read the image to the specified format.</summary>
+            <param name="filePath">String type filePath parameter</param>
+            <param name="format">Image format type format parameter</param>
+            <returns>Returns the string.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.TryParse``1(System.Object)">
+            <summary>Generic Method to Convert the DataType</summary>
+            <param name="value">Object to Convert to its Specified DataType</param>
+            <typeparam name="T">The generic return type.</typeparam>
+            <returns>Returns the Converted Value of Specified DataType</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.LogError(System.String,System.Exception,System.Reflection.MethodBase,Syncfusion.Reports.EJ.ErrorType)">
+            <summary>Check report is compatible.</summary>
+            <param name="message">Error message</param>
+            <param name="exception">Exception Instance</param>
+            <param name="methodType">Current Method</param>
+            <param name="errorType">Error Type</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetDataSrcNameFromReference(System.String)">
+            <summary>Get data source name from data source reference.</summary>
+            <param name="reference">String type reference parameter</param>
+            <returns>Returns the data source name.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.IsReportCompatible(Syncfusion.RDL.DOM.ReportDefinition)">
+            <summary>Check report is compatible.</summary>
+            <param name="reportDef">ReportDefinition type reportDef parameter</param>
+            <returns>Returns the boolean.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetReportParameters(Syncfusion.RDL.DOM.ReportDefinition)">
+            <summary>Get report parameters list.</summary>
+            <param name="reportDOM">ReportDefinition type Pass the RDL report DOM</param>
+            <returns>Returns the list of string.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetCustomItemData(Syncfusion.RDL.DOM.CustomReportItem)">
+            <summary>Get custom report item data.</summary>
+            <param name="criItem">Pass the custom report item.</param>
+            <returns>Returns the custom report item as image in base64 string format.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetJSONWithoutAssembly(System.String)">
+            <summary>Get JSON without assembly information</summary>
+            <param name="input">String type of input value</param>
+            <returns>Returns the string value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetJSONWithAssembly(System.String)">
+            <summary>Get JSON with assembly information</summary>
+            <param name="input">String type of json data to Deserialize</param>
+            <returns>Returns the string value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.ConvertSharedToLocalData(Syncfusion.RDL.DOM.Server.DataSourceDefinition,Syncfusion.RDL.DOM.Server.SharedDataSet)">
+            <summary>Covert the shared data to local data</summary>
+            <param name="sharedDataSource">Shared datasource information</param>
+            <param name="sharedDataSet">Shared dataset information</param>
+            <returns>Returns the tuple of datasource and dataset value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.ReadEmbeddedImg(Syncfusion.RDL.DOM.EmbeddedImages)">
+            <summary>Read embedded image.</summary>
+            <param name="images">EmbeddedImages type parameter</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.WriteEmbeddedImg(Syncfusion.RDL.DOM.EmbeddedImages)">
+            <summary>Write embedded image.</summary>
+            <param name="images">EmbeddedImages type parameter</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.GetImgFormat(System.String)">
+            <summary>Get Image Format.</summary>
+            <param name="extension">Pass the image extension type.</param>
+            <returns>Returns the image in specified extension format.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.IsSupportedItem(Syncfusion.RDL.DOM.ReportItem)">
+            <summary>Checks whether the specified report item is supported or not.</summary>
+            <param name="item">Pass the report item</param>
+            <returns>Returns the boolean.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.UpdateDatasourceCredential(Syncfusion.RDL.DOM.DataSources,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Update the datasource embeded credentials.</summary>
+            <param name="datasources">DataSources type of parameter</param>
+            <param name="saveAction">Save action to update the datasource embed credentials</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.UpdateEmbedCredential(Syncfusion.RDL.DOM.DataSources,Syncfusion.EJ.ReportDesigner.SaveAction)">
+            <summary>Update the datasource embeded credentials while deserialization.</summary>
+            <param name="datasources">DataSources type of parameter</param>
+            <param name="saveAction">Save action to udpate the datasource embed credentials</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.ConvertSharedDataSource(Syncfusion.RDL.DOM.Server.DataSourceDefinition)">
+            <summary>Convert the shared datasource to embeded datasource.</summary>
+            <param name="sharedDataSource">Shared datasource information</param>
+            <returns>Returns converted datasource information.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.ConvertSharedDataSet(Syncfusion.RDL.DOM.Server.SharedDataSet)">
+            <summary>Convert the shared dataset to embeded dataset.</summary>
+            <param name="sharedDataSet">Shared dataset information</param>
+            <returns>Returns converted dataset information.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.ReportUtil.ConvertQueryParameters(Syncfusion.RDL.DOM.Server.DataSetParameters)">
+            <summary>Convert the dataset parameters into query parameters.</summary>
+            <param name="parameters">Shared dataset parameters information</param>
+            <returns>Returns converted query parameters.</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.Util.SessionUtil">
+            <summary>Static class for Session Util</summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.SessionUtil.CreateSession(System.String,System.String)">
+            <summary>Creates session for the HTTP request</summary>
+            <param name="sessionId">current session Id</param>
+            <param name="value">string value used to name cookie</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.SessionUtil.Abandon(System.String)">
+            <summary>Updates all Http specific information about an individual Http request.</summary>
+            <param name="sessionId">current session Id</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.SessionUtil.ReadSession(System.String)">
+            <summary>Reads the HTTP session request</summary>
+            <param name="sessionId">Id of the session</param>
+            <returns>Returns all Http specific information about the Http request</returns>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter">
+            <summary>
+            Class for JsonConverter
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.SerializeObject(System.Object)">
+            <summary>JavaScript Serialization with specific type of resulting object.</summary>
+            <param name="value">Specific type of resulting object to serialize</param>
+            <returns>Returns the serialized value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.RDLTypeSerializeObject(System.Object)">
+            <summary>JavaScript Serialization with specific type of resulting object.</summary>
+            <param name="value">Specific type of resulting object to serialize</param>
+            <returns>Returns the RDLType serialized value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.Deserialize``1(System.String)">
+            <summary>
+            JavaScript Deserialization with specific type of resulting object.
+            </summary>
+            <returns>Returns the deserialized value.</returns>
+            <param name="jsonstr">string type jsonstr parameter</param>
+            <typeparam name="T">The first generic type parameter.</typeparam>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.RDLTypeDeSerializeObject``1(System.String)">
+            <summary>Deserialize the given string value</summary>
+            <param name="jsonData">String type of json data to Deserialize</param>
+            <returns>Returns the RDLType Deserialized value.</returns>
+            <typeparam name="T">The first generic type parameter.</typeparam>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.DeSerializeCustomReportItem(System.String)">
+            <summary>Deserialize the given custom report item's JSON data</summary>
+            <param name="jsonData">String type of json data to Deserialize</param>
+            <returns>Returns the custom report item Deserialized value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.DeSerializeDataSourceDOM(System.String)">
+            <summary>Deserialize the given datasource JSON Data</summary>
+            <param name="jsonData">String type of json data to Deserialize</param>
+            <returns>Returns the datasource Deserialized value.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.Serialize(System.Data.DataTable)">
+            <summary>
+            Get a JSON string of table's rows and columns name.
+            </summary>
+            <returns>Returns the string.</returns>
+            <param name="table">DataTable type of table parameter</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.SerializeJSON(System.Collections.Generic.List{Syncfusion.RDL.Data.ReportData})">
+            <summary>
+            JavaScript Serialization JSON with list of Dictionary.
+            </summary>
+            <returns>Returns the string.</returns>
+            <param name="reportData">ReportData list type of reportData parameter</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.SerializeJSON(System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}})">
+            <summary>
+            JavaScript Serialization JSON with list of Dictionary.
+            </summary>
+            <returns>Returns the string.</returns>
+            <param name="reportData">ReportData list type of reportData parameter</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.JsonConverter.SerializeJSON(System.Data.DataTable)">
+            <summary>
+            JavaScript Serialization JSON with DataColumn.
+            </summary>
+            <returns>Returns the string.</returns>
+            <param name="table">DataTable type of table parameter</param>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter">
+            <summary>
+            Class for DateTimeJavaScriptConverter
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.Deserialize(System.Collections.Generic.IDictionary{System.String,System.Object},System.Type,System.Web.Script.Serialization.JavaScriptSerializer)">
+            <summary>
+            Gets the deserialized object
+            </summary>
+            <param name="dictionary">An IDictionary instance of property data stored as name/value pairs.</param>
+            <param name="type">The type of the resulting object</param>
+            <param name="serializer">The JavaScriptSerializer instance.</param>
+            <returns>Returns the de-serialized object</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.Serialize(System.Object,System.Web.Script.Serialization.JavaScriptSerializer)">
+            <summary>
+            Gets the serialized object
+            </summary>
+            <param name="obj">The object to serialize.</param>
+            <param name="serializer">The object that is responsible for the serialization.
+            Provides serialization and deserialization functionality for AJAX-enabled applications.</param>
+            <returns>Returns the object that contains key/value pairs.</returns>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.SupportedTypes">
+            <summary>
+            Gets the collection of supported types.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString">
+            <summary>
+            Class for DataString
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString"/> class
+            </summary>
+            <param name="str">A string that identifies the resource to be represented by the System.Uri instance</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#Add(System.String,System.Object)">
+            <summary>
+            Adds an element with the provided key and value to the System.Collections.Generic.IDictionary
+            </summary>
+            <param name="key">The object to use as the key of the element to add</param>
+            <param name="value">The object to use as the value of the element to add</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#ContainsKey(System.String)">
+            <summary>
+            Determines whether the System.Collections.Generic.IDictionary contains an element with the specified key
+            </summary>
+            <param name="key">The key to locate in the System.Collections.Generic.IDictionary</param>
+            <returns>true if the System.Collections.Generic.IDictionary contains an element with the key; otherwise, false.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#Remove(System.String)">
+            <summary>
+            Removes the element with the specified key from the System.Collections.Generic.IDictionary
+            </summary>
+            <param name="key">The key of the element to remove</param>
+            <returns>true if the element is successfully removed. This method also returns false if key was not found.</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#TryGetValue(System.String,System.Object@)">
+            <summary>
+            Gets the value associated with the specified key.
+            </summary>
+            <param name="key">The key whose value to get</param>
+            <param name="value">When this method returns, the value associated with the specified key, if the key is found;
+            otherwise, the default value for the type of the value parameter.This parameter is passed uninitialized.</param>
+            <returns>true if the object that implements IDictionary contains an element with the specified key</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Adds an item to the System.Collections.Generic.ICollection
+            </summary>
+            <param name="item">The object to add to the System.Collections.Generic.ICollection.</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#Clear">
+            <summary>
+            Removes all items from the System.Collections.Generic.ICollection.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Determines whether the System.Collections.Generic.ICollection contains a specific value.
+            </summary>
+            <param name="item">The object to locate in the System.Collections.Generic.ICollection.</param>
+            <returns>true if item is found in the System.Collections.Generic.ICollection</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">
+            <summary>
+            Copies the elements of the System.Collections.Generic.ICollection to an System.Array, starting at a particular System.Array index.
+            </summary>
+            <param name="array">The one-dimensional System.Array that is the destination of the elements copied from System.Collections.Generic.ICollection.
+            The System.Array must have zero-based indexing.</param>
+            <param name="arrayIndex">The zero-based index in array at which copying begins.</param>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Removes the first occurrence of a specific object from the System.Collections.Generic.ICollection
+            </summary>
+            <param name="item">The object to remove from the System.Collections.Generic.ICollection</param>
+            <returns>true if item was successfully removed from the System.Collections.Generic.ICollection.
+            This method also returns false if item is not found</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#GetEnumerator">
+            <summary>
+            Gets an enumerator that iterates through a collection
+            </summary>
+            <returns>A System.Collections.Generic.IEnumerator that can be used to iterate through the collection</returns>
+        </member>
+        <member name="M:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Gets an enumerator that iterates through a collection
+            </summary>
+            <returns>A System.Collections.Generic.IEnumerator that can be used to iterate through the collection</returns>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#Keys">
+            <summary>
+            Gets the Keys
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#Values">
+            <summary>
+            Gets the Values
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#Count">
+            <summary>
+            Gets the number of elements
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String@System#Object}}#IsReadOnly">
+            <summary>
+            Gets a value indicating whether the ICollection is is read-only
+            </summary>
+        </member>
+        <member name="P:Syncfusion.EJ.ReportDesigner.Internal.Util.DateTimeJavaScriptConverter.DateString.System#Collections#Generic#IDictionary{System#String@System#Object}#Item(System.String)">
+            <summary>
+            Gets or sets the element with the specified key.
+            </summary>
+            <param name="key">The key of the element to get or set.</param>
+            <returns>The element with the specified key</returns>
+        </member>
+    </members>
+</doc>

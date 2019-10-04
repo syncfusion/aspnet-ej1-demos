@@ -1,0 +1,11 @@
+﻿
+        .frame
+        {
+            width : 100%;
+            box-sizing : border-box;
+        }
+        #sliderContent > li .image
+        {
+            width: 100%;
+            height: 300px;
+        }

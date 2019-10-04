@@ -1,0 +1,15 @@
+﻿   .frame
+        {
+            width: 40%;
+        }
+
+        .control
+        {
+            color: black;
+            font-size: medium;
+        }
+
+        .ctrllabel
+        {
+            padding-bottom: 3px;
+        }

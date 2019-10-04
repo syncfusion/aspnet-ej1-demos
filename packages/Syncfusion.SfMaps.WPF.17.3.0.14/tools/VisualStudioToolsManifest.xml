@@ -1,0 +1,8 @@
+<FileList>
+<File Reference="Syncfusion.SfMaps.WPF.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems VSCategory="Syncfusion Controls for WPF" BlendCategory="Syncfusion Controls for WPF">
+		<Item Type="Syncfusion.UI.Xaml.Maps.SfMaps"/>
+	</ToolboxItems>
+</File>
+</FileList>

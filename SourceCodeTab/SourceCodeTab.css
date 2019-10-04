@@ -1,0 +1,344 @@
+﻿/*Source Code tab Layout
+----------------------------------*/
+.sflily .ui-helper-hidden { display: none; }
+.sflily .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.sflily .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 28px; list-style: none; }
+.sflily .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.sflily .ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .sflily .ui-helper-clearfix { height:1%; }
+.sflily .ui-helper-clearfix { display:block; }
+/* end clearfix */
+.sflily .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.sflily .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.sflily .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.sflily .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Component containers
+----------------------------------*/
+.sflily .ui-widget { font-family: inherit; font-size: 12; }
+.sflily .ui-widget .ui-widget { font-size: 1em; }
+.sflily .ui-widget input,.sflily .ui-widget select,.sflily .ui-widget textarea,.sflily .ui-widget button { font-family: calibri; font-size: 1em; }
+.sflily .ui-widget-content { border: 0px none #EDEDED;  color: #333333; }
+.sflily .ui-widget-content a { color: #222222; }
+.sflily .ui-widget-header { border: 1px none #EDEDED; color: #616161; font-weight: normal; border-width:0 0 1px; }
+.sflily .ui-tabs-nav.ui-widget-header{ background:none;}
+.sflily .ui-widget-header a { color: #616161; }
+
+/* Interaction states
+----------------------------------*/
+.sflily .ui-state-default,.sflily .ui-widget-content .ui-state-default,.sflily .ui-widget-header .ui-state-default {font-weight: normal; color: #333333; }
+.sflily .ui-state-default a,.sflily .ui-state-default a:link,.sflily .ui-state-default a:visited { color: #333333; text-decoration: none; }
+.sflily .ui-state-hover,.sflily .ui-widget-content .ui-state-hover,.sflily .ui-widget-header .ui-state-hover,.sflily .ui-state-focus,.sflily .ui-widget-content .ui-state-focus,.sflily .ui-widget-header .ui-state-focus { font-weight: normal; color: #3F9CE8; }
+.sflily .ui-state-hover a,.sflily .ui-state-hover a:hover { color: #BFBFC6; text-decoration: none; }
+.sflily .ui-state-active,.sflily .ui-widget-content .ui-state-active,.sflily .ui-widget-header .ui-state-active { font-weight: normal; color: #3F9CE8; }
+.sflily .ui-state-active a,.sflily .ui-state-active a:link,.sflily .ui-state-active a:visited { color: #010101; text-decoration: none; }
+.sflily .ui-widget :active { outline: none; }
+.sflily .ui-tabs-nav .ui-state-active,.sflily .ui-tabs-nav  .ui-widget-content  .ui-state-active, .sflily .ui-tabs-nav .ui-state-default, .sflily .ui-tabs-nav .ui-widget-content .ui-state-default{ background:none; border :none; outline:none;}
+
+/* Interaction Cues
+----------------------------------*/
+.sflily .ui-state-highlight,.sflily .ui-widget-content .ui-state-highlight,.sflily .ui-widget-header .ui-state-highlight  {border: 1px solid #fcefa1; background: #fbf9ee url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-tabs-bg_glass_55_fbf9ee_1x400.png")%>") 50% 50% repeat-x; color: #363636; }
+.sflily .ui-state-highlight a,.sflily .ui-widget-content .ui-state-highlight a,.sflily.ui-widget-header .ui-state-highlight a { color: #363636; }
+.sflily .ui-state-error,.sflily .ui-widget-content .ui-state-error,.sflily .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #fef1ecurl("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-tabs-bg_inset-soft_95_fef1ec_1x100.png")%>") 50% bottom repeat-x; color: #cd0a0a; }
+.sflily .ui-state-error a,.sflily .ui-widget-content .ui-state-error a,.sflily .ui-widget-header .ui-state-error a { color: #cd0a0a; }
+.sflily .ui-state-error-text,.sflily .ui-widget-content .ui-state-error-text,.sflily .ui-widget-header .ui-state-error-text { color: #cd0a0a; }
+.sflily .ui-priority-primary,.sflily .ui-widget-content .ui-priority-primary,.sflily .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.sflily .ui-priority-secondary,.sflily .ui-widget-content .ui-priority-secondary,.sflily  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.sflily .ui-state-disabled,.sflily .ui-widget-content .ui-state-disabled,.sflily .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.sflily .ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; }
+.sflily .ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.sflily .ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.sflily .ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.sflily .ui-corner-top { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.sflily .ui-corner-bottom { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.sflily .ui-corner-right {  -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.sflily .ui-corner-left { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.sflily .ui-corner-all { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* Overlays */
+.sflily .ui-widget-overlay { background: #aaaaaa url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-tabs-bg_flat_0_aaaaaa_40x100.png")%>") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
+.sflily .ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaaurl("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-tabs-bg_flat_0_aaaaaa_40x100.png")%>") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }/*
+ * jQuery UI Tabs 1.8.7
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.sflily .ui-tabs .ui-tabs-nav { margin: 0 0 0 -15px; padding: 0.2em 0 0; }
+.sflily .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.sflily .ui-tabs .ui-tabs-nav li a { float: left; padding:0.5em 0 0.5em 1em; text-decoration: none; }
+.sflily .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.sflily .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.sflily .ui-tabs .ui-tabs-nav li.ui-state-disabled a,.sflily .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.sflily .ui-tabs .ui-tabs-nav li a,.sflily .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.sflily .ui-tabs .ui-tabs-panel { display: block; border-width: 0 1px 1px; padding: 0.1em 1.4em; background: none;overflow:auto;min-height:690px; }
+.sflily .ui-tabs .ui-tabs-hide { display: none !important; }
+.sflily .ui-tabs { padding: 0px;margin-left:-16px; zoom: 1;z-index:1 } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+
+
+
+/*Source Code tab Layout
+----------------------------------*/
+.snowy .ui-helper-hidden { display: none; }
+.snowy .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.snowy .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.snowy .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.snowy .ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .snowy .ui-helper-clearfix { height:1%; }
+.snowy .ui-helper-clearfix { display:block; }
+/* end clearfix */
+.snowy .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.snowy .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.snowy .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.snowy .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Component containers
+----------------------------------*/
+.snowy .ui-widget { font-family: "Segoe UI",Arial,Helvetica,sans-serif; font-size: 12; }
+.snowy .ui-widget .ui-widget { font-size: 1em; }
+.snowy .ui-widget input,.snowy .ui-widget select,.snowy .ui-widget textarea,.snowy .ui-widget button { font-family: calibri; font-size: 1em; }
+.snowy .ui-widget-content { border: 0px solid #EDEDED; background: #ffffff url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_flat_75_ffffff_40x100.png")%>") 50% 50% repeat-x; color: #333333; }
+.snowy .ui-widget-content a { color: #222222; }
+.snowy .ui-widget-header { border: 1px solid #EDEDED; background: #ffffff url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_flat_75_ffffff_40x100.png")%>") 50% 50% repeat-x; color: #616161; font-weight: normal; border-width:0 0 1px;}
+.snowy .ui-widget-header a { color: #616161; }
+
+/* Interaction states
+----------------------------------*/
+.snowy .ui-state-default,.snowy .ui-widget-content .ui-state-default,.snowy .ui-widget-header .ui-state-default { border: 1px solid #ffffff; background: #ffffff url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_flat_75_ffffff_40x100.png")%>") 50% 50% repeat-x; font-weight: normal; color: #333333; }
+.snowy .ui-state-default a,.snowy .ui-state-default a:link,.snowy .ui-state-default a:visited { color: #333333; text-decoration: none; }
+.snowy .ui-state-hover,.snowy .ui-widget-content .ui-state-hover,.snowy .ui-widget-header .ui-state-hover,.snowy .ui-state-focus,.snowy .ui-widget-content .ui-state-focus,.snowy .ui-widget-header .ui-state-focus { border: 1px solid #ffffff; background: #ffffff url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_flat_75_ffffff_40x100.png")%>") 50% 50% repeat-x; font-weight: normal; color: #3F9CE8; }
+.snowy .ui-state-hover a,.snowy .ui-state-hover a:hover { color: #3F9CE8; text-decoration: none; }
+.snowy .ui-state-active,.snowy .ui-widget-content .ui-state-active,.snowy .ui-widget-header .ui-state-active { border: 1px solid #EDEDED; background: #ffffff url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_glass_65_ffffff_1x400.png")%>") 50% 50% repeat-x; font-weight: bold; color: #3F9CE8; }
+.snowy .ui-state-active a,.snowy .ui-state-active a:link,.snowy .ui-state-active a:visited { color: #3F9CE8; text-decoration: none; }
+.snowy .ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.snowy .ui-state-highlight,.snowy .ui-widget-content .ui-state-highlight,.snowy .ui-widget-header .ui-state-highlight  {border: 1px solid #fcefa1; background: #fbf9eeurl("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_glass_55_fbf9ee_1x400.png")%>") 50% 50% repeat-x; color: #363636; }
+.snowy .ui-state-highlight a,.snowy .ui-widget-content .ui-state-highlight a,.snowy.ui-widget-header .ui-state-highlight a { color: #363636; }
+.snowy .ui-state-error,.snowy .ui-widget-content .ui-state-error,.snowy .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #fef1ec url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_inset-soft_95_fef1ec_1x100.png")%>") 50% bottom repeat-x; color: #cd0a0a; }
+.snowy .ui-state-error a,.snowy .ui-widget-content .ui-state-error a,.snowy .ui-widget-header .ui-state-error a { color: #cd0a0a; }
+.snowy .ui-state-error-text,.snowy .ui-widget-content .ui-state-error-text,.snowy .ui-widget-header .ui-state-error-text { color: #cd0a0a; }
+.snowy .ui-priority-primary,.snowy .ui-widget-content .ui-priority-primary,.snowy .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.snowy .ui-priority-secondary,.snowy .ui-widget-content .ui-priority-secondary,.snowy  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.snowy .ui-state-disabled,.snowy .ui-widget-content .ui-state-disabled,.snowy .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.snowy .ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; }
+.snowy .ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.snowy .ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.snowy .ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.snowy .ui-corner-top { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.snowy .ui-corner-bottom { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.snowy .ui-corner-right {  -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.snowy .ui-corner-left { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.snowy .ui-corner-all { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* Overlays */
+.snowy .ui-widget-overlay { background: #aaaaaa url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_flat_0_aaaaaa_40x100.png")%>") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
+.snowy .ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url("<%=WebResource("DemoUtility.HeaderPanel.Images.ui-sftabs-bg_flat_0_aaaaaa_40x100.png")%>") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }/*
+ * jQuery UI Tabs 1.8.7
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.snowy .ui-tabs .ui-tabs-nav { margin: 0; padding: 0.2em 0 0; }
+.snowy .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.snowy .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.snowy .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.snowy .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.snowy .ui-tabs .ui-tabs-nav li.ui-state-disabled a,.snowy .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.snowy .ui-tabs .ui-tabs-nav li a,.snowy .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.snowy .ui-tabs .ui-tabs-panel { display: block; border-width: 0 1px 1px; padding: 1em 1.4em; background: none; height:500px; overflow:auto; }
+.snowy .ui-tabs .ui-tabs-hide { display: none !important; }
+.snowy .ui-tabs { padding: 0px; zoom: 1;z-index:1;   margin: 0; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+
+#description {
+    margin-bottom: 10px;
+    padding-left: 41px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    border:1px solid #EDEDED !important;
+}
+#description>div>ul
+{
+    padding-left:25px;
+}
+#description>div>p:first
+{
+    line-height:1.3em;
+}
+#doclink
+{
+    color:#3F9CE8;
+}
+
+img
+{
+	border: none;
+}
+
+#slider
+{
+	margin: 0px;
+	padding: 0px;
+}
+.scroll
+{
+	height: 530px;
+	clear: left;
+/*	border: solid 1px #B1CEEE;
+	border-top: none;
+	overflow: hidden;*/
+	margin: 0px;	
+	border:none;
+}
+.scrollContainer
+{
+	height: 530px;
+	width:100%;
+}
+.scrollContainer div.codepanel
+{
+  height: 510px;
+    overflow: auto !important;
+    width: 100%;
+	margin-top:0px;
+	padding-top:20px;
+}
+.scrollContainer div.codepanel li
+{
+    list-style:none;
+}
+.hide
+{
+	display: none;
+}
+img
+{
+	border: none;
+}
+.DownloadSample
+{position: relative; 
+ right: 50px;
+  float: right; 
+  bottom: 20px;
+}
+.selectoptions
+{
+ padding-right:10px;
+ position: relative; 
+ right: 50px;
+  float: right; 
+  bottom: 24px;
+}
+.ulcss
+{
+position:relative;
+font-size:13px;
+font-weight:bold;
+left:-20px;	
+padding-bottom:3px;
+font-weight:bold;
+width:210px;
+}
+.acss
+{
+
+	font-size:12px;
+	text-decoration:none;
+	
+	font-family:Arial;
+	color:#20668e;
+}
+.loading
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	display:none;
+}
+.navigation a:focus
+{
+	outline: none;
+}
+
+.csharpcode, .csharpcode pre
+{
+	color: black;
+	background-color: Transparent;
+	/*white-space: pre;*/
+}
+
+.csharpcode pre { margin: 0em; }
+
+.csharpcode .rem { color: #008000; }
+
+.csharpcode .kwrd { color: #0000ff; }
+
+.csharpcode .str { color: #006080; }
+
+.csharpcode .op { color: #0000c0; }
+
+.csharpcode .preproc { color: #cc6633; }
+
+.csharpcode .asp { background-color: #ffff00; }
+
+.csharpcode .html { color: #800000; }
+
+.csharpcode .attr { color: #ff0000; }
+
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+

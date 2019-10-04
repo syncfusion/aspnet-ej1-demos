@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Linq_To_SQL" Class="Linq_Common_DataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Linq_To_SQL.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Linq_To_SQLConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Databinding" Member="Databindings">
+    <Type Name="Databinding">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ParentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Text" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HasChild" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Expanded" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolBarItems" Member="ToolBarItems">
+    <Type Name="ToolBarItem">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="iconCss" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToolTip" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

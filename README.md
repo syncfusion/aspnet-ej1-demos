@@ -106,4 +106,4 @@ Refer the Syncfusion Essential JS 1 for ASP.NET Product Release Notes in [online
 
 For licensing information about Syncfusion Essential JS 1 for ASP.NET, Download the Syncfusion License Agreements from [here](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf).
 
-<p>Copyright © 2001-2019 Syncfusion, Inc. Updated on 2019-08-23 at precisely 12:50:24 EST.</p>
+<p>Copyright © 2001-2019 Syncfusion, Inc. Updated on 2019-10-04 at precisely 13:58:21 EST.</p>

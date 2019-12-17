@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WebSampleBrowser.OlapGaugeService" CodeBehind="OlapGaugeService.svc.cs" %>

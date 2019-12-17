@@ -1,0 +1,502 @@
+﻿html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 1100PX;
+    font-family: 'Segoe UI' !important;
+}
+
+.leftFields {
+    width: 50%;
+    float: left;
+}
+
+.rightFields {
+    width: 50%;
+    float: left;
+}
+
+.audithead {
+    background-color: #20B2AA;
+    color: #FFFFFF;
+    font-size: 12px !important;
+    font-family: Arial;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+}
+
+.image {
+    color: whitesmoke;
+    font-size: 24px;
+    float: left;
+}
+
+#header .text {
+    padding-top: 12px;
+}
+
+#header {
+    background-color: #00BFB0;
+    height: 50px;
+    width: 100%;
+    border-bottom: 5px solid #10b2b2;
+    clear: both;
+}
+
+.bottomPanel {
+    top: 57px;
+    left: 30px;
+}
+
+.label_text {
+    font-family: Arial Unicode MS;
+    font-size: 12px;
+    left: 30px;
+}
+
+.fsSubmitButton {
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: #Ce3b28;
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    cursor: pointer;
+    width: 97%;
+    outline: none !important;
+    border: 5px solid #A52421;
+    border-width: 1px 1px 5px 1px;
+    padding: 7px 15px 11px !important;
+    height: 40px;
+}
+
+.button {
+    top: 540px;
+    left: 55px;
+}
+
+main {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.textboxheight, .e-input {
+    height: 26px;
+    line-height: 26px !important;
+}
+
+#hr {
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.tablemargin {
+    width: 46%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    float: left;
+    color: #515151 !important;
+}
+
+    .tablemargin table {
+        width: 95%;
+    }
+
+#resultPanel {
+    float: left;
+    width: 49%;
+    margin-top: 25px;
+    height: 520px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    color: #6d6d6d !important;
+}
+
+.titleDesc {
+    width: 100%;
+    float: left;
+    font: 14px segoe ui;
+    padding-right: 10%;
+    padding-left: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.spantext {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #6b6b6b;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.labelstyle {
+    font-weight: normal;
+    width: 460px;
+    top: 85px;
+    left: 55px;
+    font-family: Arial Unicode MS;
+    font-size: 14px;
+}
+
+.panelstyle {
+    width: 99%;
+}
+
+.predictresultstyle {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.imageposition {
+    margin-top: 75px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+
+.optionposition {
+    width: 96%;
+    padding: 4%;
+    padding-right: 0px;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.result {
+    width: 100%;
+    text-align: center;
+}
+
+.textposition {
+    width: 96%;
+    padding: 4%;
+    padding-top: 0px;
+    padding-right: 0px;
+    float: left;
+    color: gray;
+    font-size: 18px;
+}
+
+.hr_line {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.e-numeric {
+    display: inherit;
+    background: none;
+}
+
+.e-ddl {
+    display: inherit;
+}
+
+
+@media (min-width:751px)and (max-width:900px) {
+
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        min-width: 751px;
+        font-family: 'Segoe UI' !important;
+    }
+
+    .titleDesc {
+        width: 100%;
+        float: left;
+        font: 13px segoe ui;
+        padding-right: 10%;
+        padding-left: 10px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .leftFields {
+        width: 50%;
+        float: left;
+    }
+
+    .rightFields {
+        width: 50%;
+        float: left;
+    }
+
+    #resultPanel {
+        float: left;
+        width: 35%;
+        margin-top: 25px;
+        margin-left: 25px;
+        height: 535px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid #dbdbdb;
+        color: #6d6d6d !important;
+    }
+
+    .fsSubmitButton {
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: lighter;
+        background-color: #Ce3b28;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+        outline: none !important;
+        border: 5px solid #A52421;
+        border-width: 1px 1px 5px 1px;
+        padding: 7px 15px 11px !important;
+        height: 40px;
+    }
+
+    .tablemargin {
+        width: 50%;
+        padding-left: 10px;
+        box-sizing: border-box;
+        float: left;
+        color: #515151 !important;
+    }
+
+        .tablemargin table {
+            width: 100%;
+        }
+}
+
+@media (min-width:451px)and (max-width:750px) {
+
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        min-width: 451px;
+        font-family: 'Segoe UI' !important;
+    }
+
+    .fsSubmitButton {
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: lighter;
+        background-color: #Ce3b28;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+        outline: none !important;
+        border: 5px solid #A52421;
+        border-width: 1px 1px 5px 1px;
+        padding: 7px 15px 11px !important;
+        height: 40px;
+    }
+
+    .titleDesc {
+        width: 100%;
+        float: left;
+        font: 13px segoe ui;
+        padding-right: 10%;
+        padding-left: 10px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .leftFields {
+        width: 50%;
+        float: left;
+    }
+
+    .rightFields {
+        width: 50%;
+        float: left;
+    }
+
+    #resultPanel {
+        float: left;
+        width: 70%;
+        margin-top: 25px;
+        margin-left: 70px;
+        margin-bottom: 25px;
+        height: 425px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid #dbdbdb;
+        color: #6d6d6d !important;
+    }
+
+    .tablemargin {
+        width: 83%;
+        padding-left: 10px;
+        box-sizing: border-box;
+        float: left;
+        color: #515151 !important;
+    }
+
+        .tablemargin table {
+            width: 100%;
+        }
+}
+
+@media (max-width:450px) {
+
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        min-width: 335px;
+        font-family: 'Segoe UI' !important;
+    }
+
+    .titleDesc {
+        width: 250px;
+        float: left;
+        font: 13px segoe ui;
+        padding-right: 10%;
+        padding-left: 10px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .leftFields {
+        width: 100%;
+    }
+
+    .rightFields {
+        width: 100%;
+    }
+
+    #resultPanel {
+        float: left;
+        width: 210px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+        height: 350px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid #dbdbdb;
+        color: #6d6d6d !important;
+    }
+
+    .fsSubmitButton {
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: lighter;
+        background-color: #Ce3b28;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        cursor: pointer;
+        width: 200px;
+        outline: none !important;
+        border: 5px solid #A52421;
+        border-width: 1px 1px 5px 1px;
+        padding: 7px 15px 11px !important;
+        height: 40px;
+    }
+
+    .textposition {
+        width: 96%;
+        padding: 4%;
+        padding-top: 0px;
+        padding-right: 0px;
+        float: left;
+        color: gray;
+        font-size: 16px;
+    }
+
+    .optionposition {
+        width: 96%;
+        padding: 4%;
+        padding-right: 0px;
+        float: left;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .imageposition {
+        margin-top: 25px;
+        padding-bottom: 20px;
+        width: 100%;
+        float: left;
+    }
+
+    .tablemargin {
+        width: 100%;
+        padding-left: 10px;
+        box-sizing: border-box;
+        float: left;
+        color: #515151 !important;
+    }
+
+        .tablemargin table {
+            width: 100%;
+        }
+}
+/* Footerdiv CSS */
+#footer
+{
+    background-color: #4F4F4C;
+    color: GrayText;
+    height: 45px;
+    min-width: 300px;
+	width:100%;
+    float: left;
+    position: relative; 
+    z-index:0;
+}
+
+.bottom-links
+{
+    bottom: 0;
+    margin: 0 auto;
+    padding-top: 9px;
+    position: relative;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+    position: absolute;
+    right: 0px;
+}
+
+.syncfusion-image
+{
+    background-image: url('./images/footer.png');
+    float: left;
+    height: 30px;
+    margin-top: 2px;
+    width: 125px;
+    background-position: -5px -50px;
+    background-repeat: no-repeat;
+}
+
+#footer .right .left, #footer .left .sync-text
+{
+    margin: 4px 25px 0;
+}
+
+.sync-text
+{
+    color: #A4A09B;
+    display: inline-block;
+}

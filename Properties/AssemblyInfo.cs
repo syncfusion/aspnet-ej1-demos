@@ -40,5 +40,5 @@ using System.Web.UI;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("17.3.0.14")]
-[assembly: AssemblyFileVersion("17.3.0.14")]
+[assembly: AssemblyVersion("17.4.0.39")]
+[assembly: AssemblyFileVersion("17.4.0.39")]

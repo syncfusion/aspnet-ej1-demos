@@ -1195,7 +1195,7 @@ window.SamplesList = [
                           "id": "4", "name": "Formatting", "action": "FormatCells", "childcount": "1", "samples": [
                               { "id": "1", "name": "Format Cells", "action": "FormatCells", "childcount": "0" },
                               { "id": "2", "name": "Styles And Formatting", "action": "StylesAndFormatting", "childcount": "0" },
-                              { "id": "3", "name": "Conditional Formatting", "action": "ConditionalFormatting", "childcount": "0" }
+                              { "id": "3", "name": "Conditional Formatting", "action": "ConditionalFormatting", "childcount": "0", "type": "update" }
                           ]
                       },
                       {
@@ -1222,7 +1222,7 @@ window.SamplesList = [
                           "id": "7", "name": "Data Management", "action": "RangeManipulation", "childcount": "1", "samples": [
                               { "id": "1", "name": "Range Manipulation", "action": "RangeManipulation", "childcount": "0" },
                               { "id": "2", "name": "Data Validation", "action": "DataValidation", "childcount": "0" },
-                              { "id": "3", "name": "Performance", "action": "Performance", "childcount": "0", "type":"update" },
+                              { "id": "3", "name": "Performance", "action": "Performance", "childcount": "0" },
                               { "id": "4", "name": "Interactive Features", "action": "InteractiveFeatures", "childcount": "0" },
                               { "id": "5", "name": "Form Controls", "action": "FormControls", "childcount": "0" },
                               { "id": "6", "name": "Data Sorting", "action": "Sorting", "childcount": "0" },
@@ -1234,8 +1234,8 @@ window.SamplesList = [
                           "id": "8", "name": "Data Binding", "action": "ExternalConnection", "childcount": "1", "samples": [
                               { "id": "1", "name": "External Connection", "action": "ExternalConnection", "childcount": "0" },
                               { "id": "2", "name": "Template Marker", "action": "TemplateMarker", "childcount": "0" },
-                              { "id": "3", "name": "Collection Objects", "action": "CollectionObjects", "type": "update", "childcount": "0" },
-							  { "id": "4", "name": "Import Nested Collection", "action": "ImportNestedCollection", "type": "new", "childcount": "0" },
+                              { "id": "3", "name": "Collection Objects", "action": "CollectionObjects", "childcount": "0" },
+							  { "id": "4", "name": "Import Nested Collection", "action": "ImportNestedCollection", "childcount": "0" },
                               { "id": "5", "name": "Sales Invoice", "action": "SalesInvoice", "childcount": "0" },
                               { "id": "6", "name": "Import JSON",  "action": "ImportJSON", "childcount": "0" },
                               { "id": "7", "name": "Import From Grid",  "action": "ImportFromGrid", "childcount": "0" }
@@ -1249,7 +1249,7 @@ window.SamplesList = [
                       },
 					  {
                           "id": "10", "name": "Export", "action": "ExcelToODS", "childcount": "1", "samples": [
-                              { "id": "1", "name": "Excel To PDF", "action": "ExcelToPDF", "type": "update", "childcount": "0" },
+                              { "id": "1", "name": "Excel To PDF", "action": "ExcelToPDF", "childcount": "0" },
                               { "id": "2", "name": "Worksheet To HTML", "action": "WorksheetToHTML", "childcount": "0" },
                               { "id": "3", "name": "Worksheet To Image", "action": "WorksheetToImage", "childcount": "0" },
                               { "id": "4", "name": "Excel To ODS", "action": "ExcelToODS",  "childcount": "0" }
@@ -1274,6 +1274,12 @@ window.SamplesList = [
                           "id": "13", "name": "Shapes", "action": "AutoShapes", "childcount": "1", "samples": [
                               { "id": "1", "name": "AutoShapes", "action": "AutoShapes", "childcount": "0" },
 							  { "id": "2", "name": "Group Shapes", "action": "GroupShapes", "childcount": "0" }
+                          ]
+                      },
+                      {
+                          "id": "14", "name": "Macros", "action": "Macros", "childcount": "1", "samples": [
+                              { "id": "1", "name": "Create Macro", "action": "CreateMacro", "childcount": "0", "type": "new"},
+							  { "id": "2", "name": "Edit Macro", "action": "EditMacro", "childcount": "0", "type": "new" }
                           ]
                       }
           ]
@@ -1435,16 +1441,22 @@ window.SamplesList = [
                                ]
                            },
                            {
-                               "id": "6", "name": "Formatting", "action": "FormatTable", "childcount": "1", "samples": [
-                                        { "id": "1", "name": "Format Table", "action": "FormatTable", "childcount": "0" },
-                                        { "id": "2", "name": "Format Text", "action": "FormatText", "childcount": "0" },
-                                        { "id": "3", "name": "RTL Support", "action": "RTLSupport", "childcount": "0" },
-                                        { "id": "4", "name": "Styles", "action": "Styles", "childcount": "0" },
-                                        { "id": "5", "name": "Table Styles", "action": "TableStyles", "type": "update", "childcount": "0" }
+                               "id": "6", "name": "Mathematical Equation", "action": "Create Equation", "childcount": "1", "samples": [
+                                        { "id": "1", "name": "Create Equation", "controller": "DocIO", "action": "CreateEquation", "childcount": "0" ,"type": "new"},
+                                        { "id": "2", "name": "Edit Equation", "controller": "DocIO", "action": "EditEquation", "childcount": "0", "type": "new" }
                                ]
                            },
                            {
-                               "id": "7", "name": "Insert Content", "action": "Bookmarks", "childcount": "1", "samples": [
+                               "id": "7", "name": "Formatting", "action": "FormatTable", "childcount": "1", "samples": [
+                                        { "id": "1", "name": "Format Table", "action": "FormatTable", "type": "update", "childcount": "0" },
+                                        { "id": "2", "name": "Format Text", "action": "FormatText", "childcount": "0" },
+                                        { "id": "3", "name": "RTL Support", "action": "RTLSupport", "childcount": "0" },
+                                        { "id": "4", "name": "Styles", "action": "Styles", "childcount": "0" },
+                                        { "id": "5", "name": "Table Styles", "action": "TableStyles",  "childcount": "0" }
+                               ]
+                           },
+                           {
+                               "id": "8", "name": "Insert Content", "action": "Bookmarks", "childcount": "1", "samples": [
                                         { "id": "1", "name": "Bookmarks", "action": "Bookmarks", "childcount": "0" },
                                         { "id": "2", "name": "Clone and Merge", "action": "CloneandMerge", "childcount": "0" },
                                         { "id": "3", "name": "Header and Footer", "action": "HeaderandFooter", "childcount": "0" },
@@ -1453,43 +1465,43 @@ window.SamplesList = [
                                ]
                            },
                            {
-                               "id": "8", "name": "Mail Merge", "action": "EmployeeReport", "childcount": "1", "samples": [
+                               "id": "9", "name": "Mail Merge", "action": "EmployeeReport", "childcount": "1", "samples": [
                                         { "id": "1", "name": "Employee Report", "action": "EmployeeReport", "childcount": "0" },
                                         { "id": "2", "name": "Mail Merge Event", "action": "MailMergeEvent", "childcount": "0" },
                                         { "id": "3", "name": "Nested Mail Merge", "action": "NestedMailMerge", "childcount": "0" }
                                ]
                            },
                            {
-                               "id": "9", "name": "Page Layout", "action": "InsertBreak", "childcount": "1", "samples": [
+                               "id": "10", "name": "Page Layout", "action": "InsertBreak", "childcount": "1", "samples": [
                                         { "id": "1", "name": "Insert Break", "action": "InsertBreak", "childcount": "0" },
                                         { "id": "2", "name": "Watermark", "action": "Watermark", "childcount": "0" }
                                ]
                            },
                             {
-                                "id": "10", "name": "View", "action": "DocumentSettings", "childcount": "1", "samples": [
+                                "id": "11", "name": "View", "action": "DocumentSettings", "childcount": "1", "samples": [
                                          { "id": "1", "name": "Document Settings", "action": "DocumentSettings", "childcount": "0" },
                                          { "id": "2", "name": "Macro Preservation", "action": "MacroPreservation", "childcount": "0" }
                                 ]
                             },
                             {
-                                "id": "11", "name": "Security", "action": "DocumentProtection", "childcount": "1", "samples": [
+                                "id": "12", "name": "Security", "action": "DocumentProtection", "childcount": "1", "samples": [
                                          { "id": "1", "name": "Document Protection", "action": "DocumentProtection", "childcount": "0" },
                                          { "id": "2", "name": "Encrypt and Decrypt", "action": "EncryptandDecrypt", "childcount": "0" }
                                 ]
                             },
                             {
-                                "id": "12", "name": "References", "action": "FootnotesandEndnotes", "childcount": "1", "samples": [
+                                "id": "13", "name": "References", "action": "FootnotesandEndnotes", "childcount": "1", "samples": [
                                          { "id": "1", "name": "Footnotes and Endnotes", "action": "FootnotesandEndnotes", "childcount": "0" },
                                          { "id": "2", "name": "Table of Contents", "action": "TableofContents", "childcount": "0" }
                                 ]
                             },
                             {
-                                "id": "13", "name": "Import and Export", "action": "WordMLToWord", "childcount": "1", "samples": [
+                                "id": "14", "name": "Import and Export", "action": "WordMLToWord", "childcount": "1", "samples": [
                                          { "id": "1", "name": "Word to HTML", "action": "DocToHTML", "childcount": "0" },
                                          { "id": "2", "name": "Word to ODT", "action": "DocToODT", "childcount": "0" },
                                          { "id": "3", "name": "Word to RTF", "action": "DocToRTF", "childcount": "0" },
                                          { "id": "4", "name": "Word to Image", "action": "WordtoImage", "childcount": "0" },
-                                         { "id": "5", "name": "Word to PDF", "action": "DOCtoPDF", "type": "update", "childcount": "0"},
+                                         { "id": "5", "name": "Word to PDF", "action": "DOCtoPDF", "childcount": "0"},
                                          { "id": "6", "name": "HTML to Word", "action": "HTMLtoDOC", "childcount": "0" },
                                          { "id": "7", "name": "RTF to Word", "action": "RTFToDoc", "childcount": "0" },
                                          { "id": "8", "name": "Word to EPub", "action": "DOCToEPub", "childcount": "0" },
@@ -1498,13 +1510,13 @@ window.SamplesList = [
                                 ]
                             },
                              {
-                                 "id": "14", "name": "Shapes", "action": "AutoShapes", "childcount": "1", "samples": [
+                                 "id": "15", "name": "Shapes", "action": "AutoShapes", "childcount": "1", "samples": [
                                           { "id": "1", "name": "AutoShapes", "action": "AutoShapes", "childcount": "0" },
-										  { "id": "2", "name": "Group Shapes", "action": "GroupShapes", "type": "update", "childcount": "0" }
+										  { "id": "2", "name": "Group Shapes", "action": "GroupShapes", "childcount": "0" }
                                  ]
                              },
                              {
-                                 "id": "15", "name": "Chart", "action": "Pie Chart", "childcount": "1", "samples": [
+                                 "id": "16", "name": "Chart", "action": "Pie Chart", "childcount": "1", "samples": [
                                           { "id": "1", "name": "Pie Chart", "action": "PieChart", "childcount": "0" },
                                           { "id": "2", "name": "Bar Chart", "action": "BarChart", "childcount": "0" }
                                  ]

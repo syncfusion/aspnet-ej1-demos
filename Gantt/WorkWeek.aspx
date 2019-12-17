@@ -44,8 +44,9 @@
             $("#GanttControlDefault").ejGantt("option",{ "workWeek": workweek });
         }
         function create(e) {
-            var dropDown = $("#workingdays").data('ejDropDownList');
-            dropDown.selectItemsByIndices("1,2,3,4,5");
+            var dropDown = $("#workingdays").data('ejDropDownList'),
+                selectedItems = [1, 2, 3, 4, 5];
+            dropDown.selectItemsByIndices(selectedItems);
         }
 
  </script>

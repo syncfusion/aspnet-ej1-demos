@@ -14,7 +14,7 @@
     <script src='<%= Page.ResolveClientUrl("~/Scripts/jquery-1.11.3.min.js")%>' type="text/javascript"></script>
     <![endif]-->
     <!--[if gte IE 9]><!-->
-    <script src='<%= Page.ResolveClientUrl("~/Scripts/jquery-3.0.0.min.js")%>' type="text/javascript"></script>
+    <script src='<%= Page.ResolveClientUrl("~/Scripts/jquery-3.4.1.min.js")%>' type="text/javascript"></script>
     <!--<![endif]-->
     <script src="../Scripts/jquery.globalize.min.js"></script>
     <script src="../Scripts/jsrender.min.js"></script>

@@ -1,0 +1,15 @@
+﻿{
+     "type": "FeatureCollection",
+
+     "features": [
+
+        {
+            "properties": { "name": "Durham Int'l Airport", "from": "Raleigh", "to": "Chennai", "abbrev": "RDU", "departure": "RDU", "arrival": "MAA", "Route1_Stop1": "IAD", "Route1_Stop2": "FRA", "Route2_Stop1": "JFK", "Route2_Stop2": "DXB", "Route3_Stop1": "ATL", "Route3_Stop2": "DXB" }, "type": "Feature", "geometry": { "type": "Point", "coordinates": [-78.791381400675078, 35.875232345225498] }
+
+        },
+        {
+            "properties": {"name": "Chennai Int' Airport", "from": "Chennai", "to": "Raleigh", "abbrev": "MAA", "departure": "MAA", "arrival": "RDU", "Route1_Stop1": "FRA", "Route1_Stop2": "IAD", "Route2_Stop1": "DXB", "Route2_Stop2": "JFK", "Route3_Stop1": "DXB", "Route3_Stop2": "ATL"}, "type": "Feature", "geometry": { "type": "Point", "coordinates": [80.163775973154515, 12.982530166915435] }
+
+        }
+     ]
+ }

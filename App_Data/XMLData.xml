@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <RootItem Text="Apple Mac" Expanded="True" Url="#">
+    <Item Text="Start Price : $590.00" Url="#"></Item>
+    <Item Text="Maximum Price : $1995.00" Url="#"></Item>
+  </RootItem>
+
+  <RootItem Text="Apple iPad" Expanded="True" Url="#">
+    <Item Text="Start Price : $95.00" Url="#"></Item>
+    <Item Text="Maximum Price : $990.00" Url="#"></Item>
+  </RootItem>
+
+  <RootItem Text="Apple iPhone" Url="#">
+    <Item Text="Start Price : $59.00" Url="#"></Item>
+    <Item Text="Maximum Price : $995.00" Url="#"></Item>
+  </RootItem>
+
+  <RootItem Text="Apple Watch" Url="#">
+    <Item Text="Start Price : $55.00" Url="#"></Item>
+    <Item Text="Maximum Price : $99.00" Url="#"></Item>
+  </RootItem> 
+</Items>

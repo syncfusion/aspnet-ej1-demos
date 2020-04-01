@@ -1,0 +1,12 @@
+﻿{
+     "type": "FeatureCollection",
+
+     "features": [
+
+        {
+            "properties": { "name": "Dubai Int'l Airport", "from": "Chennai", "to": "Raleigh", "Intermediate": "Dubai", "abbrev": "DXB", "departure": "MAA", "arrival": "RDU", "Route1_Stop1": "DXB", "Route1_Stop2": "JFK", "Route2_Stop1": "DXB", "Route2_Stop2": "ATL" }, "type": "Feature", "geometry": { "type": "Point", "coordinates": [55.35407691722429, 25.252565593818161] }
+
+        }
+
+     ]
+ }

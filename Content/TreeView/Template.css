@@ -1,0 +1,59 @@
+﻿        .e-treeview .e-text.e-node-hover, .e-treeview .e-text.e-active {
+            background: transparent;
+            border-color: transparent;
+        }
+
+        .e-treeview .e-node-hover {
+            opacity: 0.8;
+        }
+
+        .con-img {
+            float: left;
+        }
+
+        .cont-list
+        {
+            background: none repeat scroll 0 0 white;
+            border: 1px solid #BBBCBB;
+            height: 85px;
+            width: 200px;
+            color: #5c5c5c;
+            line-height: 17px;
+        }
+
+        .cont-details
+        {
+            margin-top: 12px;
+            font-size: 13px;
+        }
+
+        .UK-style
+        {
+            background-color: #74A247 !important;
+            color: #FFFFFF !important;
+        }
+
+        .USA-style
+        {
+            background-color: #12A99A !important;
+            color: #FFFFFF !important;
+        }
+
+        .cont-del
+        {
+            background-image: url("../images/treeview/remove-icon.png");
+            background-position: -6px -10px;
+            background-repeat: no-repeat;
+            float: right;
+            height: 16px;
+            width: 16px;
+            cursor: pointer;
+        }
+
+        .cont-list .treeFooter
+        {
+            height: 5px;
+            width: 100%;
+            background-color: gray;
+            margin-top: 17px;
+        }

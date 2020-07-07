@@ -1,0 +1,21 @@
+﻿ .ctrlradio
+        {
+            padding-top:4px;
+            padding-right:5px;
+            float: left;
+        }
+        
+        .frame
+        {
+            width: 30%;
+        }
+
+        .control
+        {
+            color: black;
+            font-family: 'Segoe UI';
+            font-size: medium;
+        }
+         #selectcar {
+            line-height:20px;
+        }

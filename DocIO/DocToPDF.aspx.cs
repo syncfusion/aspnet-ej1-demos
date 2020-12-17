@@ -60,7 +60,17 @@ namespace WebSampleBrowser.DocIO
                         converter.Settings.ExportBookmarks = CheckBox3.Checked ? Syncfusion.DocIO.ExportBookmarkType.Headings :
                                                             Syncfusion.DocIO.ExportBookmarkType.Bookmarks;
                         if(CheckBox6.Checked)
+                        {
                             wordDoc.RevisionOptions.ShowMarkup = RevisionType.Deletions | RevisionType.Formatting | RevisionType.Insertions;
+                            // Set revision bars color as Black.
+                            wordDoc.RevisionOptions.RevisionBarsColor = RevisionColor.Black;
+                            // Set revised properties (Formatting) color as Blue.
+                            wordDoc.RevisionOptions.RevisedPropertiesColor = RevisionColor.Blue;
+                            // Set deleted text (Deletions) color as Yellow.
+                            wordDoc.RevisionOptions.DeletedTextColor = RevisionColor.Yellow;
+                            // Set inserted text (Insertions) color as Pink.
+                            wordDoc.RevisionOptions.InsertedTextColor = RevisionColor.Pink;
+                        }
                         //Convert word document into PDF document
                         PdfDocument pdfDoc = converter.ConvertToPDF(wordDoc);
 

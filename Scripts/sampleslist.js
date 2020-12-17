@@ -1094,7 +1094,6 @@ window.SamplesList = [
 	        "name": "Presentation",
 	        "id": "Presentation",
 	        "childcount": "1",
-			"type": "update",
 	        "Group": "FILE FORMATS",
 	        "action": "DefaultFunctionality",
 	        "samples": [
@@ -1131,7 +1130,7 @@ window.SamplesList = [
                        "id": "6", "name": "Conversion", "action": "PPTXToImage", "childcount": "1", samples: [
                       //fifth hierarchy
                             { "id": "61", "name": "PPTX To Image", "action": "PPTXToImage", "childcount": "0" },
-                            { "id": "62", "name": "PPTX To PDF", "action": "PPTXToPdf", "childcount": "0", "type": "update" }]
+                            { "id": "62", "name": "PPTX To PDF", "action": "PPTXToPdf", "childcount": "0" }]
                    },
                     {
                         "id": "7", "name": "Clone and Merge", "action": "Cloning Slides", "childcount": "1", samples: [
@@ -1173,6 +1172,7 @@ window.SamplesList = [
           "name": "XlsIO",
           "id": "XlsIO",
           "childcount": "1",
+		  "type": "update",
           "Group": "FILE FORMATS",
           "action": "DefaultFunctionalities",
           "samples": [
@@ -1240,7 +1240,8 @@ window.SamplesList = [
                               { "id": "5", "name": "Sales Invoice", "action": "SalesInvoice", "childcount": "0" },
                               { "id": "6", "name": "Import JSON",  "action": "ImportJSON", "childcount": "0" },
                               { "id": "7", "name": "Import From Grid",  "action": "ImportFromGrid", "childcount": "0" },
-                              { "id": "8", "name": "Import HTML Table", "action": "HTMLToWorksheet", "childcount": "0" }
+                              { "id": "8", "name": "Import HTML Table", "action": "HTMLToWorksheet", "childcount": "0" },
+							  { "id": "9", "name": "Import Export DataTable", "action": "ImportExportDataTable", "childcount": "0", "type": "update" }
                           ]
                       },
                       {
@@ -1503,11 +1504,11 @@ window.SamplesList = [
                                 "id": "14", "name": "Import and Export", "action": "WordMLToWord", "childcount": "1", "samples": [
                                          { "id": "1", "name": "Word to HTML", "action": "DocToHTML", "childcount": "0" },
                                          { "id": "2", "name": "Word to ODT", "action": "DocToODT", "childcount": "0" },
-                                         { "id": "3", "name": "Word to RTF", "action": "DocToRTF", "childcount": "0","type": "update"},
+                                         { "id": "3", "name": "Word to RTF", "action": "DocToRTF", "childcount": "0"},
                                          { "id": "4", "name": "Word to Image", "action": "WordtoImage", "childcount": "0" },
                                          { "id": "5", "name": "Word to PDF", "action": "DOCtoPDF", "childcount": "0", "type": "update"},
                                          { "id": "6", "name": "HTML to Word", "action": "HTMLtoDOC", "childcount": "0" },
-                                         { "id": "7", "name": "RTF to Word", "action": "RTFToDoc", "childcount": "0", "type": "update"},
+                                         { "id": "7", "name": "RTF to Word", "action": "RTFToDoc", "childcount": "0"},
                                          { "id": "8", "name": "Word to EPub", "action": "DOCToEPub", "childcount": "0" },
                                          { "id": "9", "name": "Word to WordML", "action": "WordToWordML", "childcount": "0"},
                                          { "id": "10", "name": "WordML to Word", "action": "WordMLToWord", "childcount": "0"}

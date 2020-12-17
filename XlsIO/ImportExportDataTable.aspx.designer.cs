@@ -54,7 +54,42 @@ namespace WebSampleBrowser.XlsIO {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rBtnXlsx;
+		
+		/// <summary>
+        /// rBtnSkip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rBtnSkip;
+		
+		/// <summary>
+        /// rBtnReplaceValue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rBtnReplaceValue;
+		
+		/// <summary>
+        /// rBtnStop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rBtnStop;
               
+	    /// <summary>
+        /// btnimport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnimport;
         /// <summary>
         /// btnexport control.
         /// </summary>
@@ -64,6 +99,15 @@ namespace WebSampleBrowser.XlsIO {
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnexport;
         
+		/// <summary>
+        /// btninput control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btninput;
+		
         /// <summary>
         /// DataGrid1 control.
         /// </summary>

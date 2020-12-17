@@ -16,18 +16,24 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Drawing;
 using Syncfusion.XlsIO;
+using Syncfusion.XlsIO.Implementation;
 
 namespace WebSampleBrowser.XlsIO
 {
     public partial class ImportExportDataTable : System.Web.UI.Page
     {
+		static DataTable sourceDataTable = null;
         # region Page Load
         /// <summary>
         /// Handles the page load
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        protected void Page_Load(object sender, EventArgs e)
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			this.DataGrid1.DataSource = null;
+		}			
+        protected void Button3_Click(object sender, EventArgs e)
         {
 
             //Imports Data from the Template spreadsheet into the Grid.
@@ -45,11 +51,13 @@ namespace WebSampleBrowser.XlsIO
             IWorkbook workbook = application.Workbooks.Open(XlsIOHelper.ResolveApplicationDataPath("NorthwindDataTemplate.xls", Request));
             //The first worksheet object in the worksheets collection is accessed.
             IWorksheet sheet = workbook.Worksheets[0];
-
+			
+            sheet.ExportDataTableEvent += ExportDataTableEventActions;
             //Read data from spreadsheet.
             DataTable customersTable = sheet.ExportDataTable(sheet.UsedRange, ExcelExportDataTableOptions.ColumnNames);
             this.DataGrid1.DataSource = customersTable;
             this.DataGrid1.DataBind();
+			sourceDataTable = customersTable;
             btnexport.Enabled = true;
 
             //Close the workbook.
@@ -61,6 +69,47 @@ namespace WebSampleBrowser.XlsIO
         }
         # endregion
 
+        /// <summary>
+        /// Export dataTable required actions.
+        /// </summary>
+        /// <param name="e"></param>
+        protected void ExportDataTableEventActions(ExportDataTableEventArgs e)
+        {
+            if(this.rBtnSkip.Checked)
+            {
+                if ( e.ExcelValue != null && e.ExcelValue.ToString() == "Owner")
+                    e.ExportDataTableAction = ExportDataTableActions.SkipRow;
+            }
+            if(this.rBtnStop.Checked)
+            {
+                if (e.ExcelValue != null && e.ExcelValue.ToString() == "CACTU")
+                    e.ExportDataTableAction = ExportDataTableActions.StopExporting;
+            }
+            if(this.rBtnReplaceValue.Checked)
+            {
+                if (e.ExcelValue != null && e.ExcelValue.ToString() == "México D.F.")
+                    e.DataTableValue = "Mexico";
+            }
+        }
+		protected void Button1_Click(object sender, EventArgs e)
+        {
+            //Step 1 : Instantiate the spreadsheet creation engine.
+            ExcelEngine excelEngine = new ExcelEngine();
+            //Step 2 : Instantiate the excel application object.
+            IApplication application = excelEngine.Excel;
+
+            //Get path of the Input file
+            string inputPath = XlsIOHelper.ResolveApplicationDataPath("NorthwindDataTemplate.xls", Request);
+
+            //After opening, the workbook object represents the complete in-memory object model of the template spreadsheet.
+            IWorkbook workbook = application.Workbooks.Open(inputPath);
+            workbook.Version = ExcelVersion.Excel2016;
+            workbook.SaveAs("InputDocument.xlsx", Response, ExcelDownloadType.PromptDialog, ExcelHttpContentType.Excel2016);
+        }
+	    protected void CheckChanged(object sender, EventArgs e)  
+        {  
+          btnexport.Enabled = false;
+        }  
         # region Events
         /// <summary>
         /// Exports the data table to a spreadsheet
@@ -92,9 +141,9 @@ namespace WebSampleBrowser.XlsIO
             IWorksheet sheet = workbook.Worksheets[0];
 
             //Export DataTable.
-            if (this.DataGrid1.DataSource != null)
+            if (sourceDataTable != null)
             {
-                sheet.ImportDataTable((DataTable)this.DataGrid1.DataSource, true, 3, 1, -1, -1);
+                sheet.ImportDataTable(sourceDataTable, true, 3, 1, -1, -1);
             }
 
             //Formatting the Report

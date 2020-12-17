@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ChartXML>
+  <CD Year="2000" USA="20" India="16" China="22"/>
+  <CD Year="2001" USA="15" India="17" China="28"/>
+  <CD Year="2002" USA="25" India="10" China="17"/>
+  <CD Year="2003" USA="10" India="15" China="15"/>
+  <CD Year="2004" USA="13" India="21" China="20"/>
+  <CD Year="2005" USA="21" India="18" China="24"/>
+  <CD Year="2006" USA="15" India="25" China="28"/>
+</ChartXML>

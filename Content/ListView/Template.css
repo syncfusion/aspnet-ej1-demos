@@ -1,0 +1,77 @@
+﻿#templatelist .aboutstyle {
+            display: block;
+            font-size: 12px;
+            line-height: 20px;
+            overflow: hidden;
+            padding-right: 23px;
+            position: relative;
+            text-align: justify;
+            word-wrap: break-word;
+        }
+
+        #templatelist .designationstyle {
+            float: right;
+            font-size: 12px;
+            padding-right: 13px;
+            padding-top: 4px;
+            position: relative;
+            right: 10px;
+        }
+
+        #templatelist .templatetext {
+            font-size: 15px;
+            font-weight: bolder;
+            position: relative;
+        }
+
+        .listrightdiv {
+            left: 10px;
+            position: relative;
+        }
+
+        .jacob, .grace, .erik, .claire, .brooke {
+            background-repeat: no-repeat;
+            border: 0px solid #e5e5e5;
+            float: left;
+            height: 60px;
+            padding-left: 8px;
+            width: 51px;
+            background-size: 100% 100%;
+        }
+      #LayoutSection_maincontrolarea .e-lv .e-list{
+            height: auto;
+        }
+
+        .cont-bg {
+            font-size: 17px;
+            height: 71px;
+            padding-left: 5px;
+            padding-top: 10px;
+            width: 100%;
+        }
+
+        .brooke {
+            background-image: url("../images/Employees/6.png");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( <img src="../Content/images/accordion/baked-chicken-and-cheese.png" />, sizingMethod='scale');
+        }
+
+        .claire {
+            background-image: url("../images/Employees/9.png");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( <img src="../Content/images/accordion/baked-chicken-and-cheese.png" />, sizingMethod='scale');
+        }
+
+        .erik {
+            background-image: url("../images/Employees/7.png");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( <img src="../Content/images/accordion/baked-chicken-and-cheese.png" />, sizingMethod='scale');
+        }
+
+        .grace {
+            background-image: url("../images/Employees/8.png");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( <img src="../Content/images/accordion/baked-chicken-and-cheese.png" />, sizingMethod='scale');
+        }
+
+        .jacob {
+            background-image: url("../images/Employees/5.png");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( <img src="../Content/images/accordion/baked-chicken-and-cheese.png" />, sizingMethod='scale');
+        }
+      

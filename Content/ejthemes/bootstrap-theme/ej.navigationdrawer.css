@@ -1,0 +1,15 @@
+/*@pager-currentitem:#428BCA;*/
+/*-----------------------OLAP Definition-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+.e-nb.e-nb-layout.e-nb-right,
+.e-nb.e-nb-layout.e-nb-left {
+  background: whitesmoke;
+  /* Old browsers */
+
+  color: #333333;
+  border: 1px solid #cccccc;
+  box-shadow: -1px 0 10px 0 black;
+}

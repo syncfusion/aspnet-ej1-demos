@@ -1,0 +1,58 @@
+﻿  {
+ 
+        "data": [
+					 {
+                  name: "Patient", className: "Patient", properties: [{ name: "accepted", type: "Date" }, { name: "sickness", type: "History" }, { name: "prescription", type: "String[*]" }, { name: "allergies", type: "String[*]" }],
+                  methods: [{ name: "getHistory", returnType: "Date", parameter: "History" }], offsetX: 85, offsetY: 200, minHeight: 100, minWidth: 150, Parent: ""
+              },
+              {
+                  name: "Doctor", className: "Doctor", properties: [{ name: "specialist", type: "String[*]" }, { name: "locations", type: "String[*]" }],
+                  offsetX: 125, offsetY: 515, minHeight: 50, minWidth: 150, Parent: "Patient"
+              },
+              {
+                  name: "Person", className: "Person", properties: [{ name: "name", type: "Name" }, { name: "title", type: "String[*]" }, { name: "gender", type: "Gender" }],
+                  offsetX: 290, offsetY: 85, minHeight: 50, minWidth: 150
+              },
+              {
+                  name: "Hospital", className: "Hospital", properties: [{ name: "name", type: "Name" }, { name: "address", type: "Address" }, { name: "phone", type: "Phone" }],
+                  methods: [{ name: "getDepartMent", returnType: "", parameter: "String" }], offsetX: 493, offsetY: 70, minHeight: 100, minWidth: 150
+              },
+              {
+                  name: "Department", className: "Department",
+                  methods: [{ name: "getStaffCount", returnType: "", parameter: "Int" }], offsetX: 493, offsetY: 250, minHeight: 10, minWidth: 150
+              },
+              {
+                  name: "Staff", className: "Staff", properties: [{ name: "joined", type: "Date" }, { name: "education", type: "string[*]" }, { name: "certification", type: "String[*]" }, { name: "languages", type: "String[*]" }],
+                  methods: [{ name: "isDoctor", returnType: "", parameter: "bool" }, { name: "getHistory", returnType: "", parameter: "bool" }], offsetX: 490, offsetY: 425, minHeight: 100, minWidth: 150
+              },
+              {
+                  name: "OperationStaff", className: "OperationStaff", offsetX: 295, offsetY: 425, minHeight: 160, minWidth: 150, width: 100
+              },
+              {
+                  name: "Nurse", className: "Nurse", offsetX: 295, offsetY: 515, minHeight: 515, minWidth: 150, width: 70
+              },
+              {
+                  name: "Surgeon", className: "Surgeon", offsetX: 125, offsetY: 635, minHeight: 160, minWidth: 150, width: 100
+              },
+              {
+                  name: "AdministrativeStaff", className: "AdministrativeStaff", offsetX: 487, offsetY: 575, minHeight: 163, minWidth: 150, width: 110
+              },
+              {
+                  name: "FrontDeskStaff", className: "FrontDeskStaff", offsetX: 485, offsetY: 635, minHeight: 160, minWidth: 150, width: 100
+              },
+              {
+                  name: "TechnicalStaff", className: "TechnicalStaff", offsetX: 783, offsetY: 425, minHeight: 160, minWidth: 150, width: 100
+              },
+              {
+                  name: "Technician", className: "Technician", offsetX: 680, offsetY: 515, minHeight: 160, minWidth: 150, width: 100
+              },
+              {
+                  name: "Technologist", className: "Technologist", offsetX: 880, offsetY: 515, minHeight: 160, minWidth: 150, width: 100
+              },
+              {
+                  name: "SurgicalTechnologist", className: "SurgicalTechnologist", offsetX: 880, offsetY: 600, minHeight: 160, minWidth: 150, width: 130
+              }
+ 
+			    ]
+ 
+		}

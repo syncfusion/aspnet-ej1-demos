@@ -1,0 +1,262 @@
+﻿{
+            "id": "MindMap",
+            "text": "MindMap",
+            "type": "root",
+            "fill": "rgb(0, 139, 139)",
+            "branches": [
+
+                {
+                    "id": "Bonding",
+                    "text": "Bonding",
+                    "type": "left",
+                    "fill": "rgb(30, 30, 113)",
+                    "branches": [
+                         {
+                             "id": "Limited Text",
+                             "text": "Limited Text",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": {}
+                         }, {
+                             "id": "Key Concepts",
+                             "text": "Key Concepts",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": {}
+                         }, {
+                             "id": "Free To Explore",
+                             "text": "Free To Explore",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": [
+                                {
+                                     "id": "Ideas",
+                                     "text": "Ideas",
+                                     "type": "subleft",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": {}
+                                 }, {
+                                     "id": "Pictures",
+                                     "text": "Pictures",
+                                     "type": "subleft",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": {}
+                                 }, {
+                                     "id": "Connections",
+                                     "text": "Connections",
+                                     "type": "subleft",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": {}
+                                 }
+                             ]
+                         }, {
+                             "id": "Colors",
+                             "text": "Colors",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": {}
+                         }
+                    ]
+                }, {
+                    "id": "Creativity",
+                    "text": "Creativity",
+                    "type": "left",
+                    "fill": "rgb(30, 30, 113)",
+                    "branches": [
+                        {
+                            "id": "Pitch",
+                            "text": "Pitch",
+                            "type": "subleft",
+                            "fill": "rgb(0, 100, 0)",
+                            "branches": {}
+                        },
+                         {
+                             "id": "Brainstorm",
+                             "text": "Brainstorm",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": [
+                                  {
+                                      "id": "Individuality",
+                                      "text": "Individuality",
+                                      "type": "subleft",
+                                      "fill": "rgb(113, 50, 50)",
+                                      "branches": {}
+                                  }, {
+                                      "id": "Groups",
+                                      "text": "Groups",
+                                      "type": "subleft",
+                                      "fill": "rgb(113, 50, 50)",
+                                      "branches": {}
+                                  }
+                             ]
+                         }, {
+                             "id": "Innovative",
+                             "text": "Innovative",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": {}
+                         }, {
+                             "id": "Think",
+                             "text": "Think",
+                             "type": "subleft",
+                             "fill": "rgb(0, 100, 0)",
+                             "branches": [
+                                 {
+                                     "id": "Thoughts",
+                                     "text": "Thoughts",
+                                     "type": "subleft",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": {}
+                                 }, {
+                                     "id": "Ideas",
+                                     "text": "Ideas",
+                                     "type": "subleft",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": {}
+                                 }
+                             ]
+                         }
+                    ]
+                },
+                {
+                    "id": "Planning",
+                    "text": "Planning",
+                    "type": "right",
+                    "fill": "rgb(30, 30, 113)",
+                    "branches": [
+                        {
+                            "id": "Organization",
+                            "text": "Organization",
+                            "type": "subright",
+                            "fill": "rgb(0, 100, 0)",
+                            "branches": [
+                                 {
+                                     "id": "Knowledge",
+                                     "text": "Knowledge",
+                                     "type": "subright",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": [
+                                          {
+                                              "id": "Study",
+                                              "text": "Study",
+                                              "type": "subright",
+                                              "fill": "rgb(94, 45, 108)",
+                                              "branches": {}
+                                          }, {
+                                              "id": "Integration",
+                                              "text": "Integration",
+                                              "type": "subright",
+                                              "fill": "rgb(94, 45, 108)",
+                                              "branches": {}
+                                          }
+                                     ]
+                                 }, {
+                                     "id": "Projects",
+                                     "text": "Projects",
+                                     "type": "subright",
+                                     "fill": "rgb(113, 50, 50)",
+                                     "branches": {}
+                                 }
+                            ]
+                        }, {
+                            "id": "Time",
+                            "text": "Time",
+                            "type": "subright",
+                            "fill": "rgb(0, 100, 0)",
+                            "branches": [
+                                {
+                                    "id": "Management",
+                                    "text": "Management",
+                                    "type": "subright",
+                                    "fill": "rgb(113, 50, 50)",
+                                    "branches": {}
+                                }, {
+                                    "id": "Saving",
+                                    "text": "Saving",
+                                    "type": "subright",
+                                    "fill": "rgb(113, 50, 50)",
+                                    "branches": {}
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "Review",
+                    "text": "Review",
+                    "type": "right",
+                    "fill": "rgb(30, 30, 113)",
+                    "branches": {}
+                },
+                {
+                    "id": "Learning",
+                    "text": "Learning",
+                    "type": "right",
+                    "fill": "rgb(30, 30, 113)",
+                    "branches": [
+                        {
+                            "id": "Education",
+                            "text": "Education",
+                            "type": "subright",
+                            "fill": "rgb(0, 100, 0)",
+                            "branches": [
+                                {
+                                    "id": "Relationships",
+                                    "text": "Relationships",
+                                    "type": "subright",
+                                    "fill": "rgb(113, 50, 50)",
+                                    "branches": {}
+                                }, {
+                                    "id": "Plans",
+                                    "text": "Plans",
+                                    "type": "subright",
+                                    "fill": "rgb(113, 50, 50)",
+                                    "branches": [
+                                        {
+                                            "id": "Year",
+                                            "text": "Year",
+                                            "type": "subright",
+                                            "fill": "rgb(94, 45, 108)",
+                                            "branches": {}
+                                        }, {
+                                            "id": "Terms",
+                                            "text": "Terms",
+                                            "type": "subright",
+                                            "fill": "rgb(94, 45, 108)",
+                                            "branches": {}
+                                        }, {
+                                            "id": "Lessons",
+                                            "text": "Lessons",
+                                            "type": "subright",
+                                            "fill": "rgb(94, 45, 108)",
+                                            "branches": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }, {
+                            "id": "Exam",
+                            "text": "Exam",
+                            "type": "subright",
+                            "fill": "rgb(0, 100, 0)",
+                            "branches": [
+                                {
+                                    "id": "Planning",
+                                    "text": "Planning",
+                                    "type": "subright",
+                                    "fill": "rgb(113, 50, 50)",
+                                    "branches": {}
+                                }, {
+                                    "id": "Revisions",
+                                    "text": "Revisions",
+                                    "type": "subright",
+                                    "fill": "rgb(113, 50, 50)",
+                                    "branches": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }

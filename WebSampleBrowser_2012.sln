@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSampleBrowser_2012", "WebSampleBrowser_2012.csproj", "{F4B278D5-BC80-4354-9339-DAC208EA6A0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-xml|Any CPU = Debug-xml|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-xml|Any CPU = Release-xml|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Debug-xml|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Debug-xml|Any CPU.Build.0 = Debug|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Release-xml|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B278D5-BC80-4354-9339-DAC208EA6A0B}.Release-xml|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

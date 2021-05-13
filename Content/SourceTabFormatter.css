@@ -1,0 +1,106 @@
+﻿
+/* Source code tab design classes*/
+.csharpcode, .csharpcode pre {
+    color: #a11;
+    background-color: Transparent; /*white-space: pre;*/
+    border: 1px solid Transparent;
+}
+
+    .csharpcode pre {
+        margin: 0em;
+    }
+
+    .csharpcode .rem {
+        color: #5c5c5c;
+    }
+
+    .csharpcode .kwrd {
+        color: #170;
+    }
+
+    .csharpcode .str {
+        color: #006080;
+    }
+
+    .csharpcode .op {
+        color: #0000c0;
+    }
+
+    .csharpcode .preproc {
+        color: #cc6633;
+    }
+
+    .csharpcode .asp {
+        background-color: #ffff00;
+    }
+
+    .csharpcode .html {
+        color: #170;
+    }
+
+    .csharpcode .attr {
+        color: #00c;
+    }
+
+    .csharpcode .alt {
+        background-color: #f4f4f4;
+        width: 100%;
+        margin: 0em;
+    }
+
+    .csharpcode .lnum {
+        color: #606060;
+    }
+
+    /*dark theme*/
+   .darktheme .csharpcode,.darktheme .csharpcode pre {
+    color: #61CE3C;
+    background-color: Transparent; /*white-space: pre;*/
+    border: 1px solid Transparent;
+}
+
+    .darktheme .csharpcode pre {
+        margin: 0em;
+    }
+
+   .darktheme .csharpcode .rem {
+        color: #FF6400;
+    }
+
+   .darktheme .csharpcode .kwrd {
+        color: white;
+    }
+
+   .darktheme .csharpcode .str {
+        color: #006080;
+    }
+
+   .darktheme .csharpcode .op {
+        color: #0000c0;
+    }
+
+   .darktheme .csharpcode .preproc {
+        color: #cc6633;
+    }
+
+   .darktheme .csharpcode .asp {
+        background-color: #ffff00;
+    }
+
+   .darktheme .csharpcode .html {
+        color: #8DA6CE;
+    }
+
+  .darktheme  .csharpcode .attr {
+        color: #8DA6CE;
+    }
+
+  .darktheme  .csharpcode .alt {
+        background-color: #f4f4f4;
+        width: 100%;
+        margin: 0em;
+    }
+
+   .darktheme .csharpcode .lnum {
+        color: #606060;
+    }

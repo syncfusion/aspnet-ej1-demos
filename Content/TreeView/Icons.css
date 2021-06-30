@@ -1,0 +1,95 @@
+﻿.darktheme .cols-sample-area .mailicon, .darktheme .cols-sample-area .e-node-hover .mailicon, .darktheme .cols-sample-area .e-node-focus.e-active .mailicon
+        {
+             background-image: url("../images/mail/mailicons_gray.png");
+        }
+
+        .cols-sample-area .e-active .mailicon
+        {
+            background-image: url("../images/mail/mailicons_white.png");
+        }
+        
+        .cols-sample-area .mailicon, .cols-sample-area .e-editable .mailicon, .cols-sample-area .e-node-hover .mailicon,.cols-sample-area .e-node-focus.e-active .mailicon
+        {
+            background-image: url("../images/mail/mailicons.png");
+        }
+
+        .material .cols-sample-area .mailicon, .material .cols-sample-area .e-editable .mailicon, .material .cols-sample-area .e-node-hover .mailicon, .material .cols-sample-area .e-node-focus.e-active .mailicon  {
+            background-image: url("../images/treeview/mailicons.png");
+        }
+        
+        .office-365 .cols-sample-area .e-active .mailicon {
+            background-image: url("../images/mail/mailicons.png");
+        }
+
+        .mailicon
+        {
+            display: inline-block;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            text-align: center;
+            vertical-align: middle;
+            width: 20px;
+            height: 18px;
+        }
+
+       .sprite-calendar
+        {
+            background-position: -25px -255px;
+        }
+
+        .sprite-contacts
+        {
+            background-position: -26px -429px;
+        }
+
+        .sprite-deleted
+        {
+            background-position: -24px -152px;
+        }
+
+        .sprite-drafts
+        {
+            background-position:-24px -83px;
+        }
+
+        .sprite-folder
+        {
+            background-position: -24px -464px;
+        }
+
+        .sprite-folders
+        {
+            background-position: -24px -222px;
+        }
+
+        .sprite-inbox
+        {
+            background-position: -25px -13px;
+        }
+
+        .sprite-junk
+        {
+            background-position: -23px -187px;
+        }
+
+        .sprite-notes
+        {
+            background-position: -26px -394px;
+        }
+
+        .sprite-outbox
+        {
+            background-position: 0 -414px;
+            width: 16px;
+            height: 16px;
+        }
+
+        .sprite-root
+        {
+            background-position: -25px -49px;
+        }
+
+        .sprite-sentitems
+        {
+            background-position: -26px -118px;
+        }

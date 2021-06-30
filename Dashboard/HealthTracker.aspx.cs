@@ -1,0 +1,33 @@
+#region Copyright Syncfusion Inc. 2001-2021.
+// Copyright Syncfusion Inc. 2001-2021. All rights reserved.
+// Use of this code is subject to the terms of our license.
+// A copy of the current license can be obtained at any time by e-mailing
+// licensing@syncfusion.com. Any infringement will be prosecuted under
+// applicable laws. 
+#endregion
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Syncfusion.JavaScript.DataVisualization.Models;
+
+namespace WebSampleBrowser.Dashboard
+{
+    public partial class HealthTracker : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            // Range settings for chart
+            this.ChartCal.PrimaryXAxis.Range.Min = this.ChartBurnt.PrimaryXAxis.Range.Min = this.MealDetails.PrimaryXAxis.Range.Min = 0;
+            this.ChartCal.PrimaryXAxis.Range.Max = this.ChartBurnt.PrimaryXAxis.Range.Max = this.MealDetails.PrimaryXAxis.Range.Max= 31;
+            this.ChartCal.PrimaryXAxis.Range.Interval = this.ChartBurnt.PrimaryXAxis.Range.Interval= this.MealDetails.PrimaryXAxis.Range.Interval= 3;
+
+            this.ChartCal.PrimaryYAxis.Range.Min = this.ChartBurnt.PrimaryYAxis.Range.Min = this.MealDetails.PrimaryYAxis.Range.Min = 0;
+            this.ChartCal.PrimaryYAxis.Range.Max= this.ChartBurnt.PrimaryYAxis.Range.Max= this.MealDetails.PrimaryYAxis.Range.Max=1200;
+            this.ChartCal.PrimaryYAxis.Range.Interval =this.ChartBurnt.PrimaryYAxis.Range.Interval = this.MealDetails.PrimaryYAxis.Range.Interval = 100 ;
+   
+        }
+    }
+}

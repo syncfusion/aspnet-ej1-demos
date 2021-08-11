@@ -1,4 +1,0 @@
-<PropertyGroup>
-    <PostBuildEvent>xcopy "$(ProjectDir)Content\ej\web\*.*" "$(ProjectDir)Content\ejthemes" /Y /I /E
-xcopy "$(ProjectDir)Scripts\ej\web\ej.web.all.min.js" "$(ProjectDir)Scripts\ej.web.all.min.js" /Y /I /E</PostBuildEvent>
-  </PropertyGroup>

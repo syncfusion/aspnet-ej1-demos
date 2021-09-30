@@ -100,7 +100,7 @@ In case of any questions regarding the use of Syncfusion Essential JS 1 for ASP.
 
 ## Release Notes
 
-Refer the Syncfusion Essential JS 1 for ASP.NET Product Release Notes in [online Release Notes at Syncfusion](https://help.syncfusion.com/aspnet/release-notes/?utm_source=github&utm_medium=listing).
+Refer the Syncfusion Essential JS 1 for ASP.NET Product Release Notes in [online Release Notes at Syncfusion](https://help.syncfusion.com/aspnet/release-notes/?utm_source=github&utm_medium=listing). 
 
 ## License Information
 

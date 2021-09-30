@@ -1,0 +1,72 @@
+﻿.temp {
+    height: 237px;
+    width: 375px;
+    font-family: segoe UI;
+    cursor: default;
+}
+
+    .temp span {
+        color: red;
+        float: left;
+        font-size: 20px;
+        left: 20px !important;
+        position: relative;
+        top: 25px;
+        width: 100px;
+    }
+
+    .temp ul {
+        float: left;
+        font-size: 14px;
+        left: -79px !important;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 50px;
+        width: 128px;
+    }
+
+        .temp ul li {
+            font-size: 13px;
+        }
+
+            .temp ul li a {
+                text-decoration: underline;
+                cursor: pointer;
+                color: #000;
+            }
+
+.temp1 {
+    background-image: url("../../Content/images/menu/books-bg.png");
+}
+
+.temp2 {
+    background-image: url("../../Content/images/menu/digital-bg.png");
+}
+
+.temp3 {
+    background-image: url("../../Content/images/menu/movi-bg.png");
+}
+
+.temp4 {
+    background-image: url("../../Content/images/menu/mp3-bg.png");
+}
+
+.temp5 {
+    background-image: url("../../Content/images/menu/toy-bg.png");
+}
+
+        #template > li > ul li:hover {
+            background: none;
+        }
+                        
+        #template > li > ul > li div > ul > li a {
+            background: none;
+        }
+
+.e-menu-res-wrap {
+    display: none;
+    height: 32px;
+    overflow: hidden;
+}

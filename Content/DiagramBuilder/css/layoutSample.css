@@ -1,0 +1,10 @@
+﻿#diagramDiv
+{
+    border: 1px dashed lightgray;
+}
+#propertySide
+{
+    border: 1px solid black;
+    width: 235px;
+    height: 517px;
+}

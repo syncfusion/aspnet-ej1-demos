@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.EJ.Pivot</name>
+    </assembly>
+    <members>
+        <member name="M:Syncfusion.JavaScript.PivotGrid.GetExcelRange(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets the Range value of the Excel Column based on the Columns and
+            Row values specified.
+            </summary>
+            <param name="col1">The col1 range</param>
+            <param name="row1">The row1 range</param>
+            <param name="col2">The col2 range</param>
+            <param name="row2">The row2 range</param>
+            <returns>a StringBuilder object</returns>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.A">
+            <summary>
+            Denotes alphabet A
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.B">
+            <summary>
+            Denotes alphabet B
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.C">
+            <summary>
+            Denotes alphabet C
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.D">
+            <summary>
+            Denotes alphabet D
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.E">
+            <summary>
+            Denotes alphabet E
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.F">
+            <summary>
+            Denotes alphabet F
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.G">
+            <summary>
+            Denotes alphabet G
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.H">
+            <summary>
+            Denotes alphabet H
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.I">
+            <summary>
+            Denotes alphabet I
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.J">
+            <summary>
+            Denotes alphabet J
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.K">
+            <summary>
+            Denotes alphabet K
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.L">
+            <summary>
+            Denotes alphabet L
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.M">
+            <summary>
+            Denotes alphabet M
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.N">
+            <summary>
+            Denotes alphabet N
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.O">
+            <summary>
+            Denotes alphabet O
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.P">
+            <summary>
+            Denotes alphabet P
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.Q">
+            <summary>
+            Denotes alphabet Q
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.R">
+            <summary>
+            Denotes alphabet R
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.S">
+            <summary>
+            Denotes alphabet S
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.T">
+            <summary>
+            Denotes alphabet T
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.U">
+            <summary>
+            Denotes alphabet U
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.V">
+            <summary>
+            Denotes alphabet V
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.W">
+            <summary>
+            Denotes alphabet W
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.X">
+            <summary>
+            Denotes alphabet X
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.Y">
+            <summary>
+            Denotes alphabet Y
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.Alphabets.Z">
+            <summary>
+            Denotes alphabet Z
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.KpiCompareResult.less">
+            <summary>
+            Indicates less value.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.KpiCompareResult.equal">
+            <summary>
+            Indicates equal value.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.PivotGrid.KpiCompareResult.greater">
+            <summary>
+            Indicates greater value.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.ReverseCustomComparer">
+            <summary>
+            Class used for sorting the objects in reverse
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ReverseCustomComparer.#ctor(System.Collections.IComparer)">
+            <summary>
+            Initializes the <see cref="T:Syncfusion.JavaScript.ReverseCustomComparer"/> class.
+            </summary>
+            <param name="comparer">The comparer</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ReverseCustomComparer.Compare(System.Object,System.Object)">
+            <summary>
+            Gets the compared result
+            </summary>
+            <param name="x">Object</param>
+            <param name="y">Object</param>
+            <returns>int</returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.ReverseCustomComparer.CustomComparer">
+            <summary>
+            Gets the custom comparer set before sorting applied
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.ReverseOrderComparer">
+            <summary>
+            Class used for sorting the objects in reverse order
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ReverseOrderComparer.Compare(System.Object,System.Object)">
+            <summary>
+            Method to compare two objects
+            </summary>
+            <param name="x">object</param>
+            <param name="y">object</param>
+            <returns>int</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.SortGrid">
+            <summary>
+            Class that holds the properties, which helps to do sorting.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SortGrid.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Sort"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SortGrid.#ctor(Syncfusion.PivotAnalysis.Base.PivotItem)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Sort"/> class.
+            </summary>
+            <param name="item">PivotItem</param>
+        </member>
+        <member name="P:Syncfusion.JavaScript.SortGrid.PivotItem">
+            <summary>
+            Gets or sets the PivotItem.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.SortGrid.IsDescSort">
+            <summary>
+            Gets or sets whether the sort order is in ascending/descending.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.SortGrid.FieldMappingName">
+            <summary>
+            Gets or sets the field mapping name of the PivotItem.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.PivotClientPropertiesBuilder.SubTotalSettings(System.Action{Syncfusion.JavaScript.SubTotalSettingsBuilder})">
+            <summary>
+            SubTotal Setting the specified SubTotal Setting.
+            </summary>
+            <param name="subtotalsetting">The subtotalsetting.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.PivotGridPropertiesBuilder.SubTotalSettings(System.Action{Syncfusion.JavaScript.SubTotalSettingsBuilder})">
+            <summary>
+            SubTotal Setting the specified SubTotal Setting.
+            </summary>
+            <param name="subtotalsetting">The subtotalsetting.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Models.Levels.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            Specifies the names of Level.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Models.Levels.ShowSubTotal">
+            <summary>
+            Gets or sets value for ShowSubTotal.
+            </summary>
+            <value>
+            Show/hide the sub total
+            </value>
+        </member>
+        <member name="M:Syncfusion.JavaScript.LevelSettingsBuilder.#ctor(Syncfusion.JavaScript.Models.SubTotalSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="!:LevelBuilder"/> class to indicate the subtotalsetting level.
+            </summary>
+            <param name="level">The level.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.LevelSettingsBuilder.Name(System.String)">
+            <summary>
+            Backgrounds the color.
+            </summary>
+            <param name="name">names for the level.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.LevelSettingsBuilder.ShowSubTotal">
+            <summary>
+            Shows the sub total.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.LevelSettingsBuilder.ShowSubTotal(System.Boolean)">
+            <summary>
+            Shows the sub total.
+            </summary>
+            <param name="enableSubTotal">if set to <c>true</c> [Enable Sub Total].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.LevelSettingsBuilder.Add">
+            <summary>
+            Adds this instance.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Models.SubTotalSettings.Levels">
+            <summary>
+            Gets or sets the Levels.
+            </summary>
+            <value>
+            Specifies options for customizing levels.
+            </value>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SubTotalSettingsBuilder.#ctor(Syncfusion.JavaScript.PivotGrid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.SubTotalSettingsBuilder"/> class to indicate the scale value.
+            </summary>
+            <param name="subTotalSetting">The subTotalSetting.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SubTotalSettingsBuilder.#ctor(Syncfusion.JavaScript.PivotClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.SubTotalSettingsBuilder"/> class to indicate the scale value.
+            </summary>
+            <param name="subTotalSetting">The subTotalSetting.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SubTotalSettingsBuilder.Name(System.String)">
+            <summary>
+            Backgrounds the color.
+            </summary>
+            <param name="name">name of Level</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SubTotalSettingsBuilder.Levels(System.Action{Syncfusion.JavaScript.LevelSettingsBuilder})">
+            <summary>
+            Levels the specified Level.
+            </summary>
+            <param name="level">The level.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

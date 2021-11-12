@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <RootItem Sprite="Browsers ieb" id="one">
+    <Tooltip>IE</Tooltip>
+  </RootItem>
+  <RootItem Sprite="Browsers chromeb" id="two" >
+    <Tooltip>Chrome</Tooltip>
+  </RootItem>
+  <RootItem Sprite="Browsers firefoxb" id="three" >
+    <Tooltip>Firefox</Tooltip>
+  </RootItem>
+  <RootItem Sprite="Browsers bittyb" id="four" >
+    <Tooltip>Bitty</Tooltip>
+  </RootItem>
+  <RootItem Sprite="Browsers operab" id="five">
+    <Tooltip>Opera</Tooltip>
+  </RootItem>
+</Items>

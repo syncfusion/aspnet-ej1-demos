@@ -1,0 +1,140 @@
+﻿ .e-tab .e-icon.e-wiz1:before
+        {
+            content: "\e746";
+        }
+        .e-tab .e-icon.e-wiz2:before
+        {
+            content: "\e747";
+        }
+        .e-tab .e-icon.e-wiz3:before
+        {
+            content: "\e748";
+        }
+        .e-tab .e-icon.e-wiz4:before
+        {
+            content: "\e745";
+        }
+        .e-tab .e-header .e-icon
+        {
+            background-color: transparent;
+            background-image: none;
+            cursor: pointer;
+            float: right;
+            font-size: large;
+            height: 16px;
+            margin-left: -11px;
+            margin-right: 13px;
+            margin-top: 11px;
+            padding: 3px;
+            width: 16px;
+        }
+        .frame-tab
+        {
+            border: 1px solid #BBBCBB;
+            background-color: #f9f8fa;
+            padding: 23px 10px 20px 10px;
+            margin-bottom: 30px;
+            width: 532px;
+            margin: 0 auto;
+            color: #5C5C5C;
+        }
+        .wizAlign
+        {
+            padding: 10px;
+        }
+        .e-btn.e-select
+        {
+            border: 1px solid #bbbcbb;
+        }
+        .nextTab
+        {
+            float: right;
+        }
+        .headingwiz
+        {
+            color: #333333;
+            font-size: large;
+            text-align: left;
+            font-weight: lighter;
+            font-family: segoe ui;
+        }
+        #Search
+        {
+            padding-bottom: 53px !important;
+        }
+        .tab-title
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 74%;
+        }
+        #pass_age1, #pass_age2, #pass_age3, #pass_age4, #pass_age5
+        {
+            width: 60px;
+            height: 24px;
+        }
+        #pass_name1, #pass_name2, #pass_name3, #pass_name4, #pass_name5
+        {
+            width: 180px;
+            height: 24px;
+        }
+        
+        #TicketConfirmation, #TrainAvailability, #PassengersList
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 650px;
+        }
+        .tab-title1
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 87%;
+        }
+        table
+        {
+            width: 100%;
+        }
+        table#Table1, #Table1 th, #Table1 td
+        {
+            border: 1px solid #c4c4c4;
+            border-collapse: collapse;
+        }
+        #Table1 th, #Table1 td
+        {
+            padding: 5px;
+            text-align: center;
+        }
+        table#Table1 tr:nth-child(even)
+        {
+            background-color: #eee;
+        }
+        table#Table1 tr:nth-child(odd)
+        {
+            background-color: #fff;
+        }
+        #Table1 td span.e-ddl.e-widget
+        {
+            margin: 0 auto;
+        }
+        table#Table1 th
+        {
+            height: 28px;
+            text-align: center;
+        }
+        #tab1_err, #tab2_err, #tab3_err
+        {
+            color: #e40917;
+        }
+        .sbtxt {
+            font-size:24px;
+            margin-left:40px;
+        }
+        #wizardTab {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        #Train{
+		height:400px;
+		max-height:500px;
+        }

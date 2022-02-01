@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSampleBrowser_2015", "WebSampleBrowser_2015.csproj", "{2B6FC7D6-990F-4052-8996-C9C111D70681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-xml|Any CPU = Debug-xml|Any CPU	
+		Release|Any CPU = Release|Any CPU
+		Release-xml|Any CPU = Release-xml|Any CPU				
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6FC7D6-990F-4052-8996-C9C111D70681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6FC7D6-990F-4052-8996-C9C111D70681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6FC7D6-990F-4052-8996-C9C111D70681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6FC7D6-990F-4052-8996-C9C111D70681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

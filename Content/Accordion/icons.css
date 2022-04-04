@@ -1,0 +1,77 @@
+﻿ 
+        #iconAccordion img
+        {
+            float: left;
+            margin: -7px 1px 0 -13px;
+        }
+
+        .header-expand
+        {
+            background-image: url(../../content/images/ui-icons/ui-icons-active.png);
+            background-position: -187px -60px;
+            cursor: pointer;
+            display: block;
+            float: right !important;
+            height: 16px;
+            width: 16px;
+        }
+
+        .header-close
+        {
+            background-image: url(../../content/images/ui-icons/ui-icons-default.png);
+            background-position: -161px -60px;
+            cursor: pointer;
+            display: block;
+            float: right !important;
+            height: 16px;
+            width: 16px;
+        }
+
+        .e-acrdn-header:hover .header-expand
+        {
+            background-image: url(../../content/images/ui-icons/ui-icons-active.png);
+            background-position: -187px -60px;
+        }
+
+        .e-acrdn-header:hover .header-close
+        {
+            background-image: url(../../content/images/ui-icons/ui-icons-active.png);
+            background-position: -161px -60px;
+        }
+
+        .logos
+        {
+            float: left;
+            height: 35px;
+            margin: -6px 1px 2px -15px;
+            width: 35px;
+        }
+
+        .e-select .logos
+        {
+            background-image: url(../../content/images/accordion/grey_logos.png);
+        }
+        .e-active .logos
+        {
+            background-image: url(../../content/images/accordion/white_logos.png);
+        }
+        .logos:hover
+        {
+            background-image: url(../../content/images/accordion/white_logos.png) !important;
+        }
+
+        .logos.volkswagan
+        {
+            background-position: 0 -170px;
+        }
+
+        .logos.mitsubishi
+        {
+            background-position: 0 -85px;
+        }
+
+        .logos.benz
+        {
+            background-position: 0 0;
+        }
+    

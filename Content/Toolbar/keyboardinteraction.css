@@ -1,0 +1,80 @@
+﻿ .darktheme .cols-sample-area .e-tooltxt .ToolbarItems
+        {
+            background-image: url('../images/toolbar/playerd.png');
+        }
+
+        .cols-sample-area .e-tooltxt .ToolbarItems
+        {
+            display: block;
+            background-image: url('../images/toolbar/playerl.png');
+            height: 32px;
+            width: 32px;
+            background-repeat: no-repeat;
+            list-style: none outside none;
+        }
+
+        .e-tooltxt:hover .ToolbarItems,.darktheme .cols-sample-area .e-tooltxt:hover .ToolbarItems
+        {
+            background-image: url('../images/toolbar/playerh.png');
+        }
+        
+
+        .ToolbarItems.Back
+        {
+            background-position: 0px 0px;
+        }
+
+        .ToolbarItems.End
+        {
+            background-position: -42px 0px;
+        }
+
+        .ToolbarItems.FastForward
+        {
+            background-position: -84px 0px;
+        }
+
+        .ToolbarItems.Pause
+        {
+            background-position: -126px 0px;
+        }
+
+        .ToolbarItems.Play
+        {
+            background-position: -168px 0px;
+        }
+
+        .ToolbarItems.Stop
+        {
+            background-position: -210px 0px;
+        }
+
+        .ToolbarItems.PlayOnce
+        {
+            background-position: -252px 0px;
+        }
+
+        .ToolbarItems.RepeatAll
+        {
+            background-position: -294px 0px;
+        }
+
+        .ToolbarItems.playerSkew
+        {
+            background-position: -336px 0px;
+        }
+
+        .ToolbarItems.Back1
+        {
+            background-position: -378px 0px;
+        }
+
+        .ToolbarItems.FastForward1
+        {
+            background-position: -420px 0px;
+        }
+
+        .frame
+        {
+            width: 60%;
+        }

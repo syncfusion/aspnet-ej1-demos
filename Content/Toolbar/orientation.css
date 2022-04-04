@@ -1,0 +1,91 @@
+﻿
+        .darktheme .cols-sample-area .e-tooltxt .editTools
+        {
+            background-image: url('../../Content/images/toolbar/editToolbar.png');
+        }
+        .cols-sample-area .e-tooltxt .editTools
+        {
+            display: block;
+            background-image: url('../../Content/images/toolbar/editToolbarl.png');
+            height: 26px;
+            width: 26px;
+			background-repeat: no-repeat;
+        }
+		.e-tooltxt:hover .editTools,.darktheme .cols-sample-area .e-tooltxt:hover .editTools
+        {
+             background-image: url('../../Content/images/toolbar/editToolbarh.png');
+        }
+            .editTools.cursor
+            {
+                background-position: -0px -0px;
+            }
+
+            .editTools.select
+            {
+                background-position: -0px -36px;
+            }
+
+            .editTools.move
+            {
+                background-position: -0px -72px;
+            }
+
+            .editTools.rectselect
+            {
+                background-position: -0px -108px;
+            }
+
+            .editTools.roundselect
+            {
+                background-position: -0px -144px;
+            }
+
+            .editTools.brush
+            {
+                background-position: -0px -180px;
+            }
+
+            .editTools.pen
+            {
+                background-position: -0px -216px;
+            }
+
+            .editTools.gradient
+            {
+                background-position: -0px -252px;
+            }
+
+            .editTools.crop
+            {
+                background-position: -0px -288px;
+            }
+
+            .editTools.symbols
+            {
+                background-position: -0px -324px;
+            }
+        /***/
+        .frame
+        {
+            width: 60%;
+        }
+
+        .control
+        {
+            color: black;
+            font-family: 'Segoe UI';
+            font-size: medium;
+        }
+
+        .ctrllabel
+        {
+            padding-bottom: 3px;
+        }
+       
+.toolhor {
+    padding: 30px 80px;
+}
+.toolver {
+    padding: 10px 220px;
+}
+    

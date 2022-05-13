@@ -1,0 +1,36 @@
+Index: TabScroll.aspx
+===================================================================
+--- TabScroll.aspx	(revision 470432)
++++ TabScroll.aspx	(working copy)
+@@ -1,8 +1,8 @@
+ ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Samplebrowser.Master" CodeBehind="TabScroll.aspx.cs" Inherits="WebSampleBrowser.Tab.TabScroll" %>
+ 
+ <asp:Content ID="Content2" ContentPlaceHolderID="ControlsSection" runat="server">
+-  
+-        <ej:Tab ID="tabScroll" runat="server" EnableTabScroll="true" Width="600px">
++     <div style="position: relative; overflow: hidden;height: 300px">
++        <ej:Tab ID="tabScroll" runat="server" EnableTabScroll="true" width="600px" Height="300px">
+             <Items>
+                 <ej:TabItem ID="ASP" Text="ASP.NET">
+                     <ContentSection>
+@@ -58,16 +58,14 @@
+            
+                     </ContentSection>
+                 </ej:TabItem>
+-
+-               
+-            </Items>
+-        </ej:Tab>
+-    
++	</Items>
++      </ej:Tab>
++    </div>
+ </asp:Content>
+ <asp:Content ID="Content6" ContentPlaceHolderID="StyleSection" runat="server">
+     <style type="text/css">
+        #<%=tabScroll.ClientID%>{
+-          margin:0 auto;
++ 	margin:0,auto;
+         }
+     </style>
+ </asp:Content>

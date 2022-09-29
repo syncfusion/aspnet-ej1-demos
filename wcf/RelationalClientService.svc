@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WebSampleBrowser.RelationalClientService" CodeBehind="RelationalClientService.svc.cs" %>

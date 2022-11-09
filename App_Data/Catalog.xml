@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <CATALOG>
+   <CD Title="Empire Burlesque" 
+     Artist="Bob Dylan"
+     Country="USA"
+    Company="Columbia" 
+    Price="10.90" 
+    Year="1985" 
+  />
+   <CD
+    Title="Hide your heart" 
+     Artist="Bonnie Tylor"
+     Country="UK"
+    Company="CBS Records" 
+    Price="9.90" 
+    Year="1988" 
+  />
+   <CD
+    Title="Greatest Hits" 
+     Artist="Dolly Parton"
+     Country="USA"
+    Company="RCA" 
+    Price="9.90" 
+    Year="1982" 
+  />
+   <CD
+    Title="Still got the blues" 
+     Artist="Gary More"
+     Country="UK"
+    Company="Virgin redords" 
+    Price="10.20" 
+    Year="1990" 
+  />
+   <CD
+    Title="Eros" 
+     Artist="Eros Ramazzotti"
+     Country="EU"
+    Company="BMG" 
+    Price="9.90" 
+    Year="1997" 
+  />
+   <CD
+    Title="One night only" 
+     Artist="Bee Gees"
+     Country="UK"
+    Company="Polydor" 
+    Price="10.90" 
+    Year="1998" 
+  />
+   <CD
+    Title="Sylvias Mother" 
+     Artist="Dr.Hook"
+     Country="UK"
+    Company="CBS" 
+    Price="8.10" 
+    Year="1973" 
+  />
+   <CD
+    Title="Maggie May" 
+     Artist="Rod Stewart"
+     Country="UK"
+    Company="Pickwick" 
+    Price="8.50" 
+    Year="1990" 
+  />
+   <CD
+    Title="Romanza" 
+     Artist="Andrea Bocelli"
+     Country="EU"
+    Company="Polydor" 
+    Price="10.80" 
+    Year="1996" 
+  />
+   <CD
+    Title="When a man loves a woman" 
+     Artist="Percy Sledge"
+     Country="USA"
+    Company="Atlantic" 
+    Price="8.70" 
+    Year="1987" 
+  />
+   <CD
+    Title="Black angel" 
+     Artist="Savage Rose"
+     Country="EU"
+    Company="Mega" 
+    Price="10.90" 
+    Year="1995" 
+  />
+   <CD
+    Title="1999 Grammy Nominees" 
+     Artist="Many"
+     Country="USA"
+    Company="Grammy" 
+    Price="10.20" 
+    Year="1999" 
+  />
+   <CD
+    Title="For the good times" 
+     Artist="Kenny Rogers"
+     Country="UK"
+    Company="Mucik Master" 
+    Price="8.70" 
+    Year="1995" 
+  />
+   <CD
+    Title="Big Willie style" 
+     Artist="Will Smith"
+     Country="USA"
+    Company="Columbia" 
+    Price="9.90" 
+    Year="1997" 
+  />
+   <CD
+    Title="Tupelo Honey" 
+     Artist="Van Morrison"
+     Country="UK"
+    Company="Polydor" 
+    Price="8.20" 
+    Year="1971" 
+  />
+   <CD
+    Title="Soulsville" 
+     Artist="Jorn Hoel"
+     Country="Norway"
+    Company="WEA" 
+    Price="7.90" 
+    Year="1996" 
+  />
+   <CD
+    Title="The very best of" 
+     Artist="Cat Stevens"
+     Country="UK"
+    Company="Island" 
+    Price="8.90" 
+    Year="1990" 
+  />
+   <CD
+    Title="Stop" 
+     Artist="Sam Brown"
+     Country="UK"
+    Company="A and M" 
+    Price="8.90" 
+    Year="1988" 
+  />
+   <CD
+    Title="Bridge of Spies" 
+     Artist="T`Pau"
+     Country="UK"
+    Company="Siren" 
+    Price="7.90" 
+    Year="1987" 
+  />
+   <CD
+    Title="Private Dancer" 
+     Artist="Tina Turner"
+     Country="UK"
+    Company="Capitol" 
+    Price="8.90" 
+    Year="1983" 
+  />
+   <CD
+    Title="Midt om natten" 
+     Artist="Kim Larsen"
+     Country="EU"
+    Company="Medley" 
+    Price="7.80" 
+    Year="1983" 
+  />
+   <CD
+    Title="Pavarotti Gala Concert" 
+     Artist="Luciano Pavarotti"
+     Country="UK"
+    Company="DECCA" 
+    Price="9.90" 
+    Year="1991" 
+ />
+   <CD
+    Title="The dock of the bay" 
+     Artist="Otis Redding"
+     Country="USA"
+    Company="Atlantic" 
+    Price="7.90" 
+    Year="1987" 
+  />
+   <CD
+    Title="Picture book" 
+     Artist="Simply Red"
+     Country="EU"
+    Company="Elektra" 
+    Price="7.20" 
+    Year="1985" 
+  />
+   <CD
+    Title="Red" 
+     Artist="The Communards"
+     Country="UK"
+    Company="London" 
+    Price="7.80" 
+    Year="1987" 
+  />
+   <CD
+    Title="Unchain my heart" 
+     Artist="Joe Cocker"
+     Country="USA"
+    Company="EMI" 
+    Price="8.20" 
+    Year="1987" 
+  />
+</CATALOG>

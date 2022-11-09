@@ -1,0 +1,32 @@
+﻿    
+         .e-tooltxt .Browsers
+        {
+            display: block;
+            background-image: url('../Images/toolbar/browserl.png');
+            height: 32px;
+            width: 32px;
+            background-repeat: no-repeat;   
+        }
+        .e-tooltxt:hover .Browsers
+        {
+             background-image: url('../Images/toolbar/browserh.png');
+        }
+ .Browsers.ieb {
+  background-position: -84px 0px;
+}
+ .Browsers.chromeb {
+  background-position: -42px 0px;
+}
+ .Browsers.firefoxb {
+  background-position: 0px 0px;
+}
+ .Browsers.bittyb {
+  background-position: -126px 0px;
+}
+ .Browsers.operab {
+  background-position: -168px 0px;
+}
+  .frame
+        {
+    width: 60%;
+        }

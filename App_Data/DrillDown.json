@@ -1,0 +1,80 @@
+﻿{
+    "root": {
+        "data": [
+            {
+                "Name": "textnode",
+                "width": 200,
+                "height": 60,
+                "offsetX": 310,
+                "offsetY": 30,
+                "type": "text",
+                "constraints": "none",
+                "excludeFromLayout": true,
+                "textBlock": {
+                    "text": "Coevals Diagram",
+                    "fontColor": "blue",
+                    "fontSize": 20,
+                    "fontFamily": "Segoe UI"
+                }
+            },
+            {
+                "Name": "Image1",
+                "Source": "../Content/diagram/drilldown/image2.png",
+                "addInfo": {
+                    "toolvalue": "Doubleclick on node to expand/collapse children"
+                }
+            },
+            {
+                "Name": "Image2",
+                "Source": "../Content/diagram/drilldown/image7.png",
+                "Function": "Image1",
+                "addInfo": {
+                    "toolvalue": "Doubleclick on node to expand/collapse children"
+                }
+            },
+            {
+                "Name": "Image3",
+                "Source": "../Content/diagram/drilldown/image3.png",
+                "Function": "Image1",
+                "addInfo": {
+                    "toolvalue": "Doubleclick on node to expand/collapse children"
+                }
+            },
+            {
+                "Name": "Image4",
+                "Source": "../Content/diagram/drilldown/image6.png",
+                "Function": "Image2"
+            },
+            {
+                "Name": "Image5",
+                "Source": "../Content/diagram/drilldown/image5.png",
+                "Function": "Image2"
+            },
+            {
+                "Name": "Image6",
+                "Source": "../Content/diagram/drilldown/image5.png",
+                "Function": "Image2"
+            },
+            {
+                "Name": "Image7",
+                "Source": "../Content/diagram/drilldown/image6.png",
+                "Function": "Image2"
+            },
+            {
+                "Name": "Image8",
+                "Source": "../Content/diagram/drilldown/image5.png",
+                "Function": "Image3"
+            },
+            {
+                "Name": "Image9",
+                "Source": "../Content/diagram/drilldown/image6.png",
+                "Function": "Image3"
+            },
+            {
+                "Name": "Image10",
+                "Source": "../Content/diagram/drilldown/image5.png",
+                "Function": "Image3"
+            }
+        ]
+    }
+}

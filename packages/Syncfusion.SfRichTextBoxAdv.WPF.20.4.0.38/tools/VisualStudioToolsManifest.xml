@@ -1,0 +1,9 @@
+<FileList>
+
+<File Reference="Syncfusion.SfRichTextBoxAdv.WPF.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WPF" VSCategory="Syncfusion WPF UI Controls (NuGet)" BlendCategory="Syncfusion WPF UI Controls (NuGet)">
+		<Item Type="Syncfusion.Windows.Controls.RichTextBoxAdv.SfRichTextBoxAdv"/>
+	</ToolboxItems>
+</File>
+</FileList>
